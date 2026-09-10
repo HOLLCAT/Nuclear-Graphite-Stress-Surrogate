@@ -1,0 +1,11 @@
+{
+  "primary_model_decision": "freeze_v11_global_gain_0_90_as_primary_model",
+  "primary_gain": 0.0,
+  "primary_gain_confirmed": false,
+  "research_correction_decision": "retain_v13_as_non_deployed_tail_correction_research",
+  "research_gain": 0.125,
+  "research_gain_confirmed": false,
+  "proceed_to_iterations_2_4": true,
+  "iterations_2_4_role": "V11_method_and_formula_structure_stability_only",
+  "final_test_cases_read": 0
+}

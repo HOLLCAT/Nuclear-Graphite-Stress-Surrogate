@@ -1,0 +1,9 @@
+{
+  "status": "running",
+  "completed_cases": 50,
+  "total_final_cases": 50,
+  "last_completed_case": "case_198",
+  "signature": "5139fe57e964f6d522e388431cd9821fb629a84bee9ff7ec085fdc7e0639f1a4",
+  "elapsed_seconds": 80.03422349179164,
+  "model_selection_performed": false
+}

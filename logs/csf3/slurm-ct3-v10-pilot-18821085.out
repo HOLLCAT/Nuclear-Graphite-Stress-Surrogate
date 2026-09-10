@@ -1,0 +1,30 @@
+CT3 V10 signed staged residual symbolic-regression pilot
+Job ID: 18821085
+Host: node1203.csf3.man.alces.network
+Started: 2026-08-18T11:15:23+01:00
+Package root: /scratch/j96317yn/NotebookCT3
+Allocated CPUs: 8
+Detected FEM case files: 199
+Python 3.12.12
+PySR import successful
+Scientific dependencies import successfully
+                          check value expected  pass
+                 training_cases   119      119  True
+               validation_cases    15       15  True
+            internal_test_cases    15       15  True
+             sealed_final_cases    50       50  True
+               all_v10_features    40       40  True
+               stage_a_features    28       28  True
+               stage_b_features    29       29  True
+           worker_script_exists  True     True  True
+         frozen_baseline_hashes  True     True  True
+population_iterations_per_stage  4000     4000  True
+ recoverable_segments_per_stage     5        5  True
+Frozen baseline hashes verified: True
+V10 signed staged residual package is ready
+Executing: /scratch/j96317yn/NotebookCT3/notebooks/10_Signed_Staged_Residual_Symbolic_Regression_Pilot/01_Signed_Staged_Residual_Symbolic_Regression_Pilot.ipynb
+Executed notebook: /scratch/j96317yn/NotebookCT3/outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/executed_notebooks/v10_signed_staged_pilot_executed_job_18821085.ipynb
+Completed: 2026-08-18T13:13:30+01:00
+Formula: /scratch/j96317yn/NotebookCT3/outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/selected_composite_formula.txt
+Metrics: /scratch/j96317yn/NotebookCT3/outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/selected_models_split_metrics.csv
+Completion marker: /scratch/j96317yn/NotebookCT3/outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/pilot_complete.json

@@ -1,0 +1,7 @@
+{
+  "validation_micro_sse_optimal_gain_unconstrained": -0.1858315207061089,
+  "validation_micro_sse_optimal_gain_clipped_0_1": 0.0,
+  "validation_cases_with_positive_optimal_gain": 0,
+  "validation_cases_with_nonpositive_optimal_gain": 15,
+  "validation_median_unconstrained_gain": -0.17192041765858956
+}

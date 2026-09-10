@@ -1,0 +1,99 @@
+{
+  "audit_kind": "delivery_validation_not_new_research",
+  "static": {
+    "python_files_parsed": 48,
+    "project_modules_imported": 16,
+    "notebooks_parsed": 24,
+    "shell_files_parsed": 15,
+    "root_discovery_locations_tested": 4
+  },
+  "copies": {
+    "source_records": 2429,
+    "delivery_hashes_checked": 2429,
+    "raw_sha256_rechecked": true,
+    "reviewed_annotation_records": 4,
+    "translated_source_snapshots_not_byte_identical": [
+      "provenance/original_code/notebooks/Multi-Case_FEM_Parametric_and_Position_Sensitivity_Stability_Analysis_199Cases.ipynb"
+    ]
+  },
+  "frozen": {
+    "raw_cases": 199,
+    "elements_per_case": 400360,
+    "total_elements": 79671640,
+    "splits": {
+      "1": {
+        "train": 119,
+        "final_test": 50,
+        "internal_test": 15,
+        "validation": 15
+      },
+      "2": {
+        "train": 119,
+        "final_test": 50,
+        "internal_test": 15,
+        "validation": 15
+      },
+      "3": {
+        "train": 119,
+        "final_test": 50,
+        "validation": 15,
+        "internal_test": 15
+      },
+      "4": {
+        "train": 119,
+        "final_test": 50,
+        "validation": 15,
+        "internal_test": 15
+      }
+    },
+    "similarity_groups": 156,
+    "singleton_groups": 128,
+    "largest_group": 6,
+    "frozen_artifacts_checked": 57,
+    "non_predictive_metadata_differences": [
+      "rotation_1_formal_completion"
+    ],
+    "new_final_test_predictions": 0,
+    "new_fits_or_searches": 0,
+    "development_prediction_reproduction": [
+      {
+        "model": "mean_calibrated_consensus",
+        "case_id": "case_01",
+        "elements": 400360,
+        "absolute_differences": {
+          "rmse": 3.856359439780022e-06,
+          "mae": 5.20008457138843e-06,
+          "r2": 1.4875162908101203e-06,
+          "predicted_mean": 4.873700057750341e-06,
+          "predicted_p95": 4.172450952388829e-05,
+          "predicted_p99": 6.653878961770943e-05,
+          "top1pct_hotspot_overlap": 0.0
+        }
+      },
+      {
+        "model": "full_consensus_tail",
+        "case_id": "case_01",
+        "elements": 400360,
+        "absolute_differences": {
+          "rmse": 6.042253888782767e-06,
+          "mae": 7.245744202188931e-06,
+          "r2": 2.196073495275286e-06,
+          "predicted_mean": 4.873622292400626e-06,
+          "predicted_p95": 4.6124679814241176e-05,
+          "predicted_p99": 7.170225332231439e-05,
+          "top1pct_hotspot_overlap": 0.0
+        }
+      }
+    ]
+  },
+  "current_validation_environment_not_historical_runtime": {
+    "python": "3.12.7",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.5.2",
+    "sympy": "1.13.1",
+    "matplotlib": "3.9.2"
+  },
+  "status": "passed"
+}

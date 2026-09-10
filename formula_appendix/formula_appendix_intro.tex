@@ -1,0 +1,56 @@
+% Insert after the existing feature-registry appendix. Do not repeat \appendix.
+% Required package: amsmath. The unnumbered internal headings do not extend the ToC.
+\clearpage
+\section{Frozen Model Expressions and Numerical Parameters}
+\label{app:frozen_model_expressions}
+
+This appendix gives the expressions retained in the two frozen model roles. The expressions were taken from the frozen model exports. Input and target scaling are already included in their coefficients. They are therefore evaluated using the original exported input values and the derived variables defined below. No coefficients were refitted for this presentation.
+
+The primary model is
+\begin{equation}
+\begin{aligned}
+\widehat{\sigma}^{\mathrm{primary}}_{c,e}
+&=\widehat{\mu}_{c}+\Delta\widehat{\mu}_{c}\\
+&\quad+\exp(\widehat{\lambda}_{c})
+\left[g_{\mathrm{base},c,e}+\frac14\sum_{r=1}^{4}
+\left(r^{(r)}_{\mathrm{geo},c,e}+r^{(r)}_{\mathrm{phys},c,e}\right)\right].
+\end{aligned}
+\label{eq:appendix_frozen_primary}
+\end{equation}
+
+The final case-mean correction was fitted by RidgeCV. Its selected regularisation parameter was $\alpha=100$. This correction is not a PySR expression. The other components in Equation~\ref{eq:appendix_frozen_primary} are the frozen symbolic-regression expressions.
+
+The secondary research-only model is
+\begin{equation}
+\widehat{\sigma}^{\mathrm{secondary}}_{c,e}
+=\widehat{\sigma}^{\mathrm{primary}}_{c,e}
++\frac{\exp(\widehat{\lambda}_{c})}{3}
+\sum_{r=1}^{3}\left(h^{(r)}_{c,e}-\overline{h}^{(r)}_c\right),
+\qquad
+\overline{h}^{(r)}_c=\frac1{n_c}\sum_{e=1}^{n_c}h^{(r)}_{c,e}.
+\label{eq:appendix_frozen_secondary}
+\end{equation}
+
+The fitted all-development gain was 1.0. Rotations 1, 2 and 3 contributed to the tail consensus. The fourth local expression was the constant 0.3011451373613095. Its centred correction was zero and it was excluded. The secondary correction is not part of the primary model.
+
+Case and element subscripts are omitted from the component expressions below to keep them readable. Bars denote complete-case means. A subscript 95 denotes the case-level 95th percentile. The quantities $s_W$ and $s_{\sin\theta}$ are case-level standard deviations, not the predicted stress scale. The symbols $\rho$, $z$ and $\cos\theta$ denote element-level spatial inputs.
+
+For $q\in\{\rho,z,\theta\}$, the case-relative proxies are
+\begin{equation}
+u_q=\operatorname{clip}_{[0,1]}
+\left(\frac{q-q_{\min}}{\max(q_{\max}-q_{\min},10^{-8})}\right),
+\qquad d_q=\min(u_q,1-u_q),\qquad p_q=2u_q-1.
+\end{equation}
+The remaining abbreviations are
+\begin{equation}
+k_{\rho z}=p_\rho p_z,
+\qquad b=d_\rho d_z d_\theta,
+\qquad z^{*}=\frac{z-\overline z}{\max(s_z,10^{-8})}.
+\end{equation}
+All ranges and summaries in these definitions come from the complete predictor fields. The quantities $d_q$ are range-based boundary proxies. They are not verified distances to named physical surfaces.
+
+The exported numerical coefficients are retained below. They are tied to the FE export units and the stated feature definitions. The stress mean, final mean correction and predicted scale have stress units. The shape and residual terms are dimensionless. Changing input units without transforming the coefficients would change the predictions. The formulas remain empirical approximations to the reference FE model, not graphite constitutive laws.
+
+\begingroup
+\small
+\allowdisplaybreaks[1]

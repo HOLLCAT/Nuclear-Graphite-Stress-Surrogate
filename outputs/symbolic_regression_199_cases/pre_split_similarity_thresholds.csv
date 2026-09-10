@@ -1,0 +1,2 @@
+distance_quantile,mutual_neighbour_limit,input_distance_threshold,stress_distance_threshold,response_profile_distance_threshold,stress_p95_relative_tolerance,stress_p99_relative_tolerance,stress_max_relative_tolerance,n_all_case_pairs,n_similarity_candidate_pairs
+0.03,2,0.4246841152300688,0.12477130063432501,0.36229038710992395,0.03,0.05,0.1,19701,47

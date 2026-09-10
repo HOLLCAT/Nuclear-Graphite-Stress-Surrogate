@@ -1,0 +1,24 @@
+{
+  "method": "StandardScaler_plus_RidgeCV_converted_to_original_units",
+  "features": [
+    "fluence_rate_mean",
+    "fluence_rate_p95",
+    "temperature_mean",
+    "temperature_p95",
+    "weight_loss_rate_mean",
+    "weight_loss_rate_std"
+  ],
+  "coefficients": [
+    -0.11906076714403571,
+    -0.11980202062881543,
+    -1.1194779581332048e-05,
+    -0.003186256293774443,
+    0.5740339285340504,
+    7.029490394614275
+  ],
+  "intercept": 1.1150516091867588,
+  "alpha": 31.622776601683793,
+  "formula_original_variables": "(1.115051609186759) + (-0.1190607671440357)*fluence_rate_mean + (-0.1198020206288154)*fluence_rate_p95 + (-1.119477958133205e-05)*temperature_mean + (-0.003186256293774443)*temperature_p95 + (0.5740339285340504)*weight_loss_rate_mean + (7.029490394614275)*weight_loss_rate_std",
+  "training_rmse": 0.24127559906477575,
+  "training_mae": 0.1782171468938674
+}

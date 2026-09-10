@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "primary_model": "mean_calibrated_consensus",
+  "secondary_model": "full_consensus_tail",
+  "primary_role": "predeclared_primary",
+  "secondary_role": "predeclared_secondary_research_only",
+  "final_test_cases_read": 50,
+  "final_test_elements_evaluated_per_model": 20018000,
+  "models_evaluated": 2,
+  "final_evaluation_signature_sha256": "5139fe57e964f6d522e388431cd9821fb629a84bee9ff7ec085fdc7e0639f1a4",
+  "training_performed": false,
+  "hyperparameter_selection_performed": false,
+  "formula_selection_performed": false,
+  "model_promotion_performed": false,
+  "final_results_may_change_model": false,
+  "primary_research_reporting_gates_passed": 9,
+  "primary_research_reporting_gates_total": 11,
+  "primary_passes_all_predeclared_project_thresholds": false,
+  "thresholds_are_nuclear_safety_limits": false,
+  "figure_count": 9,
+  "elapsed_seconds": 97.98836471512914,
+  "output_directory": "/net/scratch/j96317yn/NotebookCT3/outputs/19_one_time_final_50case_locked_149/formal_final_50case"
+}

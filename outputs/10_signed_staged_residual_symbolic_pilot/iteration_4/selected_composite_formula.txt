@@ -1,0 +1,34 @@
+CT3 V10 signed staged symbolic stress formula
+=============================================
+
+Frozen baseline: v8_iteration1_local_candidate5
+
+1. Case mean
+mu = -0.0116301024532845*temperature_mean + 0.0470427355318997*temperature_p95 - 3.16087946558646*weight_loss_rate_mean + 0.103449215368151*z_max - 0.870195660324862*Abs(4.60760803334225*fluence_rate_p95 - 20.3572633494299) - 100.195330145459
+
+2. Positive case scale
+scale = exp(-1.47091131932291*rho_mean - 1011.416708227*theta_sin_std - 1.1690770556861*weight_loss_rate_mean + 0.904578545888617*z_mean + 9.23869712445276)
+
+3. Frozen V8 global shape
+fixed_shape = 1.10317833861391*(0.55673575*(0.0509611749551904*rho - 9.32241465638866)*(0.0509611749551904*rho - 8.66867535638866) - 31.9731949759449*(theta_cos - 0.922666019258146)**2)*(Abs(0.0509611749551904*rho - 8.59575422638866) - 2.4201684) + 0.285739561816426
+
+4. Signed geometry/boundary residual
+geometry_residual = 0.26613534581272986*signed_axial_position_proxy - 0.1622288885733871*(6.35717263336409*nearest_axial_boundary_fraction_proxy - 1.50609073609435)*(-7.0761696316530864*nearest_axial_boundary_fraction_proxy + 7.2459763106469*nearest_radial_boundary_fraction_proxy - 0.069780171113859076*rho - (6.35717263336409*nearest_axial_boundary_fraction_proxy - 1.50609073609435)*(7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.38325249598573) + 12.075351442964397) - 0.1622288885733871*Abs(7.94873136269381*nearest_angular_boundary_fraction_proxy + 7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.21701884243319*signed_angular_position_proxy - 4.509683458131166) + 0.13991710730167015
+
+5. Signed physical/local residual
+physical_residual = -0.10412130908674733*(7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.38325249598573)*(2.63391439710955*fluence_rate_mean + (43.826976828009*boundary_corner_proximity_proxy - 1.00232009854836)*(2.40096813285283*signed_radial_position_proxy + 0.381717477146586) - 9.50597278012606) + 0.0296437391158275
+
+6. Combined deployable expression
+sigma = (-0.0116301024532845*temperature_mean + 0.0470427355318997*temperature_p95 - 3.16087946558646*weight_loss_rate_mean + 0.103449215368151*z_max - 0.870195660324862*Abs(4.60760803334225*fluence_rate_p95 - 20.3572633494299) - 100.195330145459) + exp(-1.47091131932291*rho_mean - 1011.416708227*theta_sin_std - 1.1690770556861*weight_loss_rate_mean + 0.904578545888617*z_mean + 9.23869712445276) * ((1.10317833861391*(0.55673575*(0.0509611749551904*rho - 9.32241465638866)*(0.0509611749551904*rho - 8.66867535638866) - 31.9731949759449*(theta_cos - 0.922666019258146)**2)*(Abs(0.0509611749551904*rho - 8.59575422638866) - 2.4201684) + 0.285739561816426) + (0.26613534581272986*signed_axial_position_proxy - 0.1622288885733871*(6.35717263336409*nearest_axial_boundary_fraction_proxy - 1.50609073609435)*(-7.0761696316530864*nearest_axial_boundary_fraction_proxy + 7.2459763106469*nearest_radial_boundary_fraction_proxy - 0.069780171113859076*rho - (6.35717263336409*nearest_axial_boundary_fraction_proxy - 1.50609073609435)*(7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.38325249598573) + 12.075351442964397) - 0.1622288885733871*Abs(7.94873136269381*nearest_angular_boundary_fraction_proxy + 7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.21701884243319*signed_angular_position_proxy - 4.509683458131166) + 0.13991710730167015) + (-0.10412130908674733*(7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.38325249598573)*(2.63391439710955*fluence_rate_mean + (43.826976828009*boundary_corner_proximity_proxy - 1.00232009854836)*(2.40096813285283*signed_radial_position_proxy + 0.381717477146586) - 9.50597278012606) + 0.0296437391158275))
+
+Proxy definitions
+-----------------
+rho_fraction_proxy = (rho - rho_min) / (rho_max - rho_min)
+z_fraction_proxy = (z - z_min) / (z_max - z_min)
+theta_fraction_proxy = (theta - theta_min) / (theta_max - theta_min)
+nearest_*_boundary_fraction_proxy = min(fraction, 1 - fraction)
+signed_*_position_proxy = 2 * fraction - 1
+pairwise signed interaction proxies are products of signed positions
+boundary_corner_proximity_proxy = nearest_rho * nearest_z * nearest_theta
+
+All case summaries are calculated only from predictor fields. The 50 final-test cases were not read. Proxies are case-relative and are not confirmed distances to named FEM surfaces.

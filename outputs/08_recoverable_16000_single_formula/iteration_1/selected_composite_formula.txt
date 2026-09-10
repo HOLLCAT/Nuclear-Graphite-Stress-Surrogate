@@ -1,0 +1,18 @@
+CT3 hierarchical symbolic stress formula
+=======================================
+
+Iteration: 1
+
+1. Case mean stress
+mu = -0.0116301024532845*temperature_mean + 0.0470427355318997*temperature_p95 - 3.16087946558646*weight_loss_rate_mean + 0.103449215368151*z_max - 0.870195660324862*Abs(4.60760803334225*fluence_rate_p95 - 20.3572633494299) - 100.195330145459
+
+2. Positive case stress scale
+scale = exp(-1.47091131932291*rho_mean - 1011.416708227*theta_sin_std - 1.1690770556861*weight_loss_rate_mean + 0.904578545888617*z_mean + 9.23869712445276)
+
+3. Normalised element-level spatial shape
+shape = 1.10317833861391*(0.55673575*(0.0509611749551904*rho - 9.32241465638866)*(0.0509611749551904*rho - 8.66867535638866) - 31.9731949759449*(theta_cos - 0.922666019258146)**2)*(Abs(0.0509611749551904*rho - 8.59575422638866) - 2.4201684) + 0.285739561816426
+
+4. Combined deployable expression
+sigma = (-0.0116301024532845*temperature_mean + 0.0470427355318997*temperature_p95 - 3.16087946558646*weight_loss_rate_mean + 0.103449215368151*z_max - 0.870195660324862*Abs(4.60760803334225*fluence_rate_p95 - 20.3572633494299) - 100.195330145459) + exp(-1.47091131932291*rho_mean - 1011.416708227*theta_sin_std - 1.1690770556861*weight_loss_rate_mean + 0.904578545888617*z_mean + 9.23869712445276) * (1.10317833861391*(0.55673575*(0.0509611749551904*rho - 9.32241465638866)*(0.0509611749551904*rho - 8.66867535638866) - 31.9731949759449*(theta_cos - 0.922666019258146)**2)*(Abs(0.0509611749551904*rho - 8.59575422638866) - 2.4201684) + 0.285739561816426)
+
+All case-context summaries and within-case z scores are calculated only from predictor fields. No stress summary is required at deployment.

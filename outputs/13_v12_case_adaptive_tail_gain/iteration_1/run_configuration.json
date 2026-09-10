@@ -1,0 +1,39 @@
+{
+  "iteration": 1,
+  "output_subdir": "iteration_1",
+  "global_reference_gain": 0.9,
+  "oracle_gain_min": 0.0,
+  "oracle_gain_max": 1.1,
+  "oracle_gain_step": 0.025,
+  "oracle_near_optimal_tolerance": 0.005,
+  "oracle_huber_delta": 1.0,
+  "oracle_tier_mass": [
+    0.55,
+    0.15,
+    0.2,
+    0.1
+  ],
+  "outer_folds": 5,
+  "inner_folds": 4,
+  "ridge_alphas": [
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "huber_alphas": [
+    0.001,
+    0.01,
+    0.1
+  ],
+  "huber_epsilon": 1.35,
+  "shrinkage_values": [
+    0.5,
+    0.75,
+    1.0
+  ],
+  "maximum_deployable_gain": 1.1,
+  "minimum_deployable_gain": 0.0,
+  "bootstrap_resamples": 10000,
+  "random_seed": 42
+}

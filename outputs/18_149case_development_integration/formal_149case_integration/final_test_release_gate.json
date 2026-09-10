@@ -1,0 +1,10 @@
+{
+  "technical_status": "ready_for_human_review_before_one_time_final_test",
+  "locked_model_exists": true,
+  "locked_model": "mean_calibrated_consensus",
+  "final_test_has_been_opened": false,
+  "final_test_cases_read": 0,
+  "human_approval_required": true,
+  "approved": false,
+  "next_stage": "review diagnostics, then create a separate one-time final-test notebook"
+}

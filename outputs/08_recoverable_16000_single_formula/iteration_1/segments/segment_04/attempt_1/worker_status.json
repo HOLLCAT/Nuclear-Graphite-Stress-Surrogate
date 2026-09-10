@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "segment": 4,
+  "attempt": 1,
+  "mode": "warm_start_checkpoint",
+  "n_candidates": 16,
+  "elapsed_seconds": 799.9686532020569,
+  "checkpoint": "/Users/novwin/Documents/University/University of Manchester/\u6bd5\u8bbe\u9879\u76ee/Nuclear graphite/NotebookCT3/outputs/08_recoverable_16000_single_formula/iteration_1/search_state/pysr_runs/recoverable_i1_single_shape/checkpoint.pkl"
+}

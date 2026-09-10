@@ -1,0 +1,22 @@
+{
+  "parent_model": "frozen V11 global gain 0.90",
+  "v12_conclusion": "adaptive gain nearly matched oracle but failed all-case RMSE and P99-underprediction gates",
+  "target": "complete-case-centred signed V11 residual divided by frozen V10 scale",
+  "sampling": {
+    "below_p90": 2000,
+    "p90_to_p95": 800,
+    "p95_to_p99": 1200,
+    "top_p99": 1000
+  },
+  "tier_loss_mass": {
+    "below_p90": 0.35,
+    "p90_to_p95": 0.15,
+    "p95_to_p99": 0.25,
+    "top_p99": 0.25
+  },
+  "positive_tail_multiplier": 2.0,
+  "selection": "validation-only complete-case engineering gates",
+  "internal_role": "one-time development confirmation, never candidate selection",
+  "all149_role": "descriptive development audit and promotion check",
+  "final_test_cases_read": 0
+}

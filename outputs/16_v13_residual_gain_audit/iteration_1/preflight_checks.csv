@@ -1,0 +1,10 @@
+check,value,expected,pass
+train_cases,119,119,True
+validation_cases,15,15,True
+internal_cases,15,15,True
+development_cases,149,149,True
+sealed_final_cases,50,50,True
+parent_v13_complete,complete,complete,True
+parent_final_cases_read,0,0,True
+gain_grid_size,22,22,True
+candidate_index,2,2,True

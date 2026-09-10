@@ -1,0 +1,22 @@
+{
+  "iteration": 4,
+  "output_subdir": "iteration_4",
+  "rows_per_training_case": 5000,
+  "total_niterations_per_stage": 500,
+  "populations": 8,
+  "segment_niterations": 100,
+  "population_size": 40,
+  "ncycles_per_iteration": 100,
+  "batch_size": 50000,
+  "stage_a_maxsize": 32,
+  "stage_a_maxdepth": 10,
+  "stage_b_maxsize": 26,
+  "stage_b_maxdepth": 9,
+  "julia_threads": 8,
+  "no_activity_timeout_seconds": 2700,
+  "segment_wall_timeout_seconds": 10800,
+  "watchdog_poll_seconds": 60,
+  "max_attempts_per_segment": 3,
+  "max_candidates_for_full_validation": 16,
+  "force_rebuild_training_cache": false
+}

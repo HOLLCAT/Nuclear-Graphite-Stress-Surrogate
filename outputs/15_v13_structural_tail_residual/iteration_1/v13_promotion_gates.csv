@@ -1,0 +1,16 @@
+gate,pass,observed,criterion
+validation_candidate_passes_all_predeclared_gates,False,False,True
+internal_test_macro_rmse,False,-0.18173594587640657,-0.005
+internal_test_p95_preserved,False,0.14505794446306555,0.0504137914205892
+internal_test_p99_relative_error,True,0.05672978425132023,0.15
+internal_test_p99_underprediction,True,0.02467816653319425,0.1
+internal_test_top1_hotspot_overlap,True,0.6006160506160506,0.6
+internal_test_top1_recall,True,0.9176989676989676,0.8
+internal_test_numerical_guardrail,True,1.3688390459575615,1.6642248751381932
+all_149_development_macro_rmse,False,-0.16611264849607554,0.005
+all_149_development_p95_preserved,False,0.1365919415737178,0.04788225696405078
+all_149_development_p99_relative_error,True,0.06023621523820106,0.15
+all_149_development_p99_underprediction,True,0.03352138785246306,0.1
+all_149_development_top1_hotspot_overlap,True,0.6144845087798109,0.6
+all_149_development_top1_recall,True,0.9157436523208333,0.8
+all_149_development_numerical_guardrail,True,1.3688390459575615,1.6642248751381932

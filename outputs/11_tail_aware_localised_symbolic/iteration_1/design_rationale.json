@@ -1,0 +1,23 @@
+{
+  "parent_model": "completed V10 Iteration-1 signed staged residual model",
+  "mean_calibration": "RidgeCV on 119 case-level predictor summaries",
+  "tail_target": "V10 residual centered within each training case",
+  "tail_formula_deployment": "raw tail formula centered over predictor field",
+  "sampling_tier_quotas": [
+    3000,
+    750,
+    1000,
+    250
+  ],
+  "sampling_target_loss_mass": [
+    0.55,
+    0.15,
+    0.2,
+    0.1
+  ],
+  "positive_tail_weight_multiplier": 1.75,
+  "hotspot_features": "six training-only smooth RBF centres plus periodic harmonics",
+  "loss": "HuberLoss(1.0) with static tail/positive-residual weights",
+  "full_complete_case_validation": true,
+  "final_test_cases_read": 0
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "audit_kind": "reviewed_annotation_changes_not_new_research",
+  "status": "passed",
+  "records": [
+    {
+      "file": "provenance/original_code/notebooks/Multi-Case_FEM_Parametric_and_Position_Sensitivity_Stability_Analysis_199Cases.ipynb",
+      "change_kind": "markdown_translation",
+      "original_sha256": "3f711889c7f391081ed80a62fbcb436060295a0ce6ded449720bd7179c9b297a",
+      "current_sha256": "c7e467fbce1cf7f08c7836a24add645a131f531d2e5c2179ea8751918a5ec0ad",
+      "unchanged_content_sha256": "69b7c58b6488a07a25d49647fe9c4644df799e9edb8f8eb6190d4187561f234d",
+      "changed_markdown_cell_indices": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        24
+      ],
+      "comparison_basis": "Compared directly with the source file matching the original source manifest SHA-256.",
+      "code_outputs_metadata_and_cell_order_unchanged": true,
+      "role": "annotated_archive_not_byte_identical_original"
+    },
+    {
+      "file": "provenance/extracted_original_cells/presplit_preparation.ipynb",
+      "change_kind": "markdown_translation",
+      "original_sha256": "a7ec76ece98f92e473eba14773cd74626a260b96bf22040db2fa6e0f8a03b5f6",
+      "current_sha256": "d9758219d6801ef211003c473172207fc6d81c6e5a2844b41973a928ec2a1dd1",
+      "unchanged_content_sha256": "e957010eca75417482fc216edbfdb705b21a524bcdc6f08a37d960588106ddb2",
+      "changed_markdown_cell_indices": [
+        6,
+        8
+      ],
+      "comparison_basis": "Reconstructed from the SHA-256-verified original preparation notebook using preparation_extraction.json; original serialization size 136764 bytes.",
+      "code_outputs_metadata_and_cell_order_unchanged": true,
+      "role": "annotated_archive_not_byte_identical_original"
+    },
+    {
+      "file": "provenance/original_code/notebooks/PreSplit_Grouping_and_Frozen_Manifest.ipynb",
+      "change_kind": "markdown_translation",
+      "original_sha256": "0d4abf91f61601b3cf0d2c9bd27a591cef453f129a20352ae9eb540d948fe337",
+      "current_sha256": "18b68fdffae71f345a8c0a95fdb10c836316328359685e1c4555153495ae154b",
+      "unchanged_content_sha256": "92e4233128138bbbfe186fc0da393f19ea57a8dea8ee79bf19e5b1b43c767d42",
+      "changed_markdown_cell_indices": [
+        0,
+        7,
+        9
+      ],
+      "comparison_basis": "Reconstructed with the original assembly transformation: extracted cells, disabled searches, assigned IDs and cleared outputs; original serialization size 61068 bytes.",
+      "code_outputs_metadata_and_cell_order_unchanged": true,
+      "role": "annotated_archive_not_byte_identical_original"
+    },
+    {
+      "file": "notebooks/Multi-Case_FEM_Parametric_and_Position_Sensitivity_Stability_Analysis_199Cases.ipynb",
+      "change_kind": "json_serialization_only",
+      "original_sha256": "d1f3872ac01d7c332a97f02d98bcf51123926ca3bbf0ba654a43ded85d70e7ab",
+      "current_sha256": "c40d7c89a40fd4849e77093502ed11bdeb5d9f404bde3a33cd47866093bb4199",
+      "unchanged_content_sha256": "7332ebb9a588d0d15acd9cb27e294530d1a41012acb191ca0f9f4c6c9e36af8d",
+      "comparison_basis": "Reconstructed the earlier English edition and verified its previously recorded byte hash, then compared complete parsed JSON.",
+      "role": "runnable_english_edition"
+    }
+  ],
+  "limits": "Original source hashes are preserved, not replaced by translation hashes. Semantic checks are curation evidence, not a digital signature or a rerun of training. Three archived copies now contain translated Markdown and are not byte-identical originals.",
+  "notebooks_changed_by_this_reconciliation": 0,
+  "new_training_runs": 0,
+  "new_final_test_evaluations": 0
+}

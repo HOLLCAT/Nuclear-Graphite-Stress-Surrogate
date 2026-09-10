@@ -1,0 +1,11 @@
+Complexity,Loss,Equation
+1,0.39291309179942446,"-0.032534538086785234"
+3,0.3783641003646872,"z_scaled * 0.2053746736208215"
+5,0.3602186992493634,"rho_scaled * (nearest_axial_boundary_fraction_proxy_scaled * 0.30264401853651574)"
+7,0.34653969687811714,"(signed_radial_position_proxy_scaled - nearest_radial_boundary_fraction_proxy_scaled) * (nearest_axial_boundary_fraction_proxy_scaled * 0.23300872673266088)"
+9,0.33315358054924976,"((nearest_axial_boundary_fraction_proxy_scaled * (rho_fraction_proxy_scaled - nearest_radial_boundary_fraction_proxy_scaled)) + signed_axial_position_proxy_scaled) * 0.22088519782428173"
+11,0.32838593564348517,"((nearest_axial_boundary_fraction_proxy_scaled * (rho_fraction_proxy_scaled + (nearest_axial_boundary_fraction_proxy_scaled - nearest_radial_boundary_fraction_proxy_scaled))) + -1.381377739793055) * 0.23271049594795387"
+13,0.3161792416566029,"((signed_axial_position_proxy_scaled - 1.3812836801118937) + (nearest_axial_boundary_fraction_proxy_scaled * (rho_fraction_proxy_scaled + (nearest_axial_boundary_fraction_proxy_scaled - nearest_radial_boundary_fraction_proxy_scaled)))) * 0.21606198873044308"
+15,0.3147867414559144,"((((((rho_fraction_proxy_scaled + nearest_axial_boundary_fraction_proxy_scaled) * 1.3826512776648028) - nearest_radial_boundary_fraction_proxy_scaled) * nearest_axial_boundary_fraction_proxy_scaled) + signed_axial_position_proxy_scaled) * 0.18480742857818133) - 0.3313756973925666"
+17,0.3015578648669686,"((signed_axial_position_proxy_scaled - 1.4621247533537742) + (nearest_axial_boundary_fraction_proxy_scaled * (rho_fraction_proxy_scaled + ((nearest_axial_boundary_fraction_proxy_scaled * (nearest_radial_boundary_fraction_proxy_scaled + 1.1242647259753462)) - nearest_radial_boundary_fraction_proxy_scaled)))) * 0.21412974460741804"
+21,0.29969479547824823,"((signed_axial_position_proxy_scaled - 1.3517303599675847) + (nearest_axial_boundary_fraction_proxy_scaled * (rho_fraction_proxy_scaled + ((nearest_axial_boundary_fraction_proxy_scaled * ((nearest_radial_boundary_fraction_proxy_scaled + 1.3805252315964214) / 1.3650293634055992)) - nearest_radial_boundary_fraction_proxy_scaled)))) * 0.2301256191338328"

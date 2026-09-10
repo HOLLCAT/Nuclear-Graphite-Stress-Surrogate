@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "stage": "geometry",
+  "segment": 5,
+  "attempt": 1,
+  "planned_population_iterations": 800,
+  "elapsed_seconds": 720.1249842643738
+}

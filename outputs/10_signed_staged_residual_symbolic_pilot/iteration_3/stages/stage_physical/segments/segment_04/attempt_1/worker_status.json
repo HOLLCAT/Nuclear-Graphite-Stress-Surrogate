@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "stage": "physical",
+  "segment": 4,
+  "attempt": 1,
+  "mode": "warm_start_checkpoint",
+  "n_candidates": 15,
+  "elapsed_seconds": 477.84410524368286,
+  "checkpoint": "/net/scratch/j96317yn/NotebookCT3/outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/search_state/pysr_runs/v10_i3_physical_signed_residual_pilot/checkpoint.pkl"
+}

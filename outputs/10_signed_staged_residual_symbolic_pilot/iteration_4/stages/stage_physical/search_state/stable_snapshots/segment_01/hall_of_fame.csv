@@ -1,0 +1,10 @@
+Complexity,Loss,Equation
+1,0.38108621988542474,"-0.04861907496201091"
+3,0.3809429602471958,"weight_loss_rate_std_scaled * 0.05221722860483243"
+5,0.36679078959856815,"nearest_radial_boundary_fraction_proxy_scaled * (fluence_rate_mean_scaled * -0.17871303807881175)"
+7,0.36507533486653265,"((nearest_radial_boundary_fraction_proxy_scaled * fluence_rate_mean_scaled) + 0.365733342435812) * -0.1836637448193306"
+9,0.3644505855452636,"(((nearest_radial_boundary_fraction_proxy_scaled + 0.18029679213256472) * fluence_rate_mean_scaled) * -0.1929838717777629) - 0.0644147009784524"
+11,0.36375661304645746,"((fluence_rate_mean_scaled * (nearest_radial_boundary_fraction_proxy_scaled * 3.246755591932985)) - (weight_loss_rate_std_scaled - 1.2215655730859531)) * -0.056910671090194424"
+13,0.3625039560119807,"(((nearest_radial_boundary_fraction_proxy_scaled * fluence_rate_mean_scaled) * 3.555981511315195) - ((weight_loss_rate_std_scaled - rho_scaled) - 1.1739271686928603)) * -0.054825522139789494"
+20,0.3615184641792114,"((tanh((theta_cos_scaled - nearest_radial_boundary_fraction_proxy_scaled) - abs(rho_scaled - 0.39359303072008456)) - fluence_rate_mean_scaled) * nearest_radial_boundary_fraction_proxy_scaled) * 0.18333593945345586"
+21,0.3603125344683334,"((((nearest_radial_boundary_fraction_proxy_scaled * fluence_rate_mean_scaled) * 5.822505122710392) - ((-0.4724309658815524 - weight_loss_rate_scaled) * nearest_radial_boundary_fraction_proxy_scaled)) - ((-2.0949772437532723 - (nearest_radial_boundary_fraction_proxy_scaled * weight_loss_rate_scaled)) - rho_scaled)) * -0.03324295484892494"

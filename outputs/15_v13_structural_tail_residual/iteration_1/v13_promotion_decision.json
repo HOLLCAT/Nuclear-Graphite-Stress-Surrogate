@@ -1,0 +1,14 @@
+{
+  "promotion_status": "retain_v11_global_gain_0_90",
+  "all_gates_pass": false,
+  "failed_gates": [
+    "validation_candidate_passes_all_predeclared_gates",
+    "internal_test_macro_rmse",
+    "internal_test_p95_preserved",
+    "all_149_development_macro_rmse",
+    "all_149_development_p95_preserved"
+  ],
+  "selected_candidate_index": 2,
+  "selection_pool_status": "diagnostic_finite_candidates",
+  "final_test_cases_read": 0
+}

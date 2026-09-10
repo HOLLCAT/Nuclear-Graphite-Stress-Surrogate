@@ -1,0 +1,3 @@
+split,mean_only_macro_rmse,selected_macro_rmse,selected_minus_mean_macro_rmse,mean_only_p99_relative_error,selected_p99_relative_error,selected_minus_mean_p99_relative_error,mean_only_top1_hotspot_overlap,selected_top1_hotspot_overlap,selected_minus_mean_top1_hotspot_overlap,rmse_not_worse,p99_not_worse,hotspot_not_worse,all_split_gates_pass
+validation,1.7766729951045295,1.7668257716275861,-0.009847223476943334,0.1916895482428895,0.16398565325311884,-0.02770389498977066,0.4915875790875791,0.5168997668997669,0.025312187812187803,True,True,True,True
+internal_test,1.8233963368131385,1.8130188341780509,-0.010377502635087632,0.19936226676764013,0.16739492328415118,-0.03196734348348895,0.4897019647019647,0.5146145521145521,0.024912587412587395,True,True,True,True

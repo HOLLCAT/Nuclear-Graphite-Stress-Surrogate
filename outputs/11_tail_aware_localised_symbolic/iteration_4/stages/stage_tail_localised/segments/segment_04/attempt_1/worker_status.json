@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "segment": 4,
+  "attempt": 1,
+  "mode": "warm_start_checkpoint",
+  "n_candidates": 21,
+  "elapsed_seconds": 724.6149833202362,
+  "checkpoint": "/net/scratch/j96317yn/NotebookCT3/outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/search_state/pysr_runs/v11_i4_tail_aware_localised_residual/checkpoint.pkl"
+}

@@ -1,0 +1,10 @@
+{
+  "stage": "physical",
+  "segment": 3,
+  "attempt": 1,
+  "pid": 2405362,
+  "elapsed_seconds": 480.19748854637146,
+  "inactive_seconds": 0.0,
+  "checkpoint_exists": true,
+  "updated_at": "2026-08-20T03:28:39+0100"
+}

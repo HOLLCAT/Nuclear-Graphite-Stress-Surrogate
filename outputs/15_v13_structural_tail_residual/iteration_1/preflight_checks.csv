@@ -1,0 +1,13 @@
+check,value,expected,pass
+training_cases,119,119,True
+validation_cases,15,15,True
+internal_test_cases,15,15,True
+development_cases,149,149,True
+sealed_final_cases,50,50,True
+v12_complete,complete,complete,True
+v12_final_cases_read,0,0,True
+v12_retains_v11,retain_v11_global_gain_0_90,retain_v11_global_gain_0_90,True
+frozen_v11_gain,0.9,0.9,True
+v13_features,42,42,True
+recoverable_segments,10,10,True
+population_iterations,8000,8000,True

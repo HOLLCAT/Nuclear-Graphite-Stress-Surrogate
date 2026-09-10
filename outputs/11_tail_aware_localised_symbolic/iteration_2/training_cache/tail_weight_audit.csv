@@ -1,0 +1,5 @@
+stress_tier,rows,configured_loss_mass_before_positive_multiplier,actual_normalised_weight_mass,positive_tail_rows
+below_p90,357000,0.55,0.45780035497888477,0
+p90_to_p95,89250,0.15,0.1248546422669686,0
+p95_to_p99,119000,0.2,0.27626205485560407,104641
+top_p99,29750,0.1,0.1410829478985425,27567

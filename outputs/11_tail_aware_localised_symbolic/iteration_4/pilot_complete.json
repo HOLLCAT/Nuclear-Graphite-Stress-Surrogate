@@ -1,0 +1,18 @@
+{
+  "status": "complete",
+  "iteration": 4,
+  "prototype_only": true,
+  "parent_model": "v10_iteration_4",
+  "train_cases": 119,
+  "validation_cases": 15,
+  "internal_test_cases": 15,
+  "final_test_cases_read": 0,
+  "training_rows": 595000,
+  "planned_population_iterations": 4000,
+  "completed_segments": 5,
+  "selected_candidate_index": 20,
+  "selection_pool_status": "finite_positive_r2_and_improves_v10",
+  "pilot_promotion_status": "diagnostic_only_does_not_pass_all_v11_pilot_gates",
+  "elapsed_seconds": 4006.5948917865753,
+  "output_directory": "/net/scratch/j96317yn/NotebookCT3/outputs/11_tail_aware_localised_symbolic/iteration_4"
+}

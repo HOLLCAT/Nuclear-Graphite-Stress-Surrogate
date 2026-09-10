@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "iteration": 1,
+  "supplement_to": "V11 tail-aware localised symbolic prototype",
+  "pySR_search_run": false,
+  "validation_cases": 15,
+  "internal_test_cases": 15,
+  "validation_gain_count": 25,
+  "selected_gain": 0.9,
+  "parent_v11_reproduction_checks": 390,
+  "parent_v11_reproduction_pass": true,
+  "selection_pool_status": "all_v11_promotion_gates",
+  "promotion_status": "passes_all_v11_pilot_gates",
+  "final_test_cases_read": 0,
+  "audit_signature_sha256": "caf60fb4bf0034a9e0119d411d84bb840088aeb6fc26acc53bc7676d9f096676",
+  "elapsed_seconds": 69.26959037780762,
+  "output_directory": "/net/scratch/j96317yn/NotebookCT3/outputs/12_v11_gain_stability_audit/iteration_1",
+  "stage": "complete"
+}

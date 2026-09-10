@@ -1,0 +1,11 @@
+Complexity,Loss,Equation
+1,0.38875127335479903,"-0.06802472751995643"
+3,0.38073406037808977,"nearest_radial_boundary_fraction_proxy_scaled * 0.15887930316792723"
+5,0.37996934180748254,"(nearest_radial_boundary_fraction_proxy_scaled * 0.1511605475985987) + -0.04563264727113443"
+7,0.37819937880559934,"(hotspot_rbf_06_scaled * -0.14490500820877777) * (nearest_angular_boundary_fraction_proxy_scaled + nearest_radial_boundary_fraction_proxy_scaled)"
+8,0.37482356893303714,"(abs(signed_angular_position_proxy_scaled) * nearest_radial_boundary_fraction_proxy_scaled) * 0.20548064264562527"
+10,0.3737055376012722,"((abs(signed_angular_position_proxy_scaled) * nearest_radial_boundary_fraction_proxy_scaled) * 0.2054342852907306) - 0.05226002484713105"
+12,0.372871895410569,"(nearest_angular_boundary_fraction_proxy_scaled + (nearest_radial_boundary_fraction_proxy_scaled * (v10_fixed_shape_proxy_scaled + 1.6500632230902852))) * (hotspot_rbf_06_scaled * -0.14470303011887573)"
+14,0.3689741017798926,"((nearest_angular_boundary_fraction_proxy_scaled + ((v10_fixed_shape_proxy_scaled + (theta_fraction_proxy_scaled + 1.683893067958614)) * nearest_radial_boundary_fraction_proxy_scaled)) * hotspot_rbf_06_scaled) * -0.12316396752462998"
+15,0.3683619486102913,"((nearest_angular_boundary_fraction_proxy_scaled + (((v10_fixed_shape_proxy_scaled + theta_sin_2_proxy_scaled) + 1.683893067958614) * nearest_radial_boundary_fraction_proxy_scaled)) * hotspot_rbf_06_scaled) * -0.12316396752462998"
+16,0.3660447250960225,"(nearest_angular_boundary_fraction_proxy_scaled + (((v10_fixed_shape_proxy_scaled + (theta_fraction_proxy_scaled + 1.683893067958614)) * nearest_radial_boundary_fraction_proxy_scaled) + hotspot_rbf_02_scaled)) * (hotspot_rbf_06_scaled * -0.12316396752462998)"

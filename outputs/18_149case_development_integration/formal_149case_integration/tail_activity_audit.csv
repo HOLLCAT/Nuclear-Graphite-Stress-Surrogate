@@ -1,0 +1,5 @@
+iteration,tail_complexity,tail_predictors,symbolically_active,mean_complete_case_tail_std_mpa,max_complete_case_tail_std_mpa,numerically_active,included_in_tail_consensus,prior_selected_gain,interpretation
+1,26,"nearest_angular_boundary_fraction_proxy,nearest_radial_boundary_fraction_proxy,signed_angular_position_proxy",True,0.7969024783296339,1.3341054948961037,True,True,0.9,active spatial tail formula
+2,21,"nearest_angular_boundary_fraction_proxy,nearest_radial_boundary_fraction_proxy",True,0.8424940369475928,1.4069463456450948,True,True,0.75,active spatial tail formula
+3,19,"nearest_angular_boundary_fraction_proxy,nearest_radial_boundary_fraction_proxy,signed_angular_position_proxy",True,0.6265896170517538,1.0447640357972252,True,True,0.95,active spatial tail formula
+4,1,,False,7.478295494125364e-32,2.9582283945787943e-31,False,False,0.85,constant or numerically zero after complete-case centering

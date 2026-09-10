@@ -1,0 +1,11 @@
+{
+  "approved": true,
+  "approval_source": "/net/scratch/j96317yn/NotebookCT3/shared/locked_149_final_test_protocol.json",
+  "signature": "5139fe57e964f6d522e388431cd9821fb629a84bee9ff7ec085fdc7e0639f1a4",
+  "final_case_count": 50,
+  "models_frozen_before_opening": [
+    "mean_calibrated_consensus",
+    "full_consensus_tail"
+  ],
+  "model_reselection_after_opening_permitted": false
+}

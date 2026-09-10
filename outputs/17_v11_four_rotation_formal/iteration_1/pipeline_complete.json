@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "iteration": 1,
+  "execution_mode": "registered_existing_reviewed_result_no_rerun",
+  "method": "v10_signed_staged_plus_v11_tail_plus_validation_gain",
+  "selected_gain": 0.9,
+  "v10_population_iterations": 8000,
+  "v11_population_iterations": 4000,
+  "train_cases": 119,
+  "validation_cases": 15,
+  "internal_test_cases": 15,
+  "final_test_cases_read": 0,
+  "v13_role": "non_deployed_tail_correction_research",
+  "formula_path": "/Users/novwin/Documents/University/University of Manchester/\u6bd5\u8bbe\u9879\u76ee/Nuclear graphite/NotebookCT3/outputs/12_v11_gain_stability_audit/iteration_1/selected_gain_formula.csv",
+  "registered_at": "2026-08-19T22:21:27+0100"
+}

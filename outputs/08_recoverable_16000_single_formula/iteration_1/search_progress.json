@@ -1,0 +1,31 @@
+{
+  "completed_segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "contiguous_completed_segments": 20,
+  "total_segments": 20,
+  "planned_population_iterations_completed": 16000,
+  "target_population_iterations": 16000,
+  "planned_progress_fraction": 1.0,
+  "note": "Only successful segments count toward the planned 16,000. Aborted attempts consume additional wall time but are rolled back to the latest stable segment checkpoint before retry.",
+  "updated_at": "2026-08-18T06:43:26+0100"
+}

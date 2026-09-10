@@ -1,0 +1,26 @@
+CT3 frozen V11 tail-gain and stability audit
+Job ID: 18852802
+Host: node1206.csf3.man.alces.network
+Started: 2026-08-19T02:16:27+01:00
+Package root: /scratch/j96317yn/NotebookCT3
+Allocated CPUs: 8
+Detected FEM case files: 199
+Python 3.12.12
+Scientific dependencies import successfully
+[1/4] Checking source and notebook syntax...
+[2/4] Checking the 199-case inventory and frozen split...
+[3/4] Checking frozen V11 artifacts...
+[4/4] Checking locked gain policy...
+Case files: 199
+Iteration-1 split: {'train': 119, 'final_test': 50, 'internal_test': 15, 'validation': 15}
+Frozen V11 candidate: 0
+Gain grid: [0.0, 0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85, 0.9, 0.95, 1.0, 1.05, 1.1, 1.15, 1.2]
+Maximum selectable gain: 1.0
+Fast package validation passed. Full SHA-256 preflight runs inside the notebook.
+Executing: /scratch/j96317yn/NotebookCT3/notebooks/12_V11_Frozen_Gain_and_Stability_Audit/01_V11_Frozen_Gain_and_Stability_Audit.ipynb
+Executed notebook: /scratch/j96317yn/NotebookCT3/outputs/12_v11_gain_stability_audit/iteration_1/executed_notebooks/v11_gain_audit_executed_job_18852802.ipynb
+Completed: 2026-08-19T02:19:22+01:00
+Selected gain: /scratch/j96317yn/NotebookCT3/outputs/12_v11_gain_stability_audit/iteration_1/selected_gain.json
+Formula: /scratch/j96317yn/NotebookCT3/outputs/12_v11_gain_stability_audit/iteration_1/selected_gain_formula.txt
+Metrics: /scratch/j96317yn/NotebookCT3/outputs/12_v11_gain_stability_audit/iteration_1/selected_models_split_metrics.csv
+Completion marker: /scratch/j96317yn/NotebookCT3/outputs/12_v11_gain_stability_audit/iteration_1/audit_complete.json

@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "segment": 20,
+  "attempt": 1,
+  "segment_niterations": 100,
+  "populations": 8,
+  "planned_population_iterations": 800,
+  "resumed_from_checkpoint": true,
+  "elapsed_seconds": 1441.4731121063232,
+  "frontier": "/Users/novwin/Documents/University/University of Manchester/\u6bd5\u8bbe\u9879\u76ee/Nuclear graphite/NotebookCT3/outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_20/frontier.csv"
+}

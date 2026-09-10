@@ -1,0 +1,49 @@
+CT3 V11 tail-aware localised symbolic stress formula
+====================================================
+
+1. Frozen V10 stress predictor
+sigma_v10 = (-0.0116301024532845*temperature_mean + 0.0470427355318997*temperature_p95 - 3.16087946558646*weight_loss_rate_mean + 0.103449215368151*z_max - 0.870195660324862*Abs(4.60760803334225*fluence_rate_p95 - 20.3572633494299) - 100.195330145459) + exp(-1.47091131932291*rho_mean - 1011.416708227*theta_sin_std - 1.1690770556861*weight_loss_rate_mean + 0.904578545888617*z_mean + 9.23869712445276) * ((1.10317833861391*(0.55673575*(0.0509611749551904*rho - 9.32241465638866)*(0.0509611749551904*rho - 8.66867535638866) - 31.9731949759449*(theta_cos - 0.922666019258146)**2)*(Abs(0.0509611749551904*rho - 8.59575422638866) - 2.4201684) + 0.285739561816426) + (0.26613534581272986*signed_axial_position_proxy - 0.1622288885733871*(6.35717263336409*nearest_axial_boundary_fraction_proxy - 1.50609073609435)*(-7.0761696316530864*nearest_axial_boundary_fraction_proxy + 7.2459763106469*nearest_radial_boundary_fraction_proxy - 0.069780171113859076*rho - (6.35717263336409*nearest_axial_boundary_fraction_proxy - 1.50609073609435)*(7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.38325249598573) + 12.075351442964397) - 0.1622288885733871*Abs(7.94873136269381*nearest_angular_boundary_fraction_proxy + 7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.21701884243319*signed_angular_position_proxy - 4.509683458131166) + 0.13991710730167015) + (-0.10412130908674733*(7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.38325249598573)*(2.63391439710955*fluence_rate_mean + (43.826976828009*boundary_corner_proximity_proxy - 1.00232009854836)*(2.40096813285283*signed_radial_position_proxy + 0.381717477146586) - 9.50597278012606) + 0.0296437391158275))
+
+2. Case-level mean calibration (predictor summaries only)
+delta_mu = (1.115051609186759) + (-0.1190607671440357)*fluence_rate_mean + (-0.1198020206288154)*fluence_rate_p95 + (-1.119477958133205e-05)*temperature_mean + (-0.003186256293774443)*temperature_p95 + (0.5740339285340504)*weight_loss_rate_mean + (7.029490394614275)*weight_loss_rate_std
+
+3. Tail/local hotspot residual
+tail_raw = 0.3011451373613095
+tail_centered = tail_raw - case_mean(tail_raw)
+
+4. Combined V11 expression
+sigma_v11 = ((-0.0116301024532845*temperature_mean + 0.0470427355318997*temperature_p95 - 3.16087946558646*weight_loss_rate_mean + 0.103449215368151*z_max - 0.870195660324862*Abs(4.60760803334225*fluence_rate_p95 - 20.3572633494299) - 100.195330145459) + exp(-1.47091131932291*rho_mean - 1011.416708227*theta_sin_std - 1.1690770556861*weight_loss_rate_mean + 0.904578545888617*z_mean + 9.23869712445276) * ((1.10317833861391*(0.55673575*(0.0509611749551904*rho - 9.32241465638866)*(0.0509611749551904*rho - 8.66867535638866) - 31.9731949759449*(theta_cos - 0.922666019258146)**2)*(Abs(0.0509611749551904*rho - 8.59575422638866) - 2.4201684) + 0.285739561816426) + (0.26613534581272986*signed_axial_position_proxy - 0.1622288885733871*(6.35717263336409*nearest_axial_boundary_fraction_proxy - 1.50609073609435)*(-7.0761696316530864*nearest_axial_boundary_fraction_proxy + 7.2459763106469*nearest_radial_boundary_fraction_proxy - 0.069780171113859076*rho - (6.35717263336409*nearest_axial_boundary_fraction_proxy - 1.50609073609435)*(7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.38325249598573) + 12.075351442964397) - 0.1622288885733871*Abs(7.94873136269381*nearest_angular_boundary_fraction_proxy + 7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.21701884243319*signed_angular_position_proxy - 4.509683458131166) + 0.13991710730167015) + (-0.10412130908674733*(7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.38325249598573)*(2.63391439710955*fluence_rate_mean + (43.826976828009*boundary_corner_proximity_proxy - 1.00232009854836)*(2.40096813285283*signed_radial_position_proxy + 0.381717477146586) - 9.50597278012606) + 0.0296437391158275))) + ((1.115051609186759) + (-0.1190607671440357)*fluence_rate_mean + (-0.1198020206288154)*fluence_rate_p95 + (-1.119477958133205e-05)*temperature_mean + (-0.003186256293774443)*temperature_p95 + (0.5740339285340504)*weight_loss_rate_mean + (7.029490394614275)*weight_loss_rate_std) + exp(-1.47091131932291*rho_mean - 1011.416708227*theta_sin_std - 1.1690770556861*weight_loss_rate_mean + 0.904578545888617*z_mean + 9.23869712445276) * ((0.3011451373613095) - case_mean(0.3011451373613095))
+
+The case mean above is the spatial mean of the predictor-only tail
+formula evaluated over the requested case. It is not derived from
+stress and therefore remains available at deployment.
+
+Smooth hotspot RBF definitions
+------------------------------
+rho_fraction_proxy = (rho-rho_min)/(rho_max-rho_min)
+z_fraction_proxy = (z-z_min)/(z_max-z_min)
+theta_fraction_proxy = (theta-theta_min)/(theta_max-theta_min)
+nearest_*_boundary_fraction_proxy = min(fraction, 1-fraction)
+signed_*_position_proxy = 2*fraction-1
+pairwise interaction proxies are products of signed positions
+boundary_corner_proximity_proxy = nearest_rho*nearest_z*nearest_theta
+
+hotspot_rbf_01 = exp(-((rho_fraction-0.50947295)^2 + (z_fraction-0.019705881)^2 + (theta_fraction-0.20357453)^2) / (2*0.22085857^2))
+hotspot_rbf_02 = exp(-((rho_fraction-0.4541511)^2 + (z_fraction-0.62027519)^2 + (theta_fraction-0.83623176)^2) / (2*0.35^2))
+hotspot_rbf_03 = exp(-((rho_fraction-0.51248952)^2 + (z_fraction-0.94704412)^2 + (theta_fraction-0.20616094)^2) / (2*0.24546832^2))
+hotspot_rbf_04 = exp(-((rho_fraction-0.45360502)^2 + (z_fraction-0.1592629)^2 + (theta_fraction-0.83474978)^2) / (2*0.34914391^2))
+hotspot_rbf_05 = exp(-((rho_fraction-0.72433003)^2 + (z_fraction-0.55661308)^2 + (theta_fraction-0.25901899)^2) / (2*0.35^2))
+hotspot_rbf_06 = exp(-((rho_fraction-0.45849988)^2 + (z_fraction-0.94837155)^2 + (theta_fraction-0.73446615)^2) / (2*0.2945589^2))
+hotspot_rbf_max_proxy = max(hotspot_rbf_01, ..., hotspot_rbf_06)
+theta_sin_2_proxy = 2*sin(theta)*cos(theta)
+theta_cos_2_proxy = cos(theta)^2-sin(theta)^2
+theta_sin_4_proxy = 2*theta_sin_2_proxy*theta_cos_2_proxy
+theta_cos_4_proxy = theta_cos_2_proxy^2-theta_sin_2_proxy^2
+
+v10_fixed_shape_proxy = 1.10317833861391*(0.55673575*(0.0509611749551904*rho - 9.32241465638866)*(0.0509611749551904*rho - 8.66867535638866) - 31.9731949759449*(theta_cos - 0.922666019258146)**2)*(Abs(0.0509611749551904*rho - 8.59575422638866) - 2.4201684) + 0.285739561816426
+v10_geometry_residual_proxy = 0.26613534581272986*signed_axial_position_proxy - 0.1622288885733871*(6.35717263336409*nearest_axial_boundary_fraction_proxy - 1.50609073609435)*(-7.0761696316530864*nearest_axial_boundary_fraction_proxy + 7.2459763106469*nearest_radial_boundary_fraction_proxy - 0.069780171113859076*rho - (6.35717263336409*nearest_axial_boundary_fraction_proxy - 1.50609073609435)*(7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.38325249598573) + 12.075351442964397) - 0.1622288885733871*Abs(7.94873136269381*nearest_angular_boundary_fraction_proxy + 7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.21701884243319*signed_angular_position_proxy - 4.509683458131166) + 0.13991710730167015
+v10_physical_residual_proxy = -0.10412130908674733*(7.2459763106469*nearest_radial_boundary_fraction_proxy - 2.38325249598573)*(2.63391439710955*fluence_rate_mean + (43.826976828009*boundary_corner_proximity_proxy - 1.00232009854836)*(2.40096813285283*signed_radial_position_proxy + 0.381717477146586) - 9.50597278012606) + 0.0296437391158275
+v10_normalised_shape_proxy = v10_fixed_shape_proxy + v10_geometry_residual_proxy + v10_physical_residual_proxy
+
+All RBF centres were fitted from training-case top-P99 locations only.
+The 50 final-test cases were not read.

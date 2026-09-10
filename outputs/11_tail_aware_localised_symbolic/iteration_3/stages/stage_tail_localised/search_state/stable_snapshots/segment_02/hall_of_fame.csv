@@ -1,0 +1,12 @@
+Complexity,Loss,Equation
+1,0.3887512733409237,"-0.06802117278252749"
+3,0.3807340554682394,"nearest_radial_boundary_fraction_proxy_scaled * 0.158633923903383"
+5,0.37996934180748254,"(nearest_radial_boundary_fraction_proxy_scaled * 0.1511605475985987) + -0.04563264727113443"
+7,0.37646105904095356,"nearest_radial_boundary_fraction_proxy_scaled * ((nearest_angular_boundary_fraction_proxy_scaled - 1.5391852516554902) * -0.10364914497460867)"
+8,0.3748223850152603,"abs(signed_angular_position_proxy_scaled) * (nearest_radial_boundary_fraction_proxy_scaled * 0.20394761342146403)"
+10,0.3714335698024906,"(((v10_fixed_shape_proxy_scaled + 1.768596094654582) * nearest_radial_boundary_fraction_proxy_scaled) + -0.8358724800807028) * 0.12071607788872143"
+12,0.3693754153396165,"nearest_radial_boundary_fraction_proxy_scaled * ((nearest_angular_boundary_fraction_proxy_scaled - (signed_angular_position_proxy_scaled + (v10_fixed_shape_proxy_scaled + 2.278612946392961))) * -0.09807373887817718)"
+14,0.36897318027776665,"((nearest_angular_boundary_fraction_proxy_scaled + ((v10_fixed_shape_proxy_scaled + (theta_fraction_proxy_scaled + 1.6669817823877207)) * nearest_radial_boundary_fraction_proxy_scaled)) * hotspot_rbf_06_scaled) * -0.12382068748837355"
+15,0.3682733168715661,"((nearest_angular_boundary_fraction_proxy_scaled + (((v10_fixed_shape_proxy_scaled + theta_sin_2_proxy_scaled) + 1.6759622793951339) * nearest_radial_boundary_fraction_proxy_scaled)) * hotspot_rbf_06_scaled) * -0.132031557369997"
+16,0.36562493267567137,"(nearest_angular_boundary_fraction_proxy_scaled + (((v10_fixed_shape_proxy_scaled + (theta_fraction_proxy_scaled + 1.3663917274284048)) * nearest_radial_boundary_fraction_proxy_scaled) + hotspot_rbf_02_scaled)) * (hotspot_rbf_06_scaled * -0.12549388688330643)"
+19,0.364108749173596,"(((((signed_angular_position_proxy_scaled * tanh(nearest_radial_boundary_fraction_proxy_scaled)) * -1.2948740082966463) - nearest_angular_boundary_fraction_proxy_scaled) + -1.0090380937531165) * (signed_angular_position_proxy_scaled + -0.20427030611082683)) * -0.17208131782255948"

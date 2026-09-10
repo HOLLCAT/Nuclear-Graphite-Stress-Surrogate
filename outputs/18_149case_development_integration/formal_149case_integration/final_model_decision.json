@@ -1,0 +1,35 @@
+{
+  "selected_model": "mean_calibrated_consensus",
+  "selection_reason": "Tail consensus failed at least one gate; the stable all-development mean correction was retained.",
+  "full_consensus_tail_gates": {
+    "at_least_two_active_tail_rotations": true,
+    "four_rotation_heldout_tail_evidence_pass": true,
+    "development_macro_rmse_improves_mean": "True",
+    "development_p99_improves_mean": "True",
+    "development_top1_hotspot_improves_mean": "True",
+    "development_worst_rmse_controlled": "False",
+    "development_p95_guardrail": "True"
+  },
+  "full_consensus_tail_all_gates_pass": false,
+  "mean_calibrated_consensus_gates": {
+    "development_macro_rmse_improves_base": "True",
+    "development_worst_rmse_controlled": "True",
+    "development_p99_guardrail": "True",
+    "development_hotspot_guardrail": "True"
+  },
+  "mean_calibrated_consensus_all_gates_pass": true,
+  "active_tail_iterations": [
+    1,
+    2,
+    3
+  ],
+  "inactive_tail_iterations": [
+    4
+  ],
+  "selection_data_role": "149-case development fit diagnostic plus frozen four-rotation held-out evidence",
+  "final_test_used_for_selection": false,
+  "all_development_tail_gain": 1.0,
+  "development_cases_used": 149,
+  "development_elements_used": 59653640,
+  "final_test_cases_read": 0
+}

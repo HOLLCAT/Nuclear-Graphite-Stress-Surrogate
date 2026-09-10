@@ -1,0 +1,6 @@
+stage,segment,attempt,resume_from_checkpoint,return_code,termination_reason,stalled,wall_timed_out,elapsed_seconds,checkpoint_exists_after,worker_frontier_exists,finished_at
+physical,1,1,False,0,process_exit,False,False,600.2186031341553,True,True,2026-08-20T06:36:41+0100
+physical,2,1,True,0,process_exit,False,False,660.1241760253906,True,True,2026-08-20T06:47:42+0100
+physical,3,1,True,0,process_exit,False,False,720.2214796543121,True,True,2026-08-20T06:59:42+0100
+physical,4,1,True,0,process_exit,False,False,720.17356133461,True,True,2026-08-20T07:11:42+0100
+physical,5,1,True,0,process_exit,False,False,660.1418766975403,True,True,2026-08-20T07:22:42+0100

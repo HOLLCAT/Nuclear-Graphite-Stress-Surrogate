@@ -1,0 +1,25 @@
+{
+  "frozen_baseline": "local V8 Candidate 5, verified by SHA-256",
+  "target_alignment": "residual is defined against deployable predicted mean and scale",
+  "stages": [
+    "geometry_and_directional_boundary",
+    "physical_and_local"
+  ],
+  "sampling_tier_quotas": [
+    3000,
+    750,
+    1000,
+    250
+  ],
+  "sampling_target_loss_mass": [
+    0.6,
+    0.15,
+    0.2,
+    0.05
+  ],
+  "loss": "HuberLoss(1.0)",
+  "batching": true,
+  "full_complete_case_validation": true,
+  "excluded_operator": "square, because the V9 residual required both signs",
+  "final_test_cases_read": 0
+}

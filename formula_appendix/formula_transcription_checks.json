@@ -1,0 +1,83 @@
+{
+  "purpose": "Transcription check only; no training, model selection or final-test reevaluation.",
+  "sample": "4096 deterministic rows from stored rotation-1 training discovery features",
+  "checks": [
+    {
+      "component": "common_mean",
+      "max_absolute_transcription_difference": 0.0
+    },
+    {
+      "component": "common_log_scale",
+      "max_absolute_transcription_difference": 0.0
+    },
+    {
+      "component": "common_shape",
+      "max_absolute_transcription_difference": 0.0
+    },
+    {
+      "component": "geo_1",
+      "max_absolute_transcription_difference": 2.220446049250313e-16
+    },
+    {
+      "component": "phys_1",
+      "max_absolute_transcription_difference": 0.0
+    },
+    {
+      "component": "geo_2",
+      "max_absolute_transcription_difference": 7.105427357601002e-15
+    },
+    {
+      "component": "phys_2",
+      "max_absolute_transcription_difference": 1.176836406102666e-14
+    },
+    {
+      "component": "geo_3",
+      "max_absolute_transcription_difference": 0.0
+    },
+    {
+      "component": "phys_3",
+      "max_absolute_transcription_difference": 0.0
+    },
+    {
+      "component": "geo_4",
+      "max_absolute_transcription_difference": 0.0
+    },
+    {
+      "component": "phys_4",
+      "max_absolute_transcription_difference": 0.0
+    },
+    {
+      "component": "final_mean_correction",
+      "max_absolute_transcription_difference": 0.0
+    },
+    {
+      "component": "tail_1",
+      "max_absolute_transcription_difference": 0.0
+    },
+    {
+      "component": "tail_2",
+      "max_absolute_transcription_difference": 0.0
+    },
+    {
+      "component": "tail_3",
+      "max_absolute_transcription_difference": 0.0
+    },
+    {
+      "component": "complete_factorised_primary",
+      "max_absolute_transcription_difference": 8.526512829121202e-14
+    }
+  ],
+  "sources": {
+    "shared/v10_authoritative_v8_candidate5/selected_case_mean_formula.csv": "067bbb98688fec66f8f0780073d3e3fe21e4d4ed9e0e11e2ff7ea290b47a26f1",
+    "shared/v10_authoritative_v8_candidate5/selected_case_log_scale_formula.csv": "c031e909dfd7db9c4dc090a39e46e4bb90c5edfc044e4651cb797ebbf48cbe3f",
+    "shared/v10_authoritative_v8_candidate5/selected_shape_formula.csv": "42ba93fd8b62f6d564d1d04868752da0994748a5d49367e758df0d88f567ede9",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/selected_composite_formula.csv": "f11e19aec293e6d71e13de2e3fd617081f6fbb47843b4623c47d7e7917a62762",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/selected_composite_formula.csv": "91474263bbecc7eac9ccae4736eb2a3122deb5af88280c3b6c2623c09ed54f10",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/selected_composite_formula.csv": "caed4dad3d55ba8ad2a43ff5248334b9b85cc0ac2f42998899994d08d48deee5",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/selected_composite_formula.csv": "97426738cc814ac73472fa83553caf75bb7c45c7dd726e26c960ced6493a0e71",
+    "outputs/18_149case_development_integration/formal_149case_integration/locked_model_formula.csv": "ca47e109f22d5c1b41833c53c07b4a62a12cf76f4272aff7b28e98ab3b0ba9e1",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/selected_formula.csv": "a62e6005e4cbae190cbf07e22c55cdb56e0090ab4d19ee68944b7e25f51ed31a",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/selected_formula.csv": "666cfba65d22e35d71c1872081db598823a4be09973ba29689b685148b370464",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/selected_formula.csv": "714a7df041c3867c6452a379e442002303b613695aba389aa0d299110ca03455"
+  }
+}

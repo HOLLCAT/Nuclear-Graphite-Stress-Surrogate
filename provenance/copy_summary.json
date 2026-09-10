@@ -1,0 +1,14 @@
+{
+  "copied_original_files": 2429,
+  "copied_original_bytes": 8699477810,
+  "raw_case_files": 199,
+  "source_file_sha256_verified": true,
+  "research_outputs_recomputed": false,
+  "training_or_final_evaluation_run": false,
+  "notes": [
+    "Original results retain original path strings as provenance.",
+    "15/16 are retained only because the formal registration requires their decision evidence.",
+    "No claim is made that broad requirements reproduce the exact historical runtime.",
+    "Completed 13/15/16 decision-support chain retained to close the formal registration provenance dependencies; not deployed models."
+  ]
+}

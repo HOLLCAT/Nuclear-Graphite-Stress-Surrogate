@@ -1,0 +1,10 @@
+{
+  "segment": 1,
+  "attempt": 1,
+  "pid": 5042,
+  "elapsed_seconds": 960.6040828227997,
+  "inactive_seconds": 0.0,
+  "checkpoint_exists": true,
+  "hall_of_fame_exists": true,
+  "updated_at": "2026-08-17T23:39:26+0100"
+}

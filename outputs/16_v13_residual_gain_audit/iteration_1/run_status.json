@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "iteration": 1,
+  "parent_candidate_index": 2,
+  "validation_gain_count": 22,
+  "validation_cases": 15,
+  "internal_cases": 15,
+  "train_cases": 119,
+  "development_cases_evaluated": 149,
+  "primary_model_decision": "freeze_v11_global_gain_0_90_as_primary_model",
+  "research_correction_decision": "retain_v13_as_non_deployed_tail_correction_research",
+  "primary_gain": 0.0,
+  "research_gain": 0.125,
+  "proceed_to_iterations_2_4": true,
+  "final_test_cases_read": 0,
+  "elapsed_seconds": 270.4498860836029,
+  "output_directory": "/net/scratch/j96317yn/NotebookCT3/outputs/16_v13_residual_gain_audit/iteration_1",
+  "stage": "complete"
+}

@@ -1,0 +1,84 @@
+[NbConvertApp] Converting notebook /scratch/j96317yn/NotebookCT3/notebooks/11_Tail_Aware_Localised_Symbolic_Regression/01_V11_Tail_Aware_Localised_Iteration_1.ipynb to notebook
+Traceback (most recent call last):
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/bin/jupyter-nbconvert", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/jupyter_core/application.py", line 284, in launch_instance
+    super().launch_instance(argv=argv, **kwargs)
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/traitlets/config/application.py", line 1080, in launch_instance
+    app.start()
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/nbconvert/nbconvertapp.py", line 420, in start
+    self.convert_notebooks()
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/nbconvert/nbconvertapp.py", line 597, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/nbconvert/nbconvertapp.py", line 563, in convert_single_notebook
+    output, resources = self.export_single_notebook(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/nbconvert/nbconvertapp.py", line 487, in export_single_notebook
+    output, resources = self.exporter.from_filename(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/nbconvert/exporters/exporter.py", line 201, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/nbconvert/exporters/exporter.py", line 220, in from_file
+    return self.from_notebook_node(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/nbconvert/exporters/notebook.py", line 36, in from_notebook_node
+    nb_copy, resources = super().from_notebook_node(nb, resources, **kw)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/nbconvert/exporters/exporter.py", line 154, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/nbconvert/exporters/exporter.py", line 353, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/nbconvert/preprocessors/base.py", line 48, in __call__
+    return self.preprocess(nb, resources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/nbconvert/preprocessors/execute.py", line 103, in preprocess
+    self.preprocess_cell(cell, resources, index)
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/nbconvert/preprocessors/execute.py", line 124, in preprocess_cell
+    cell = self.execute_cell(cell, index, store_history=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/apps/apps/binapps/conda/miniforge3/25.9.1-0/lib/python3.12/asyncio/base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/nbclient/client.py", line 1062, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/net/scratch/j96317yn/NotebookCT3/.venv/lib/python3.12/site-packages/nbclient/client.py", line 918, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+artifacts = {
+    "completion": OUTPUT_DIR / "pilot_complete.json",
+    "formula": OUTPUT_DIR / "selected_composite_formula.txt",
+    "split_metrics": OUTPUT_DIR / "selected_models_split_metrics.csv",
+    "tail_adaptation": OUTPUT_DIR / "selected_models_tail_adaptation.csv",
+    "candidate_metrics": OUTPUT_DIR / "stages" / "stage_tail_localised" / "candidate_validation_metrics.csv",
+    "mean_model": OUTPUT_DIR / "training_cache" / "mean_calibration_model.json",
+    "rbf_centres": OUTPUT_DIR / "training_cache" / "hotspot_rbf_centres.csv",
+    "progress": OUTPUT_DIR / "stages" / "stage_tail_localised" / "search_progress.json",
+}
+for name, path in artifacts.items():
+    print(f"{name:18s} exists={path.exists()}  {path}")
+
+if artifacts["split_metrics"].exists():
+    display(pd.read_csv(artifacts["split_metrics"]))
+if artifacts["tail_adaptation"].exists():
+    display(pd.read_csv(artifacts["tail_adaptation"]))
+if artifacts["formula"].exists():
+    print("
+" + artifacts["formula"].read_text(encoding="utf-8"))
+
+------------------
+
+
+  [36mCell[39m[36m [39m[32mIn[5][39m[32m, line 19[39m
+[31m    [39m[31mprint("[39m
+          ^
+[31mSyntaxError[39m[31m:[39m unterminated string literal (detected at line 19)
+
+

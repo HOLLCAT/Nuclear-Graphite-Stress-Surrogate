@@ -1,0 +1,11 @@
+gate,pass,criterion
+finite_bounded_gain_predictions,True,"all gains finite and in [0, 1.10]"
+gain_layer_oracle_skill,True,weighted oracle-loss ratio < 0.995
+all_case_macro_rmse_improves,False,all-149 macro RMSE improves by at least 0.5%
+legacy_holdout_macro_rmse_not_worse,True,legacy 30-case macro RMSE does not worsen
+all_case_p99_underprediction,False,all-149 mean P99 underprediction <= global and <= 10%
+legacy_holdout_p99_underprediction,True,legacy holdout mean P99 underprediction worsens by no more than 0.5 percentage points
+all_case_top1_overlap,True,all-149 top-1% overlap decreases by no more than 0.2 percentage points
+legacy_holdout_top1_overlap,True,legacy holdout top-1% overlap decreases by no more than 0.5 percentage points
+maximum_prediction_guardrail,True,worst absolute maximum ratio <= global and <= 1.50
+limited_gain_saturation,True,no more than 10% of OOF gains at bounds

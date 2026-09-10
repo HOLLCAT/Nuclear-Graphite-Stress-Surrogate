@@ -1,0 +1,9 @@
+{
+  "primary_gain": 0.0,
+  "primary_validation_status": "retain_v11_no_positive_gain_passes_primary_validation_gates",
+  "research_gain": 0.125,
+  "research_validation_status": "positive_gain_selected_for_research_confirmation",
+  "selection_scope": "15_complete_validation_cases_only",
+  "baseline_gain": 0.0,
+  "full_v13_gain": 1.0
+}

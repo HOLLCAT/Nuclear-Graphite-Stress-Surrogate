@@ -1,0 +1,16 @@
+{
+  "output_subdir": "formal_149case_integration",
+  "tail_activity_std_threshold_mpa": 1e-06,
+  "tail_gain_min": 0.0,
+  "tail_gain_max": 1.0,
+  "min_relative_rmse_improvement": 0.0025,
+  "min_hotspot_overlap_gain": 0.005,
+  "full_p99_ratio_to_mean_max": 0.98,
+  "full_worst_rmse_ratio_to_mean_max": 1.03,
+  "full_p95_ratio_to_base_max": 1.2,
+  "mean_worst_rmse_ratio_to_base_max": 1.05,
+  "mean_p99_ratio_to_base_max": 1.25,
+  "mean_hotspot_drop_from_base_max": 0.02,
+  "keep_case_cache_after_success": false,
+  "force_rebuild_case_cache": false
+}

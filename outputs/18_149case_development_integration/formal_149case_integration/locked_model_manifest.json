@@ -1,0 +1,54 @@
+{
+  "model_id": "ct3_149case_development_locked_v1",
+  "status": "frozen_pending_one_time_final_test",
+  "model": "mean_calibrated_consensus",
+  "base_rotation_weights": {
+    "1": 0.25,
+    "2": 0.25,
+    "3": 0.25,
+    "4": 0.25
+  },
+  "mean_calibration_features": [
+    "fluence_rate_mean",
+    "fluence_rate_p95",
+    "temperature_mean",
+    "temperature_p95",
+    "weight_loss_rate_mean",
+    "weight_loss_rate_std"
+  ],
+  "active_tail_iterations": [
+    1,
+    2,
+    3
+  ],
+  "inactive_tail_iterations": [
+    4
+  ],
+  "tail_gain": 1.0,
+  "development_fit_metrics": {
+    "split": "development_fit_diagnostic",
+    "model": "mean_calibrated_consensus",
+    "n_cases": 149,
+    "n_elements_evaluated": 59653640,
+    "micro_mae": 1.209950765864116,
+    "micro_rmse": 1.7301314609758147,
+    "micro_r2": 0.6267584654475499,
+    "macro_mae": 1.2099507658641158,
+    "macro_rmse": 1.7026656587164999,
+    "macro_r2": 0.5795793216217351,
+    "worst_case_rmse": 2.8116565287116653,
+    "mean_top5_actual_rmse": 3.810333500384326,
+    "mean_top5_actual_bias": -2.66653603465706,
+    "mean_p95_relative_error": 0.04603382432892614,
+    "mean_p95_underprediction_fraction": 0.03828553213549587,
+    "mean_p99_relative_error": 0.19697180826700636,
+    "mean_p99_underprediction_fraction": 0.1967219454598261,
+    "mean_top5pct_hotspot_overlap": 0.5069517970739087,
+    "mean_top1pct_hotspot_overlap": 0.502445541036145,
+    "mean_top1_recall_in_predicted_top5": 0.8333310984317696,
+    "max_prediction_abs_max_ratio": 1.345166584133725
+  },
+  "input_signature_sha256": "bad8f0aa4debef330607994b4ddca48247080d1176c76592a485a066c165d7da",
+  "formula_file": "locked_model_formula.csv",
+  "final_test_cases_read": 0
+}

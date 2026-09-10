@@ -1,0 +1,261 @@
+{
+  "audit_kind": "english_edition_and_source_equivalence_not_new_research",
+  "status": "passed",
+  "notebook_translations": [
+    {
+      "file": "notebooks/Multi-Case_FEM_Parametric_and_Position_Sensitivity_Stability_Analysis_199Cases.ipynb",
+      "translated_markdown_cells": 14,
+      "comment_only_changes": 0,
+      "code_ast_unchanged": true,
+      "current_notebook_sha256": "c40d7c89a40fd4849e77093502ed11bdeb5d9f404bde3a33cd47866093bb4199",
+      "previous_notebook_sha256": "d1f3872ac01d7c332a97f02d98bcf51123926ca3bbf0ba654a43ded85d70e7ab"
+    },
+    {
+      "file": "notebooks/PreSplit_Grouping_and_Frozen_Manifest.ipynb",
+      "translated_markdown_cells": 2,
+      "comment_only_changes": 0,
+      "code_ast_unchanged": true,
+      "current_notebook_sha256": "8b842f455d9f08dbfab35b72d5f144688d3345c8ef0e739e5efbc3477bdf330b"
+    }
+  ],
+  "english_text_files_checked": 99,
+  "chinese_matches_in_checked_text": 0,
+  "scientific_module_comparison": [
+    {
+      "file": "src/ct3_common.py",
+      "status": "all_other_statements_ast_identical",
+      "curation_only_function_changes": [
+        "resolve_package_root"
+      ]
+    },
+    {
+      "file": "src/hierarchical_feasibility.py",
+      "status": "byte_identical_to_original"
+    },
+    {
+      "file": "src/hierarchical_symbolic_regression.py",
+      "status": "byte_identical_to_original"
+    },
+    {
+      "file": "src/robust_chunked_symbolic.py",
+      "status": "three_retained_helpers_ast_identical",
+      "omitted": "unused_old_chunk_training_workflow"
+    },
+    {
+      "file": "src/recoverable_single_shape_symbolic.py",
+      "status": "byte_identical_to_original"
+    },
+    {
+      "file": "src/residual_shape_symbolic.py",
+      "status": "byte_identical_to_original"
+    },
+    {
+      "file": "src/signed_staged_residual_symbolic.py",
+      "status": "byte_identical_to_original"
+    },
+    {
+      "file": "src/v11_tail_aware_localised_symbolic.py",
+      "status": "byte_identical_to_original"
+    },
+    {
+      "file": "src/v11_gain_stability_audit.py",
+      "status": "byte_identical_to_original"
+    },
+    {
+      "file": "src/v13_structural_tail_residual.py",
+      "status": "byte_identical_to_original"
+    },
+    {
+      "file": "src/v13_residual_gain_audit.py",
+      "status": "byte_identical_to_original"
+    },
+    {
+      "file": "src/formal_v11_four_rotation.py",
+      "status": "all_other_statements_ast_identical",
+      "curation_only_function_changes": [
+        "register_completed_iteration_one"
+      ]
+    },
+    {
+      "file": "src/final_development_integration.py",
+      "status": "byte_identical_to_original"
+    },
+    {
+      "file": "src/final_locked_149_evaluation.py",
+      "status": "byte_identical_to_original"
+    },
+    {
+      "file": "src/export_three_spatial_comparison_cases.py",
+      "status": "byte_identical_to_original"
+    },
+    {
+      "file": "src/v12_case_adaptive_tail_gain.py",
+      "status": "byte_identical_to_original"
+    }
+  ],
+  "original_notebook_comparison": [
+    {
+      "file": "notebooks/00_Data_QC_Sensitivity_and_Feature_Ablation.ipynb",
+      "code_cells": 3,
+      "path_setup_code_cells": [
+        0
+      ],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/01_Four_Iteration_199Case_Baseline.ipynb",
+      "code_cells": 3,
+      "path_setup_code_cells": [
+        0
+      ],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/02A_Hierarchical_Feasibility_Iteration_1.ipynb",
+      "code_cells": 4,
+      "path_setup_code_cells": [
+        0
+      ],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/02A_Hierarchical_Feasibility_Iteration_3.ipynb",
+      "code_cells": 4,
+      "path_setup_code_cells": [
+        0
+      ],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/02A_Hierarchical_Feasibility_Iteration_4.ipynb",
+      "code_cells": 4,
+      "path_setup_code_cells": [
+        0
+      ],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/02A_Hierarchical_Stress_Decomposition_Feasibility.ipynb",
+      "code_cells": 4,
+      "path_setup_code_cells": [
+        0
+      ],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/08_Recoverable_16000_Single_Formula_Symbolic_Regression/01_Recoverable_16000_Single_Formula_Iteration_1.ipynb",
+      "code_cells": 5,
+      "path_setup_code_cells": [],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/09_Residual_Shape_Symbolic_Regression_Pilot/01_Residual_Shape_Symbolic_Regression_Pilot.ipynb",
+      "code_cells": 5,
+      "path_setup_code_cells": [],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/10_Signed_Staged_Residual_Symbolic_Regression_Pilot/01_Signed_Staged_Residual_Symbolic_Regression_Pilot.ipynb",
+      "code_cells": 5,
+      "path_setup_code_cells": [],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/11_Tail_Aware_Localised_Symbolic_Regression/01_V11_Tail_Aware_Localised_Iteration_1.ipynb",
+      "code_cells": 5,
+      "path_setup_code_cells": [],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/12_V11_Frozen_Gain_and_Stability_Audit/01_V11_Frozen_Gain_and_Stability_Audit.ipynb",
+      "code_cells": 5,
+      "path_setup_code_cells": [],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/15_V13_Structural_Tail_Residual/01_V13_Structural_Tail_Residual_Iteration_1.ipynb",
+      "code_cells": 5,
+      "path_setup_code_cells": [],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/16_V13_Residual_Gain_Audit/01_V13_Residual_Gain_Audit_Iteration_1.ipynb",
+      "code_cells": 5,
+      "path_setup_code_cells": [],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/17_Formal_V11_Four_Rotation/01_Register_Completed_Iteration_1.ipynb",
+      "code_cells": 2,
+      "path_setup_code_cells": [],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/17_Formal_V11_Four_Rotation/02_Formal_V11_Iteration_2.ipynb",
+      "code_cells": 3,
+      "path_setup_code_cells": [],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/17_Formal_V11_Four_Rotation/03_Formal_V11_Iteration_3.ipynb",
+      "code_cells": 3,
+      "path_setup_code_cells": [],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/17_Formal_V11_Four_Rotation/04_Formal_V11_Iteration_4.ipynb",
+      "code_cells": 3,
+      "path_setup_code_cells": [],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/17_Formal_V11_Four_Rotation/05_Aggregate_Four_Rotation_Stability.ipynb",
+      "code_cells": 2,
+      "path_setup_code_cells": [],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/18_149Case_Development_Integration/01_149Case_Development_Integration.ipynb",
+      "code_cells": 4,
+      "path_setup_code_cells": [
+        0
+      ],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/19_One_Time_Final_50Case_Locked_149/01_One_Time_Final_50Case_Locked_149.ipynb",
+      "code_cells": 5,
+      "path_setup_code_cells": [],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/Multi-Case_FEM_Parametric_and_Position_Sensitivity_Stability_Analysis_199Cases.ipynb",
+      "code_cells": 12,
+      "path_setup_code_cells": [
+        0
+      ],
+      "other_executable_statements_ast_identical": true
+    },
+    {
+      "file": "notebooks/13_V12_Case_Adaptive_Tail_Gain/01_V12_Formal_Case_Adaptive_Tail_Gain.ipynb",
+      "code_cells": 5,
+      "path_setup_code_cells": [],
+      "other_executable_statements_ast_identical": true
+    }
+  ],
+  "exceptions_not_translated": [
+    "archival original code",
+    "saved historical outputs and logs",
+    "raw data",
+    "original paths in provenance records"
+  ],
+  "translated_runbook": "notebooks/13_V12_Case_Adaptive_Tail_Gain/CSF3_RUNBOOK.md",
+  "new_training_runs": 0,
+  "new_final_test_evaluations": 0,
+  "documentation_links_checked": 9,
+  "documentation_shell_snippets_syntax_checked": 27,
+  "protected_artifact_manifest_rows": 2340,
+  "protected_artifact_delivery_hashes_equal_source_hashes": true,
+  "subsequent_annotation_review": "provenance/notebook_annotation_edits.json",
+  "archival_markdown_translation_count": 3
+}

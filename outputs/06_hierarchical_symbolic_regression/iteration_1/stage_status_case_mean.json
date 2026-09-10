@@ -1,0 +1,9 @@
+{
+  "stage": "case_mean",
+  "status": "search_complete",
+  "updated_at": "2026-08-17T06:10:00+0100",
+  "elapsed_seconds": 94.3410530090332,
+  "run_id": "hierarchical_i1_case_mean_20260817_060826",
+  "timeout_seconds": 2700,
+  "n_candidates": 10
+}

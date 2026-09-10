@@ -1,0 +1,26 @@
+{
+  "status": "complete",
+  "iteration": 1,
+  "prototype_only": true,
+  "parent_model": "v11_global_gain_0_90",
+  "train_cases": 119,
+  "validation_cases": 15,
+  "internal_test_cases": 15,
+  "development_cases_evaluated": 149,
+  "final_test_cases_read": 0,
+  "training_rows": 595000,
+  "planned_population_iterations": 8000,
+  "completed_segments": 10,
+  "selected_candidate_index": 2,
+  "selection_pool_status": "diagnostic_finite_candidates",
+  "promotion_status": "retain_v11_global_gain_0_90",
+  "failed_promotion_gates": [
+    "validation_candidate_passes_all_predeclared_gates",
+    "internal_test_macro_rmse",
+    "internal_test_p95_preserved",
+    "all_149_development_macro_rmse",
+    "all_149_development_p95_preserved"
+  ],
+  "elapsed_seconds": 8999.594858169556,
+  "output_directory": "/net/scratch/j96317yn/NotebookCT3/outputs/15_v13_structural_tail_residual/iteration_1"
+}

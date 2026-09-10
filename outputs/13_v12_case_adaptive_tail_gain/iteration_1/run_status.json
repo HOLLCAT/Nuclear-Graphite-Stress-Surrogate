@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "iteration": 1,
+  "method": "bounded_case_adaptive_tail_gain_with_nested_similarity_group_validation",
+  "v12_signature_sha256": "ec47276df49b70d2b8ed70c74d311c463ee0ee3bc2525fe26bfedf2f3fb467ed",
+  "development_cases": 149,
+  "nested_outer_folds": 5,
+  "nested_inner_folds": 4,
+  "gain_candidates": 43,
+  "oracle_grid_values_per_case": 45,
+  "selected_refit_candidate": "huber__physical_9__a0.001__s1.00",
+  "promotion_status": "retain_v11_global_gain_0_90",
+  "failed_promotion_gates": [
+    "all_case_macro_rmse_improves",
+    "all_case_p99_underprediction"
+  ],
+  "selected_formula_method": "v11_global_gain_safe_fallback",
+  "final_test_cases_read": 0,
+  "elapsed_seconds": 832.1606154441833,
+  "output_directory": "/net/scratch/j96317yn/NotebookCT3/outputs/13_v12_case_adaptive_tail_gain/iteration_1",
+  "stage": "complete"
+}

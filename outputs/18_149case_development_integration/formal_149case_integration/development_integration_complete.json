@@ -1,0 +1,22 @@
+{
+  "status": "complete",
+  "method": "four_rotation_consensus_refit_on_all_149_development_cases",
+  "selected_model": "mean_calibrated_consensus",
+  "development_cases": 149,
+  "development_elements": 59653640,
+  "sealed_final_cases": 50,
+  "final_test_cases_read": 0,
+  "active_tail_iterations": [
+    1,
+    2,
+    3
+  ],
+  "inactive_tail_iterations": [
+    4
+  ],
+  "tail_gain": 1.0,
+  "input_signature_sha256": "bad8f0aa4debef330607994b4ddca48247080d1176c76592a485a066c165d7da",
+  "case_cache_retained": false,
+  "elapsed_seconds": 296.32174348831177,
+  "output_directory": "/net/scratch/j96317yn/NotebookCT3/outputs/18_149case_development_integration/formal_149case_integration"
+}

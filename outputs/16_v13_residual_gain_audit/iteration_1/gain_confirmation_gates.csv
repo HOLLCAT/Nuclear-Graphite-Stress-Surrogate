@@ -1,0 +1,12 @@
+decision_layer,gate,pass,observed,criterion
+primary,positive_primary_gain_selected_on_validation,False,0.0,> 0
+research,internal_test_rmse_cost,True,0.010077188204520743,0.015
+research,internal_test_p95_cost,True,0.051864705161318574,0.0554137914205892
+research,internal_test_p99_benefit,True,0.012409366067345218,0.005
+research,internal_test_p99_absolute,False,0.10576171918345136,0.1
+research,internal_test_top1_overlap,True,0.5797702297702297,0.5747565767565768
+research,all_149_development_rmse_cost,True,0.00841294125496313,0.01
+research,all_149_development_p95_cost,True,0.05076201561043744,0.052882256964050786
+research,all_149_development_p99_benefit,True,0.012868395803412008,0.005
+research,all_149_development_p99_absolute,False,0.11402296583362703,0.1
+research,all_149_development_top1_overlap,True,0.5922366224379647,0.5861316669907274

@@ -1,0 +1,2914 @@
+[
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/ Case Test Data/.DS_Store",
+    "size_bytes": 10244
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/.DS_Store",
+    "size_bytes": 10244
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/.cache/fontconfig/00d5189c1d5ced4af9bb23cbaa9b1e94-le64.cache-9",
+    "size_bytes": 14360
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/.cache/fontconfig/CACHEDIR.TAG",
+    "size_bytes": 200
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/.cache/matplotlib/fontlist-v390.json",
+    "size_bytes": 168788
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/CSF3_Recoverable_Iteration1_Runbook.md",
+    "size_bytes": 5735
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/CSF3_V10_Signed_Staged_Residual_Pilot_Runbook_CN.md",
+    "size_bytes": 4226
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/CSF3_V11_Gain_Audit_Runbook_CN.md",
+    "size_bytes": 6238
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/CSF3_V11_Iteration1_Runbook_CN.md",
+    "size_bytes": 4390
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/CSF3_V9_Residual_Pilot_Runbook_CN.md",
+    "size_bytes": 3501
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/FORMAL_V11_ITERATIONS_2_4_CSF3_RUNBOOK_CN.md",
+    "size_bytes": 4594
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/FORMAL_V11_SYMBOLIC_REGRESSION_METHOD_CN.md",
+    "size_bytes": 7274
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/README.md",
+    "size_bytes": 12323
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/Symbolic_Regression_Methodology_and_Project_Workflow_CN.md",
+    "size_bytes": 39275
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/V13_CSF3_Runbook_CN.md",
+    "size_bytes": 5355
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/V13_RESIDUAL_GAIN_CSF3_Runbook_CN.md",
+    "size_bytes": 3247
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/cluster/run_case178_fem_prediction_export.slurm",
+    "size_bytes": 2998
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/cluster/run_development_pipeline.slurm",
+    "size_bytes": 1348
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/cluster/run_one_notebook.slurm",
+    "size_bytes": 1016
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/cluster/run_one_time_final_v11.slurm",
+    "size_bytes": 4222
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/formal_v11_iteration4_and_summary.tar.gz",
+    "size_bytes": 231797900
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/notebooks/02_Four_Iteration_Context_Interaction_Symbolic_Regression.ipynb",
+    "size_bytes": 5353893
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/notebooks/02_Four_Iteration_Weighted_Symbolic_Regression.ipynb",
+    "size_bytes": 534751
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/notebooks/02_Four_Iteration_Weighted_Symbolic_Regression_No_Timeout.ipynb",
+    "size_bytes": 128025
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/notebooks/02_Four_Iteration_Weighted_Symbolic_Regression_Optimized.ipynb",
+    "size_bytes": 618173
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/notebooks/03_Refit_Constants_on_149_Development_Cases.ipynb",
+    "size_bytes": 19009
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/notebooks/04_One_Time_Final_50Case_Evaluation.ipynb",
+    "size_bytes": 8314
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/notebooks/06_Hierarchical_Symbolic_Regression/01_Hierarchical_Symbolic_Regression_Iteration_1.ipynb",
+    "size_bytes": 6715223
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/notebooks/06_Hierarchical_Symbolic_Regression/02_Hierarchical_Symbolic_Regression_Iteration_2.ipynb",
+    "size_bytes": 9753
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/notebooks/06_Hierarchical_Symbolic_Regression/03_Hierarchical_Symbolic_Regression_Iteration_3.ipynb",
+    "size_bytes": 9753
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/notebooks/06_Hierarchical_Symbolic_Regression/04_Hierarchical_Symbolic_Regression_Iteration_4.ipynb",
+    "size_bytes": 9753
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/notebooks/06_Hierarchical_Symbolic_Regression/README.md",
+    "size_bytes": 1265
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/notebooks/07_Robust_Chunked_Hierarchical_Symbolic_Regression/01_Robust_Chunked_Hierarchical_Symbolic_Regression_Iteration_1.ipynb",
+    "size_bytes": 30925
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/notebooks/14_One_Time_Final_50Case_V11/01_One_Time_Final_50Case_V11.ipynb",
+    "size_bytes": 6338
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/.DS_Store",
+    "size_bytes": 10244
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/00_qc_sensitivity_ablation/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/01_baseline_199cases/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/candidate_validation_metrics.csv",
+    "size_bytes": 15438
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/equation_frontier_iteration_1.csv",
+    "size_bytes": 2429
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/equation_frontier_iteration_2.csv",
+    "size_bytes": 1584
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/equation_frontier_iteration_3.csv",
+    "size_bytes": 1896
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/equation_frontier_iteration_4.csv",
+    "size_bytes": 1564
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/formula_structure_stability.csv",
+    "size_bytes": 6095
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/iteration_scaling.csv",
+    "size_bytes": 1843
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/pysr_runs/ct3_iteration_1_20260813_061505/checkpoint.pkl",
+    "size_bytes": 35079
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/pysr_runs/ct3_iteration_1_20260813_061505/hall_of_fame.csv",
+    "size_bytes": 797
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/pysr_runs/ct3_iteration_1_20260813_061505/hall_of_fame.csv.bak",
+    "size_bytes": 797
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/pysr_runs/ct3_iteration_2_20260813_093432/checkpoint.pkl",
+    "size_bytes": 48002
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/pysr_runs/ct3_iteration_2_20260813_093432/hall_of_fame.csv",
+    "size_bytes": 505
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/pysr_runs/ct3_iteration_2_20260813_093432/hall_of_fame.csv.bak",
+    "size_bytes": 505
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/pysr_runs/ct3_iteration_3_20260813_134500/checkpoint.pkl",
+    "size_bytes": 49209
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/pysr_runs/ct3_iteration_3_20260813_134500/hall_of_fame.csv",
+    "size_bytes": 610
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/pysr_runs/ct3_iteration_3_20260813_134500/hall_of_fame.csv.bak",
+    "size_bytes": 610
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/pysr_runs/ct3_iteration_4_20260813_183513/checkpoint.pkl",
+    "size_bytes": 36376
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/pysr_runs/ct3_iteration_4_20260813_183513/hall_of_fame.csv",
+    "size_bytes": 499
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/pysr_runs/ct3_iteration_4_20260813_183513/hall_of_fame.csv.bak",
+    "size_bytes": 499
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/recommended_structure_for_refit.csv",
+    "size_bytes": 2260
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/selected_formula_case_metrics.csv",
+    "size_bytes": 342770
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/selected_formulas_by_iteration.csv",
+    "size_bytes": 5777
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/symbolic_search_timing.csv",
+    "size_bytes": 747
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/symbolic_split_metrics.csv",
+    "size_bytes": 4592
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/symbolic_vs_best_baseline.csv",
+    "size_bytes": 9595
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search/tail_weight_audit.csv",
+    "size_bytes": 83670
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/combined_candidate_metrics_iteration_1.csv",
+    "size_bytes": 6147
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/discovery_5000_selection_audit.csv",
+    "size_bytes": 63213
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/discovery_iteration_training_audit.csv",
+    "size_bytes": 15381
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/formula_structure_stability.csv",
+    "size_bytes": 2607
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/full_training_scaling_by_iteration.csv",
+    "size_bytes": 483
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/geometry_candidate_metrics_iteration_1.csv",
+    "size_bytes": 6199
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/geometry_frontier_iteration_1.csv",
+    "size_bytes": 1622
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/physical_residual_frontier_iteration_1.csv",
+    "size_bytes": 991
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/provisional_structure_for_review.csv",
+    "size_bytes": 2699
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/pysr_runs/v2_pilot_iteration_1_geometry_20260813_230212/checkpoint.pkl",
+    "size_bytes": 37260
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/pysr_runs/v2_pilot_iteration_1_geometry_20260813_230212/hall_of_fame.csv",
+    "size_bytes": 548
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/pysr_runs/v2_pilot_iteration_1_geometry_20260813_230212/hall_of_fame.csv.bak",
+    "size_bytes": 548
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/pysr_runs/v2_pilot_iteration_1_physical_residual_20260813_230402/checkpoint.pkl",
+    "size_bytes": 29341
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/pysr_runs/v2_pilot_iteration_1_physical_residual_20260813_230402/hall_of_fame.csv",
+    "size_bytes": 326
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/pysr_runs/v2_pilot_iteration_1_physical_residual_20260813_230402/hall_of_fame.csv.bak",
+    "size_bytes": 326
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/selected_formula_case_metrics.csv",
+    "size_bytes": 82119
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/selected_hierarchical_formulas_by_iteration.csv",
+    "size_bytes": 2490
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/symbolic_search_timing.csv",
+    "size_bytes": 427
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/symbolic_split_metrics.csv",
+    "size_bytes": 1454
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v2_hierarchical/pilot_5000_per_case/symbolic_vs_best_baseline.csv",
+    "size_bytes": 3277
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/combined_candidate_metrics_iteration_1.csv",
+    "size_bytes": 11310
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/discovery_5000_selection_audit.csv",
+    "size_bytes": 65520
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/discovery_element_manifest_iteration_1.csv.gz",
+    "size_bytes": 2022410
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/discovery_iteration_training_audit.csv",
+    "size_bytes": 15381
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/formula_structure_stability.csv",
+    "size_bytes": 2847
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/full_training_scaling_by_iteration.csv",
+    "size_bytes": 483
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/geometry_candidate_metrics_iteration_1.csv",
+    "size_bytes": 10297
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/geometry_correction_candidate_metrics_iteration_1.csv",
+    "size_bytes": 7536
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/geometry_correction_frontier_iteration_1.csv",
+    "size_bytes": 1263
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/geometry_frontier_iteration_1.csv",
+    "size_bytes": 3080
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/physical_residual_frontier_iteration_1.csv",
+    "size_bytes": 3169
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/provisional_structure_for_review.csv",
+    "size_bytes": 2939
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/pysr_runs/v2_diagnostic_iteration_1_geometry_20260813_234641/checkpoint.pkl",
+    "size_bytes": 101524
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/pysr_runs/v2_diagnostic_iteration_1_geometry_20260813_234641/hall_of_fame.csv",
+    "size_bytes": 1029
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/pysr_runs/v2_diagnostic_iteration_1_geometry_20260813_234641/hall_of_fame.csv.bak",
+    "size_bytes": 1029
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/pysr_runs/v2_diagnostic_iteration_1_geometry_correction_20260814_001225/checkpoint.pkl",
+    "size_bytes": 51973
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/pysr_runs/v2_diagnostic_iteration_1_geometry_correction_20260814_001225/hall_of_fame.csv",
+    "size_bytes": 407
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/pysr_runs/v2_diagnostic_iteration_1_geometry_correction_20260814_001225/hall_of_fame.csv.bak",
+    "size_bytes": 407
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/pysr_runs/v2_diagnostic_iteration_1_physical_residual_20260814_000315/checkpoint.pkl",
+    "size_bytes": 52613
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/pysr_runs/v2_diagnostic_iteration_1_physical_residual_20260814_000315/hall_of_fame.csv",
+    "size_bytes": 1069
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/pysr_runs/v2_diagnostic_iteration_1_physical_residual_20260814_000315/hall_of_fame.csv.bak",
+    "size_bytes": 1069
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/sample_adequacy_case_metrics_all_iterations.csv",
+    "size_bytes": 8430
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/sample_adequacy_case_metrics_iteration_1.csv",
+    "size_bytes": 8430
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/sample_adequacy_summary_all_iterations.csv",
+    "size_bytes": 1360
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/sample_adequacy_summary_iteration_1.csv",
+    "size_bytes": 1360
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/selected_formula_case_metrics.csv",
+    "size_bytes": 81624
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/selected_hierarchical_formulas_by_iteration.csv",
+    "size_bytes": 2730
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/symbolic_search_timing.csv",
+    "size_bytes": 533
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/symbolic_split_metrics.csv",
+    "size_bytes": 1444
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v3_controlled/diagnostic_5000_per_case/symbolic_vs_best_baseline.csv",
+    "size_bytes": 3267
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/candidate_case_metrics_iteration_1.csv.gz",
+    "size_bytes": 44950
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/candidate_metrics_iteration_1.csv",
+    "size_bytes": 14301
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/development_context_domain_iteration_1.csv",
+    "size_bytes": 69383
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/direct_interaction_frontier_iteration_1.csv",
+    "size_bytes": 5058
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/discovery_5000_selection_audit.csv",
+    "size_bytes": 63118
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/discovery_manifest_iteration_1.csv.gz",
+    "size_bytes": 2022402
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/formula_structure_stability.csv",
+    "size_bytes": 4176
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/provisional_context_structure_for_review.csv",
+    "size_bytes": 4268
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/pysr_runs/v4_diagnostic_iteration_1_20260814_031626/checkpoint.pkl",
+    "size_bytes": 155386
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/pysr_runs/v4_diagnostic_iteration_1_20260814_031626/hall_of_fame.csv",
+    "size_bytes": 1659
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/pysr_runs/v4_diagnostic_iteration_1_20260814_031626/hall_of_fame.csv.bak",
+    "size_bytes": 1659
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/sample_context_control_case_metrics_all_iterations.csv",
+    "size_bytes": 16799
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/sample_context_control_case_metrics_iteration_1.csv",
+    "size_bytes": 16799
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/sample_context_control_summary_all_iterations.csv",
+    "size_bytes": 1949
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/sample_context_control_summary_iteration_1.csv",
+    "size_bytes": 1949
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/selected_context_formulas_by_iteration.csv",
+    "size_bytes": 4059
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/selected_formula_case_metrics.csv",
+    "size_bytes": 82268
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/symbolic_search_timing.csv",
+    "size_bytes": 386
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/symbolic_split_metrics.csv",
+    "size_bytes": 1453
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/symbolic_vs_best_baseline.csv",
+    "size_bytes": 3276
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/training_case_context_p95_iteration_1.csv",
+    "size_bytes": 7929
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/training_discovery_audit_iteration_1.csv",
+    "size_bytes": 18223
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/training_input_boundary_audit_iteration_1.csv",
+    "size_bytes": 71009
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/training_input_domain_iteration_1.csv",
+    "size_bytes": 1813
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/training_stress_tail_reference_iteration_1.csv",
+    "size_bytes": 637
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/validation_context_domain_all_iterations.csv",
+    "size_bytes": 70287
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/diagnostic_5000_per_case/validation_context_domain_iteration_1.csv",
+    "size_bytes": 7250
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/candidate_case_metrics_iteration_1.csv.gz",
+    "size_bytes": 41963
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/candidate_case_metrics_iteration_2.csv.gz",
+    "size_bytes": 42514
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/candidate_metrics_iteration_1.csv",
+    "size_bytes": 13592
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/candidate_metrics_iteration_2.csv",
+    "size_bytes": 13452
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/development_context_domain_iteration_1.csv",
+    "size_bytes": 69383
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/development_context_domain_iteration_2.csv",
+    "size_bytes": 69222
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/direct_interaction_frontier_iteration_1.csv",
+    "size_bytes": 5096
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/direct_interaction_frontier_iteration_2.csv",
+    "size_bytes": 4855
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/discovery_5000_selection_audit.csv",
+    "size_bytes": 63189
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/formula_structure_stability.csv",
+    "size_bytes": 6224
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/provisional_context_structure_for_review.csv",
+    "size_bytes": 4500
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260814_123406/checkpoint.pkl",
+    "size_bytes": 3145
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260814_123406/hall_of_fame.csv",
+    "size_bytes": 1745
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260814_123406/hall_of_fame.csv.bak",
+    "size_bytes": 1745
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260815_010244/checkpoint.pkl",
+    "size_bytes": 107566
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260815_010244/hall_of_fame.csv",
+    "size_bytes": 950
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260815_010244/hall_of_fame.csv.bak",
+    "size_bytes": 950
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260815_043513/checkpoint.pkl",
+    "size_bytes": 138576
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260815_043513/hall_of_fame.csv",
+    "size_bytes": 1323
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260815_043513/hall_of_fame.csv.bak",
+    "size_bytes": 1323
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260815_134312/checkpoint.pkl",
+    "size_bytes": 3159
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260815_134312/hall_of_fame.csv",
+    "size_bytes": 2147
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260815_134312/hall_of_fame.csv.bak",
+    "size_bytes": 2147
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260816_000459/checkpoint.pkl",
+    "size_bytes": 114186
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260816_000459/hall_of_fame.csv",
+    "size_bytes": 1696
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_1_20260816_000459/hall_of_fame.csv.bak",
+    "size_bytes": 1696
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_2_20260816_135305/checkpoint.pkl",
+    "size_bytes": 121571
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_2_20260816_135305/hall_of_fame.csv",
+    "size_bytes": 1619
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/pysr_runs/v4_formal_iteration_2_20260816_135305/hall_of_fame.csv.bak",
+    "size_bytes": 1619
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/round_complete_iteration_1.json",
+    "size_bytes": 337
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/round_complete_iteration_2.json",
+    "size_bytes": 337
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/round_status_iteration_1.json",
+    "size_bytes": 382
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/round_status_iteration_2.json",
+    "size_bytes": 383
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/sample_context_control_case_metrics_all_iterations.csv",
+    "size_bytes": 32388
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/sample_context_control_case_metrics_iteration_1.csv",
+    "size_bytes": 16799
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/sample_context_control_case_metrics_iteration_2.csv",
+    "size_bytes": 16616
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/sample_context_control_summary_all_iterations.csv",
+    "size_bytes": 3108
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/sample_context_control_summary_iteration_1.csv",
+    "size_bytes": 1949
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/sample_context_control_summary_iteration_2.csv",
+    "size_bytes": 1960
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/selected_context_formula_iteration_1.csv",
+    "size_bytes": 4266
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/selected_context_formula_iteration_2.csv",
+    "size_bytes": 3477
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/selected_context_formulas_by_iteration.csv",
+    "size_bytes": 6050
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/selected_formula_case_metrics.csv",
+    "size_bytes": 161577
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/selected_formula_case_metrics_iteration_1.csv",
+    "size_bytes": 82425
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/selected_formula_case_metrics_iteration_2.csv",
+    "size_bytes": 81995
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/symbolic_search_timing.csv",
+    "size_bytes": 635
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/symbolic_search_timing_iteration_1.csv",
+    "size_bytes": 474
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/symbolic_search_timing_iteration_2.csv",
+    "size_bytes": 474
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/symbolic_split_metrics.csv",
+    "size_bytes": 2502
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/symbolic_vs_best_baseline.csv",
+    "size_bytes": 5384
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/training_case_context_p95_iteration_1.csv",
+    "size_bytes": 7929
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/training_case_context_p95_iteration_2.csv",
+    "size_bytes": 7932
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/training_discovery_audit_iteration_1.csv",
+    "size_bytes": 18223
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/training_discovery_audit_iteration_2.csv",
+    "size_bytes": 18211
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/training_input_boundary_audit_iteration_1.csv",
+    "size_bytes": 71009
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/training_input_boundary_audit_iteration_2.csv",
+    "size_bytes": 70978
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/training_input_domain_iteration_1.csv",
+    "size_bytes": 1813
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/training_input_domain_iteration_2.csv",
+    "size_bytes": 1815
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/training_stress_tail_reference_iteration_1.csv",
+    "size_bytes": 637
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/training_stress_tail_reference_iteration_2.csv",
+    "size_bytes": 641
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/validation_context_domain_all_iterations.csv",
+    "size_bytes": 14492
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/validation_context_domain_iteration_1.csv",
+    "size_bytes": 7350
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/02_symbolic_search_v4_context_interaction/formal_5000_per_case/validation_context_domain_iteration_2.csv",
+    "size_bytes": 7323
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/03_constant_refit_149/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/04_final_test_once/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/06_hierarchical_symbolic_regression/iteration_1/pysr_runs/hierarchical_i1_shape_20260817_061209/checkpoint.pkl",
+    "size_bytes": 3565
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/06_hierarchical_symbolic_regression/iteration_1/pysr_runs/hierarchical_i1_shape_20260817_061209/hall_of_fame.csv",
+    "size_bytes": 2115
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/06_hierarchical_symbolic_regression/iteration_1/pysr_runs/hierarchical_i1_shape_20260817_061209/hall_of_fame.csv.bak",
+    "size_bytes": 2115
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/06_hierarchical_symbolic_regression/iteration_1/run_status.json",
+    "size_bytes": 1442
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/06_hierarchical_symbolic_regression/iteration_1/stage_status_shape.json",
+    "size_bytes": 310
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_1/frontier.csv",
+    "size_bytes": 1429
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_1/input_signature.json",
+    "size_bytes": 730
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_1/parent_watchdog_status.json",
+    "size_bytes": 235
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_1/pysr_runs/robust_i1_component_1_chunk_1/checkpoint.pkl",
+    "size_bytes": 3287
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_1/pysr_runs/robust_i1_component_1_chunk_1/hall_of_fame.csv",
+    "size_bytes": 181
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_1/pysr_runs/robust_i1_component_1_chunk_1/hall_of_fame.csv.bak",
+    "size_bytes": 181
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_1/worker_status.json",
+    "size_bytes": 258
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_1/worker_stderr.log",
+    "size_bytes": 61576
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_1/worker_stdout.log",
+    "size_bytes": 0
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_2/frontier.csv",
+    "size_bytes": 7773
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_2/input_signature.json",
+    "size_bytes": 730
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_2/parent_watchdog_status.json",
+    "size_bytes": 237
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_2/parent_worker_result.json",
+    "size_bytes": 240
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_2/pysr_runs/robust_i1_component_1_chunk_2/checkpoint.pkl",
+    "size_bytes": 40967
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_2/pysr_runs/robust_i1_component_1_chunk_2/hall_of_fame.csv",
+    "size_bytes": 1051
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_2/pysr_runs/robust_i1_component_1_chunk_2/hall_of_fame.csv.bak",
+    "size_bytes": 1051
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_2/worker_status.json",
+    "size_bytes": 136
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_2/worker_stderr.log",
+    "size_bytes": 517070
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/chunk_2/worker_stdout.log",
+    "size_bytes": 2565
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/merged_shortlisted_frontier.csv",
+    "size_bytes": 7973
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/scaling.csv",
+    "size_bytes": 984
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/component_1/training_residual_target.npy",
+    "size_bytes": 2380128
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/old_partial_shape_validation_audit.csv",
+    "size_bytes": 27824
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/old_partial_shape_validation_case_metrics.csv",
+    "size_bytes": 174114
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/preflight_checks.csv",
+    "size_bytes": 258
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/robust_feature_registry.csv",
+    "size_bytes": 2255
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/run_configuration.json",
+    "size_bytes": 581
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/run_status.json",
+    "size_bytes": 160
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/sleep_inhibitor.json",
+    "size_bytes": 95
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/training_cache/cache_metadata.json",
+    "size_bytes": 2799
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/training_cache/discovery_weights.npy",
+    "size_bytes": 2380128
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/training_cache/robust_feature_pool.npy",
+    "size_bytes": 54740128
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/training_cache/shape_target.npy",
+    "size_bytes": 2380128
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/training_cache/training_sample_audit.csv",
+    "size_bytes": 18126
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/07_robust_chunked_hierarchical_symbolic/iteration_1/training_cache/training_sample_manifest.csv.gz",
+    "size_bytes": 2022396
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/executed_notebooks/v9_residual_pilot_executed_job_18816913.ipynb",
+    "size_bytes": 111834
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/feature_registry.csv",
+    "size_bytes": 1366
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/fixed_v8_baseline_case_metrics.csv.gz",
+    "size_bytes": 8182
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/pilot_complete.json",
+    "size_bytes": 617
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/preflight_checks.csv",
+    "size_bytes": 281
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/residual_candidate_validation_metrics.csv",
+    "size_bytes": 31838
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/residual_frontier.csv",
+    "size_bytes": 22584
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/residual_full_validation_shortlist.csv",
+    "size_bytes": 22584
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/residual_learnability_case_metrics.csv.gz",
+    "size_bytes": 13660
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/residual_learnability_model_audit.csv",
+    "size_bytes": 1309
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/residual_learnability_split_metrics.csv",
+    "size_bytes": 1990
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/run_configuration.json",
+    "size_bytes": 555
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/run_status.json",
+    "size_bytes": 617
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_progress.json",
+    "size_bytes": 299
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_signature.json",
+    "size_bytes": 3150
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_state/pysr_runs/v9_i1_residual_shape_pilot/checkpoint.pkl",
+    "size_bytes": 91738
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_state/pysr_runs/v9_i1_residual_shape_pilot/hall_of_fame.csv",
+    "size_bytes": 2183
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_state/pysr_runs/v9_i1_residual_shape_pilot/hall_of_fame.csv.bak",
+    "size_bytes": 2183
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_state/stable_snapshots/segment_01/checkpoint.pkl",
+    "size_bytes": 98240
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_state/stable_snapshots/segment_01/hall_of_fame.csv",
+    "size_bytes": 1780
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_state/stable_snapshots/segment_02/checkpoint.pkl",
+    "size_bytes": 90222
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_state/stable_snapshots/segment_02/hall_of_fame.csv",
+    "size_bytes": 1830
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_state/stable_snapshots/segment_03/checkpoint.pkl",
+    "size_bytes": 87782
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_state/stable_snapshots/segment_03/hall_of_fame.csv",
+    "size_bytes": 1406
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_state/stable_snapshots/segment_04/checkpoint.pkl",
+    "size_bytes": 109844
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_state/stable_snapshots/segment_04/hall_of_fame.csv",
+    "size_bytes": 1752
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_state/stable_snapshots/segment_05/checkpoint.pkl",
+    "size_bytes": 91738
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/search_state/stable_snapshots/segment_05/hall_of_fame.csv",
+    "size_bytes": 2183
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segment_attempt_audit.csv",
+    "size_bytes": 614
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_01/attempt_1/frontier.csv",
+    "size_bytes": 15664
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_01/attempt_1/worker_status.json",
+    "size_bytes": 317
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_01/attempt_1/worker_stderr.log",
+    "size_bytes": 882932
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_01/attempt_1/worker_stdout.log",
+    "size_bytes": 3660
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_01/complete.json",
+    "size_bytes": 138
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_01/frontier.csv",
+    "size_bytes": 15721
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_01/watchdog_status.json",
+    "size_bytes": 191
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_02/attempt_1/frontier.csv",
+    "size_bytes": 18439
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_02/attempt_1/worker_status.json",
+    "size_bytes": 327
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_02/attempt_1/worker_stderr.log",
+    "size_bytes": 1349333
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_02/attempt_1/worker_stdout.log",
+    "size_bytes": 3752
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_02/complete.json",
+    "size_bytes": 138
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_02/frontier.csv",
+    "size_bytes": 18499
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_02/watchdog_status.json",
+    "size_bytes": 191
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_03/attempt_1/frontier.csv",
+    "size_bytes": 13648
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_03/attempt_1/worker_status.json",
+    "size_bytes": 327
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_03/attempt_1/worker_stderr.log",
+    "size_bytes": 1132933
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_03/attempt_1/worker_stdout.log",
+    "size_bytes": 3057
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_03/complete.json",
+    "size_bytes": 137
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_03/frontier.csv",
+    "size_bytes": 13707
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_03/watchdog_status.json",
+    "size_bytes": 192
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_04/attempt_1/frontier.csv",
+    "size_bytes": 18050
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_04/attempt_1/worker_status.json",
+    "size_bytes": 326
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_04/attempt_1/worker_stderr.log",
+    "size_bytes": 1143723
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_04/attempt_1/worker_stdout.log",
+    "size_bytes": 3601
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_04/complete.json",
+    "size_bytes": 138
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_04/frontier.csv",
+    "size_bytes": 18115
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_04/watchdog_status.json",
+    "size_bytes": 191
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_05/attempt_1/frontier.csv",
+    "size_bytes": 22098
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_05/attempt_1/worker_status.json",
+    "size_bytes": 326
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_05/attempt_1/worker_stderr.log",
+    "size_bytes": 1135432
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_05/attempt_1/worker_stdout.log",
+    "size_bytes": 4289
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_05/complete.json",
+    "size_bytes": 139
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_05/frontier.csv",
+    "size_bytes": 22165
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/segments/segment_05/watchdog_status.json",
+    "size_bytes": 192
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/selected_corrected_composite_formula.csv",
+    "size_bytes": 2301
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/selected_corrected_composite_formula.txt",
+    "size_bytes": 2730
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/selected_formula_case_metrics.csv.gz",
+    "size_bytes": 8175
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/selected_formula_split_metrics.csv",
+    "size_bytes": 1900
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/selected_formula_tail_adaptation.csv",
+    "size_bytes": 717
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/selected_residual_formula.csv",
+    "size_bytes": 4032
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/selected_v9_tail_adaptation.png",
+    "size_bytes": 96935
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/slurm-ct3-v9-pilot-18816913.err",
+    "size_bytes": 368
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/slurm-ct3-v9-pilot-18816913.out",
+    "size_bytes": 915
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/training_cache/cache_metadata.json",
+    "size_bytes": 3078
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/training_cache/residual_features.npy",
+    "size_bytes": 73780128
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/training_cache/residual_scaling.csv",
+    "size_bytes": 1982
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/training_cache/residual_target.npy",
+    "size_bytes": 2380128
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/training_cache/tier_mass_weights.npy",
+    "size_bytes": 2380128
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/training_cache/training_sample_audit.csv",
+    "size_bytes": 51838
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/training_cache/training_sample_manifest.csv.gz",
+    "size_bytes": 2020088
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/09_residual_shape_symbolic_pilot_csf3_job_18816913/v9_validation_model_comparison.png",
+    "size_bytes": 100170
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/11_tail_aware_localised_symbolic/iteration_1/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/12_v11_gain_stability_audit/iteration_1/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/13_v12_case_adaptive_tail_gain/iteration_1/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/14_one_time_final_50case_v11/iteration_1/final_evaluation_signature.json",
+    "size_bytes": 3679
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/14_one_time_final_50case_v11/iteration_1/frozen_artifact_hash_audit.csv",
+    "size_bytes": 2600
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/14_one_time_final_50case_v11/iteration_1/preflight_checks.csv",
+    "size_bytes": 478
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/15_v13_structural_tail_residual/iteration_1/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/16_v13_residual_gain_audit/iteration_1/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/17_v11_four_rotation_formal/iteration_1/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/17_v11_four_rotation_formal/iteration_2/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/17_v11_four_rotation_formal/iteration_3/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/17_v11_four_rotation_formal/iteration_4/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/18_149case_development_integration/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/18_149case_development_integration/formal_149case_integration/locked_model_formula_compact.md",
+    "size_bytes": 2909
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/18_149case_development_integration/formal_149case_integration/locked_model_formula_compact.txt",
+    "size_bytes": 981
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/19_one_time_final_50case_locked_149/.gitkeep",
+    "size_bytes": 1
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/20_case178_fem_vs_frozen_prediction/full_400360_element_export/README_case_178_export.txt",
+    "size_bytes": 886
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/20_case178_fem_vs_frozen_prediction/full_400360_element_export/case_178_FEM_field.csv.gz",
+    "size_bytes": 11945011
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/20_case178_fem_vs_frozen_prediction/full_400360_element_export/case_178_FEM_vs_prediction_full.csv.gz",
+    "size_bytes": 38308325
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/20_case178_fem_vs_frozen_prediction/full_400360_element_export/case_178_export_complete.json",
+    "size_bytes": 788
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/20_case178_fem_vs_frozen_prediction/full_400360_element_export/case_178_export_manifest.json",
+    "size_bytes": 5623
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/20_case178_fem_vs_frozen_prediction/full_400360_element_export/case_178_frozen_artifact_hash_audit.csv",
+    "size_bytes": 10087
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/20_case178_fem_vs_frozen_prediction/full_400360_element_export/case_178_frozen_primary_prediction_field.csv.gz",
+    "size_bytes": 12439455
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/20_case178_fem_vs_frozen_prediction/full_400360_element_export/case_178_metric_reproduction_audit.csv",
+    "size_bytes": 2049
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/20_case178_fem_vs_frozen_prediction/full_400360_element_export/case_178_primary_metrics.csv",
+    "size_bytes": 1319
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/20_case178_fem_vs_frozen_prediction/full_400360_element_export/case_178_selection_record.csv",
+    "size_bytes": 134
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/20_case178_fem_vs_frozen_prediction/full_400360_element_export/case_178_source_read_audit.csv",
+    "size_bytes": 330
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/.DS_Store",
+    "size_bytes": 6148
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/.DS_Store",
+    "size_bytes": 6148
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/case_178_median_FEM_field.csv",
+    "size_bytes": 32700126
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/case_178_median_FEM_vs_prediction_full.csv",
+    "size_bytes": 105728878
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/case_178_median_frozen_primary_prediction_field.csv",
+    "size_bytes": 32699331
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/case_31_worst_FEM_field.csv",
+    "size_bytes": 32789315
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/case_31_worst_FEM_vs_prediction_full.csv",
+    "size_bytes": 103974279
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/case_31_worst_frozen_primary_prediction_field.csv",
+    "size_bytes": 32670645
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/case_80_best_FEM_field.csv",
+    "size_bytes": 32734076
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/case_80_best_FEM_vs_prediction_full.csv",
+    "size_bytes": 104467694
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/case_80_best_frozen_primary_prediction_field.csv",
+    "size_bytes": 32746222
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/professor_submission/Original_FEM_Case_178.txt",
+    "size_bytes": 33914639
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/professor_submission/Original_FEM_Case_80.txt",
+    "size_bytes": 33900721
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/professor_submission/Predicted_Results_Case_178.csv",
+    "size_bytes": 34675674
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/professor_submission/Predicted_Results_Case_178.txt",
+    "size_bytes": 34675674
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/professor_submission/Predicted_Results_Case_80.csv",
+    "size_bytes": 34719160
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/professor_submission/Predicted_Results_Case_80.txt",
+    "size_bytes": 34719160
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/professor_submission/Prediction_Metrics_Cases_80_178.csv",
+    "size_bytes": 1954
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/professor_submission/Prediction_Metrics_Cases_80_178.txt",
+    "size_bytes": 1954
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/professor_submission/README_FOR_PROFESSOR.txt",
+    "size_bytes": 727
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/.DS_Store",
+    "size_bytes": 6148
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/final_professor_report/figures/01_final_model_metric_dashboard.png",
+    "size_bytes": 357865
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/final_professor_report/figures/02_final_case_rmse_r2_rankings.png",
+    "size_bytes": 207359
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/final_professor_report/figures/03_final_quantile_calibration.png",
+    "size_bytes": 540596
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/final_professor_report/figures/04_final_tail_hotspot_case_metrics.png",
+    "size_bytes": 277760
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/final_professor_report/figures/05_final_residual_diagnostics.png",
+    "size_bytes": 864113
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/final_professor_report/figures/06_development_to_final_comparison.png",
+    "size_bytes": 255585
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/final_professor_report/figures/07_best_case_spatial_stress_and_residual.png",
+    "size_bytes": 1264530
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/final_professor_report/figures/07_median_case_spatial_stress_and_residual.png",
+    "size_bytes": 1354009
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/final_professor_report/figures/07_worst_case_spatial_stress_and_residual.png",
+    "size_bytes": 1303209
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/final_professor_report/formula/locked_model_formula.txt",
+    "size_bytes": 15627
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/final_professor_report/result_report_cn.tex",
+    "size_bytes": 13096
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/final_professor_report/result_report_en.tex",
+    "size_bytes": 15261
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/final_professor_report_overleaf.zip",
+    "size_bytes": 6054270
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/thesis_figures/.DS_Store",
+    "size_bytes": 6148
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/thesis_figures/chapter2/figure_stress_reversal_agr_brick.pdf",
+    "size_bytes": 2776
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/thesis_figures/chapter2/figure_stress_reversal_agr_brick.png",
+    "size_bytes": 36735
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/thesis_figures/chapter2/figure_stress_reversal_agr_brick_figure3_style.png",
+    "size_bytes": 42835
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/thesis_figures/chapter2/figure_stress_reversal_agr_brick_octagonal.png",
+    "size_bytes": 62263
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/thesis_figures/chapter3/figure_3_1_research_design_workflow.pdf",
+    "size_bytes": 34968
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/reports/thesis_figures/chapter3/figure_3_1_research_design_workflow.png",
+    "size_bytes": 335824
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_context_interaction_v4.cpython-312.pyc",
+    "size_bytes": 85027
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_final_development_integration_notebook.cpython-312.pyc",
+    "size_bytes": 6503
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_formal_v11_four_rotation_notebooks.cpython-312.pyc",
+    "size_bytes": 9969
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_hierarchical_feasibility_v5.cpython-312.pyc",
+    "size_bytes": 8992
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_hierarchical_symbolic_notebooks.cpython-312.pyc",
+    "size_bytes": 12124
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_locked_149_final_test_notebook.cpython-312.pyc",
+    "size_bytes": 7719
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_one_time_final_v11_notebook.cpython-312.pyc",
+    "size_bytes": 6545
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_remaining_hierarchical_feasibility_notebooks.cpython-312.pyc",
+    "size_bytes": 3587
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_residual_shape_pilot_notebook.cpython-312.pyc",
+    "size_bytes": 10026
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_robust_iteration1_notebook.cpython-312.pyc",
+    "size_bytes": 12393
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_signed_staged_residual_pilot_notebook.cpython-312.pyc",
+    "size_bytes": 9745
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_symbolic_v2_copy.cpython-312.pyc",
+    "size_bytes": 70878
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_v11_gain_stability_audit_notebook.cpython-312.pyc",
+    "size_bytes": 8819
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_v11_iteration1_notebook.cpython-312.pyc",
+    "size_bytes": 8379
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_v12_case_adaptive_tail_gain_notebook.cpython-312.pyc",
+    "size_bytes": 9537
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_v13_residual_gain_audit_notebook.cpython-312.pyc",
+    "size_bytes": 7095
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/build_v13_structural_tail_residual_notebook.cpython-312.pyc",
+    "size_bytes": 8488
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/generate_chapter3_figures.cpython-312.pyc",
+    "size_bytes": 17391
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/run_recoverable_shape_segment.cpython-312.pyc",
+    "size_bytes": 9841
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/run_residual_shape_segment.cpython-312.pyc",
+    "size_bytes": 9611
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/run_robust_shape_chunk.cpython-312.pyc",
+    "size_bytes": 10689
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/run_signed_residual_stage_segment.cpython-312.pyc",
+    "size_bytes": 10561
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/run_symbolic_round_isolated.cpython-312.pyc",
+    "size_bytes": 19796
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/run_v11_tail_segment.cpython-312.pyc",
+    "size_bytes": 10635
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/run_v13_structural_residual_segment.cpython-312.pyc",
+    "size_bytes": 10613
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/validate_case178_fem_prediction_export.cpython-312.pyc",
+    "size_bytes": 6051
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/validate_final_development_integration.cpython-312.pyc",
+    "size_bytes": 8577
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/validate_formal_v11_four_rotation_package.cpython-312.pyc",
+    "size_bytes": 6925
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/validate_locked_149_final_test.cpython-312.pyc",
+    "size_bytes": 6234
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/validate_one_time_final_v11.cpython-312.pyc",
+    "size_bytes": 6528
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/validate_signed_staged_residual_package.cpython-312.pyc",
+    "size_bytes": 3277
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/validate_three_spatial_case_export.cpython-312.pyc",
+    "size_bytes": 5703
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/validate_v11_gain_stability_audit.cpython-312.pyc",
+    "size_bytes": 6293
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/validate_v11_iteration1_package.cpython-312.pyc",
+    "size_bytes": 3050
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/validate_v12_case_adaptive_tail_gain.cpython-312.pyc",
+    "size_bytes": 7398
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/validate_v13_residual_gain_audit.cpython-312.pyc",
+    "size_bytes": 5540
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/__pycache__/validate_v13_structural_tail_residual.cpython-312.pyc",
+    "size_bytes": 8111
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/build_context_interaction_v4.py",
+    "size_bytes": 84305
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/build_hierarchical_feasibility_v5.py",
+    "size_bytes": 8287
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/build_hierarchical_symbolic_notebooks.py",
+    "size_bytes": 10885
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/build_notebooks.py",
+    "size_bytes": 61658
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/build_one_time_final_v11_notebook.py",
+    "size_bytes": 5819
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/build_remaining_hierarchical_feasibility_notebooks.py",
+    "size_bytes": 2941
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/build_robust_iteration1_notebook.py",
+    "size_bytes": 11864
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/build_symbolic_v2_copy.py",
+    "size_bytes": 70215
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/generate_chapter2_stress_reversal_figure3_style.py",
+    "size_bytes": 4639
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/generate_chapter2_stress_reversal_octagonal_png.py",
+    "size_bytes": 4404
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/generate_chapter2_stress_reversal_schematic.py",
+    "size_bytes": 3808
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/run_robust_shape_chunk.py",
+    "size_bytes": 7865
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/run_symbolic_round_isolated.py",
+    "size_bytes": 16531
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/validate_case178_fem_prediction_export.py",
+    "size_bytes": 4078
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/validate_one_time_final_v11.py",
+    "size_bytes": 4421
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/scripts/validate_package.py",
+    "size_bytes": 3440
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/ct3_common.cpython-312.pyc",
+    "size_bytes": 46149
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/export_case178_fem_prediction.cpython-312.pyc",
+    "size_bytes": 27108
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/export_three_spatial_comparison_cases.cpython-312.pyc",
+    "size_bytes": 24435
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/final_development_integration.cpython-312.pyc",
+    "size_bytes": 53872
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/final_locked_149_evaluation.cpython-312.pyc",
+    "size_bytes": 68427
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/final_v11_evaluation.cpython-312.pyc",
+    "size_bytes": 36203
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/formal_v11_four_rotation.cpython-312.pyc",
+    "size_bytes": 13634
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/hierarchical_feasibility.cpython-312.pyc",
+    "size_bytes": 46526
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/hierarchical_symbolic_regression.cpython-312.pyc",
+    "size_bytes": 70121
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/recoverable_single_shape_symbolic.cpython-312.pyc",
+    "size_bytes": 43636
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/residual_shape_symbolic.cpython-312.pyc",
+    "size_bytes": 66650
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/robust_chunked_symbolic.cpython-312.pyc",
+    "size_bytes": 63418
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/signed_staged_residual_symbolic.cpython-312.pyc",
+    "size_bytes": 75878
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/v11_gain_stability_audit.cpython-312.pyc",
+    "size_bytes": 48028
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/v11_tail_aware_localised_symbolic.cpython-312.pyc",
+    "size_bytes": 73678
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/v12_case_adaptive_tail_gain.cpython-312.pyc",
+    "size_bytes": 75357
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/v13_residual_gain_audit.cpython-312.pyc",
+    "size_bytes": 46708
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/__pycache__/v13_structural_tail_residual.cpython-312.pyc",
+    "size_bytes": 77323
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/export_case178_fem_prediction.py",
+    "size_bytes": 22122
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/src/final_v11_evaluation.py",
+    "size_bytes": 28511
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/、/.DS_Store",
+    "size_bytes": 6148
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/、/scripts/build_v11_gain_stability_audit_notebook.py",
+    "size_bytes": 8013
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/、/scripts/validate_v11_gain_stability_audit.py",
+    "size_bytes": 3993
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/、/src/v11_gain_stability_audit.py",
+    "size_bytes": 41231
+  },
+  {
+    "source": "Nuclear_Graphite_Stress_Surrogate/项目开发接交与上下文总结.md",
+    "size_bytes": 55635
+  },
+  {
+    "source": "notebooks/FEM_Case_Data_Selection_and_Quality_Control.ipynb",
+    "size_bytes": 91861
+  },
+  {
+    "source": "notebooks/FEM_Case_Pair_Similarity_Review_119Cases.ipynb",
+    "size_bytes": 494774
+  },
+  {
+    "source": "notebooks/Four-Iteration_Full-Case_Baseline_Machine_Learning.ipynb",
+    "size_bytes": 455664
+  },
+  {
+    "source": "notebooks/Multi-Case_FEM_Parametric_and_Position_Sensitivity_Stability_Analysis.ipynb",
+    "size_bytes": 1179376
+  },
+  {
+    "source": "notebooks/Multi_Case_ML_Training_Time_Benchmark.ipynb",
+    "size_bytes": 42539
+  },
+  {
+    "source": "notebooks/Preliminary FEM mesh sensitivity and case data testing.ipynb",
+    "size_bytes": 62974
+  },
+  {
+    "source": "notebooks/Sensitivity Analysis of Parameter Locations for a Single-Instance FEM Case.ipynb",
+    "size_bytes": 735426
+  },
+  {
+    "source": "notebooks/Symbolic_Regression_199Cases.ipynb",
+    "size_bytes": 737608
+  },
+  {
+    "source": "notebooks/Symbolic_Regression_Prototype_21Cases.ipynb",
+    "size_bytes": 739825
+  },
+  {
+    "source": "notebooks/Symbolic_Regression_Prototype_21Cases_副本.ipynb",
+    "size_bytes": 739825
+  },
+  {
+    "source": "notebooks/Weekly Project Planning and Data Modeling Strategies.md",
+    "size_bytes": 14729
+  },
+  {
+    "source": "outputs/.DS_Store",
+    "size_bytes": 6148
+  },
+  {
+    "source": "outputs/case_data_selection_qc/case_diversity_pca.csv",
+    "size_bytes": 1881
+  },
+  {
+    "source": "outputs/case_data_selection_qc/case_diversity_pca.png",
+    "size_bytes": 84198
+  },
+  {
+    "source": "outputs/case_data_selection_qc/case_file_inventory.csv",
+    "size_bytes": 5700
+  },
+  {
+    "source": "outputs/case_data_selection_qc/case_level_coverage_lines.png",
+    "size_bytes": 347936
+  },
+  {
+    "source": "outputs/case_data_selection_qc/case_level_coverage_summary.csv",
+    "size_bytes": 2743
+  },
+  {
+    "source": "outputs/case_data_selection_qc/case_nearest_neighbor.csv",
+    "size_bytes": 1788
+  },
+  {
+    "source": "outputs/case_data_selection_qc/case_profile_features.csv",
+    "size_bytes": 102838
+  },
+  {
+    "source": "outputs/case_data_selection_qc/case_summary.csv",
+    "size_bytes": 33380
+  },
+  {
+    "source": "outputs/case_data_selection_qc/coordinate_consistency.csv",
+    "size_bytes": 1704
+  },
+  {
+    "source": "outputs/case_data_selection_qc/data_request_support_table.csv",
+    "size_bytes": 1471
+  },
+  {
+    "source": "outputs/case_data_selection_qc/effective_case_diversity_summary.csv",
+    "size_bytes": 263
+  },
+  {
+    "source": "outputs/case_data_selection_qc/element_distribution_sample.csv",
+    "size_bytes": 38911213
+  },
+  {
+    "source": "outputs/case_data_selection_qc/near_duplicate_candidates.csv",
+    "size_bytes": 932
+  },
+  {
+    "source": "outputs/case_data_selection_qc/pairwise_case_distance_heatmap.png",
+    "size_bytes": 107887
+  },
+  {
+    "source": "outputs/case_data_selection_qc/pairwise_case_similarity.csv",
+    "size_bytes": 17030
+  },
+  {
+    "source": "outputs/case_data_selection_qc/pairwise_spatial_block_statistics.csv",
+    "size_bytes": 180656
+  },
+  {
+    "source": "outputs/case_data_selection_qc/physical_limit_flags.csv",
+    "size_bytes": 125
+  },
+  {
+    "source": "outputs/case_data_selection_qc/soft_plausibility_flags.csv",
+    "size_bytes": 59
+  },
+  {
+    "source": "outputs/case_data_selection_qc/spatial_block_case_summary.csv",
+    "size_bytes": 422661
+  },
+  {
+    "source": "outputs/case_data_selection_qc/spatial_block_significance_screening_summary.csv",
+    "size_bytes": 289
+  },
+  {
+    "source": "outputs/case_data_selection_qc/spatial_block_significance_vs_practical_difference.png",
+    "size_bytes": 282582
+  },
+  {
+    "source": "outputs/case_data_selection_qc/spatial_block_structure_check.csv",
+    "size_bytes": 771
+  },
+  {
+    "source": "outputs/case_data_selection_qc/stress_case_pair_significance_and_practical_screen.csv",
+    "size_bytes": 101926
+  },
+  {
+    "source": "outputs/case_data_selection_qc/structure_quality_summary.csv",
+    "size_bytes": 197
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/bootstrap_candidate_pairs.csv",
+    "size_bytes": 795057
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/case_diversity_pca.csv",
+    "size_bytes": 10645
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/case_diversity_pca.png",
+    "size_bytes": 140074
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/case_file_inventory.csv",
+    "size_bytes": 32019
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/case_level_coverage_lines.png",
+    "size_bytes": 720200
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/case_level_coverage_summary.csv",
+    "size_bytes": 2764
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/case_load_failures.csv",
+    "size_bytes": 26
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/case_nearest_neighbor.csv",
+    "size_bytes": 9658
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/case_number_coverage.csv",
+    "size_bytes": 1006
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/case_profile_features.csv",
+    "size_bytes": 528166
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/case_summary.csv",
+    "size_bytes": 181109
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/coordinate_consistency.csv",
+    "size_bytes": 9435
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/data_request_support_table.csv",
+    "size_bytes": 1200
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/effective_case_diversity_summary.csv",
+    "size_bytes": 265
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/element_distribution_sample.csv",
+    "size_bytes": 221544020
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/near_duplicate_candidates.csv",
+    "size_bytes": 41475
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/pairwise_case_distance_heatmap.png",
+    "size_bytes": 209418
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/pairwise_case_similarity.csv",
+    "size_bytes": 576238
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/pairwise_spatial_block_statistics.csv",
+    "size_bytes": 5784689
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/physical_limit_flags.csv",
+    "size_bytes": 125
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/run_metadata.json",
+    "size_bytes": 376
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/soft_plausibility_flags.csv",
+    "size_bytes": 59
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/spatial_block_case_summary.csv",
+    "size_bytes": 2413586
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/spatial_block_eligibility.csv",
+    "size_bytes": 6262
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/spatial_block_significance_screening_summary.csv",
+    "size_bytes": 330
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/spatial_block_structure_check.csv",
+    "size_bytes": 3949
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/stress_case_pair_significance_and_practical_screen.csv",
+    "size_bytes": 3136508
+  },
+  {
+    "source": "outputs/case_data_selection_qc_all_cases_119/structure_quality_summary.csv",
+    "size_bytes": 262
+  },
+  {
+    "source": "outputs/case_pair_similarity_review_119/P1_both_input_views_near_17_pairs.csv",
+    "size_bytes": 5086
+  },
+  {
+    "source": "outputs/case_pair_similarity_review_119/P1_critical_tail_review_11_pairs.csv",
+    "size_bytes": 3440
+  },
+  {
+    "source": "outputs/case_pair_similarity_review_119/P1_navigation_components.csv",
+    "size_bytes": 1803
+  },
+  {
+    "source": "outputs/case_pair_similarity_review_119/P1_possible_local_redundancy_25_pairs.csv",
+    "size_bytes": 7284
+  },
+  {
+    "source": "outputs/case_pair_similarity_review_119/P1_strictest_professor_review_9_pairs.csv",
+    "size_bytes": 2879
+  },
+  {
+    "source": "outputs/case_pair_similarity_review_119/P1_stronger_candidates_p99_within_2pct_14_pairs.csv",
+    "size_bytes": 4252
+  },
+  {
+    "source": "outputs/case_pair_similarity_review_119/P2_close_inputs_close_but_detectable_stress.csv",
+    "size_bytes": 43588
+  },
+  {
+    "source": "outputs/case_pair_similarity_review_119/P3_close_inputs_materially_different_stress.csv",
+    "size_bytes": 89606
+  },
+  {
+    "source": "outputs/case_pair_similarity_review_119/P4_different_inputs_similar_stress_response.csv",
+    "size_bytes": 67489
+  },
+  {
+    "source": "outputs/case_pair_similarity_review_119/all_7021_case_pair_review.csv",
+    "size_bytes": 2925962
+  },
+  {
+    "source": "outputs/case_pair_similarity_review_119/case_pair_review_category_counts.png",
+    "size_bytes": 77269
+  },
+  {
+    "source": "outputs/case_pair_similarity_review_119/case_pair_review_category_summary.csv",
+    "size_bytes": 282
+  },
+  {
+    "source": "outputs/case_pair_similarity_review_119/input_similarity_vs_stress_difference.png",
+    "size_bytes": 581069
+  },
+  {
+    "source": "outputs/case_pair_similarity_review_119/professor_review_shortlist_50_pairs.csv",
+    "size_bytes": 17303
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/case_level_baseline_results.csv",
+    "size_bytes": 78
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/case_level_correlation_screen.csv",
+    "size_bytes": 47
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/case_level_summary.csv",
+    "size_bytes": 1847
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/critical_region_match_summary.csv",
+    "size_bytes": 61
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/data_file_inventory.csv",
+    "size_bytes": 135
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/element_level_group_split_metrics.csv",
+    "size_bytes": 239
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/element_level_permutation_importance_sigma_max_principal.csv",
+    "size_bytes": 871
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/element_level_stratified_sample.csv",
+    "size_bytes": 1145662
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/geometry_coordinate_diagnostics.csv",
+    "size_bytes": 921
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/loaded_data_column_report.csv",
+    "size_bytes": 550
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/mesh_comparison_against_reference.csv",
+    "size_bytes": 1
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/mesh_error_summary.csv",
+    "size_bytes": 101
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/mesh_recommendation.csv",
+    "size_bytes": 126
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/mesh_size_diagnostics.csv",
+    "size_bytes": 181
+  },
+  {
+    "source": "outputs/fem_mesh_sensitivity/symbolic_regression_case_level_table.csv",
+    "size_bytes": 425
+  },
+  {
+    "source": "outputs/four_iteration_full_case_baseline_ml/baseline_case_level_rmse_distribution.png",
+    "size_bytes": 95839
+  },
+  {
+    "source": "outputs/four_iteration_full_case_baseline_ml/baseline_case_metrics.csv",
+    "size_bytes": 111323
+  },
+  {
+    "source": "outputs/four_iteration_full_case_baseline_ml/baseline_four_iteration_stability.png",
+    "size_bytes": 162127
+  },
+  {
+    "source": "outputs/four_iteration_full_case_baseline_ml/baseline_model_parameters.csv",
+    "size_bytes": 1514
+  },
+  {
+    "source": "outputs/four_iteration_full_case_baseline_ml/baseline_split_metrics.csv",
+    "size_bytes": 9085
+  },
+  {
+    "source": "outputs/four_iteration_full_case_baseline_ml/baseline_stability_summary.csv",
+    "size_bytes": 8841
+  },
+  {
+    "source": "outputs/four_iteration_full_case_baseline_ml/baseline_validation_ranking.csv",
+    "size_bytes": 3740
+  },
+  {
+    "source": "outputs/four_iteration_full_case_baseline_ml/case_file_inventory.csv",
+    "size_bytes": 5700
+  },
+  {
+    "source": "outputs/four_iteration_full_case_baseline_ml/case_input_summary_for_splitting.csv",
+    "size_bytes": 6860
+  },
+  {
+    "source": "outputs/four_iteration_full_case_baseline_ml/full_data_read_audit.csv",
+    "size_bytes": 2487
+  },
+  {
+    "source": "outputs/four_iteration_full_case_baseline_ml/provisional_similarity_cross_split_audit.csv",
+    "size_bytes": 4120
+  },
+  {
+    "source": "outputs/four_iteration_full_case_baseline_ml/repeated_case_role_counts.csv",
+    "size_bytes": 333
+  },
+  {
+    "source": "outputs/four_iteration_full_case_baseline_ml/repeated_case_split_manifest.csv",
+    "size_bytes": 1780
+  },
+  {
+    "source": "outputs/four_iteration_full_case_baseline_ml/repeated_split_coverage_audit.csv",
+    "size_bytes": 4397
+  },
+  {
+    "source": "outputs/model_training_benchmark/training_time_benchmark_results.csv",
+    "size_bytes": 1327
+  },
+  {
+    "source": "outputs/model_training_benchmark/training_time_linear_extrapolation.csv",
+    "size_bytes": 790
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/binned_sensitivity_by_case.csv",
+    "size_bytes": 305379
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/case_file_inventory.csv",
+    "size_bytes": 5700
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/case_level_parameter_distribution_histograms.png",
+    "size_bytes": 147886
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/case_level_stress_distribution_histograms.png",
+    "size_bytes": 92093
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/case_level_summary_correlations.csv",
+    "size_bytes": 3253
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/case_summary.csv",
+    "size_bytes": 14579
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/case_validation.csv",
+    "size_bytes": 949
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/combined_case_level_rank_scores.csv",
+    "size_bytes": 37800
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/coordinate_consistency.csv",
+    "size_bytes": 1704
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/cross_case_combined_sensitivity_ranking.csv",
+    "size_bytes": 1472
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/cross_case_correlation_stability.csv",
+    "size_bytes": 2329
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/cross_case_high_stress_contrast_stability.csv",
+    "size_bytes": 2249
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/cross_case_high_stress_difference.png",
+    "size_bytes": 91736
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/cross_case_hotspot_fraction_rho_normalized.png",
+    "size_bytes": 86863
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/cross_case_hotspot_fraction_theta.png",
+    "size_bytes": 91261
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/cross_case_hotspot_fraction_z.png",
+    "size_bytes": 75326
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/cross_case_location_hotspot_stability.csv",
+    "size_bytes": 5848
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/cross_case_mean_abs_spearman.png",
+    "size_bytes": 86749
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/element_distribution_sample.csv",
+    "size_bytes": 26237421
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/element_distribution_sample_summary.csv",
+    "size_bytes": 13020
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/element_sample_boxplot_by_case_fluence_rate.png",
+    "size_bytes": 75721
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/element_sample_boxplot_by_case_rho_normalized.png",
+    "size_bytes": 73709
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/element_sample_boxplot_by_case_sigma_max_principal.png",
+    "size_bytes": 74841
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/element_sample_boxplot_by_case_temperature.png",
+    "size_bytes": 76261
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/element_sample_boxplot_by_case_theta.png",
+    "size_bytes": 68735
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/element_sample_boxplot_by_case_weight_loss_rate.png",
+    "size_bytes": 86976
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/element_sample_boxplot_by_case_z.png",
+    "size_bytes": 63873
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/element_sample_distribution_histograms.png",
+    "size_bytes": 270773
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/feature_correlations_by_case.csv",
+    "size_bytes": 33417
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/high_stress_contrast_by_case.csv",
+    "size_bytes": 52115
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/location_hotspot_fraction_by_case.csv",
+    "size_bytes": 103016
+  },
+  {
+    "source": "outputs/multi_case_sensitivity/stress_summary_by_case.png",
+    "size_bytes": 150348
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_binned_sensitivity.csv",
+    "size_bytes": 13671
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_binned_trend_fluence_rate.png",
+    "size_bytes": 83322
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_binned_trend_rho_normalized.png",
+    "size_bytes": 76151
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_binned_trend_summary.csv",
+    "size_bytes": 1477
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_binned_trend_temperature.png",
+    "size_bytes": 81755
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_binned_trend_weight_loss_rate.png",
+    "size_bytes": 77499
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_binned_trend_z.png",
+    "size_bytes": 66375
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_column_report.csv",
+    "size_bytes": 313
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_combined_sensitivity_ranking.csv",
+    "size_bytes": 2188
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_conditional_parameter_sensitivity.csv",
+    "size_bytes": 8484
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_conditional_parameter_sensitivity_summary.csv",
+    "size_bytes": 986
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_correlation_ranking.png",
+    "size_bytes": 80012
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_distribution_summary.csv",
+    "size_bytes": 2537
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_feature_stress_correlations.csv",
+    "size_bytes": 1508
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_geometry_diagnostics.csv",
+    "size_bytes": 913
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_high_stress_top1pct_contrast.csv",
+    "size_bytes": 2295
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_high_stress_top5pct_contrast.csv",
+    "size_bytes": 2301
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_location_hotspot_fraction.csv",
+    "size_bytes": 3205
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_location_sensitivity.csv",
+    "size_bytes": 4256
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_mesh_diagnostics.csv",
+    "size_bytes": 228
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_model_diagnostic_metrics.csv",
+    "size_bytes": 173
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_permutation_importance.csv",
+    "size_bytes": 535
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_stress_notes.csv",
+    "size_bytes": 223
+  },
+  {
+    "source": "outputs/single_case_sensitivity/single_case_xy_stress_scatter.png",
+    "size_bytes": 545344
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/locked_formula_before_final_test.csv",
+    "size_bytes": 911
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_equation_frontier_iteration_1.csv",
+    "size_bytes": 569
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_equation_frontier_iteration_2.csv",
+    "size_bytes": 268
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_equation_frontier_iteration_3.csv",
+    "size_bytes": 491
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_equation_frontier_iteration_4.csv",
+    "size_bytes": 217
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_runs/four_iteration_timing_pilot_iteration_1_20260812_151221/checkpoint.pkl",
+    "size_bytes": 22034
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_runs/four_iteration_timing_pilot_iteration_1_20260812_151221/hall_of_fame.csv",
+    "size_bytes": 459
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_runs/four_iteration_timing_pilot_iteration_1_20260812_151221/hall_of_fame.csv.bak",
+    "size_bytes": 459
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_runs/four_iteration_timing_pilot_iteration_2_20260812_152444/checkpoint.pkl",
+    "size_bytes": 18470
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_runs/four_iteration_timing_pilot_iteration_2_20260812_152444/hall_of_fame.csv",
+    "size_bytes": 199
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_runs/four_iteration_timing_pilot_iteration_2_20260812_152444/hall_of_fame.csv.bak",
+    "size_bytes": 199
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_runs/four_iteration_timing_pilot_iteration_3_20260812_153617/checkpoint.pkl",
+    "size_bytes": 19426
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_runs/four_iteration_timing_pilot_iteration_3_20260812_153617/hall_of_fame.csv",
+    "size_bytes": 383
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_runs/four_iteration_timing_pilot_iteration_3_20260812_153617/hall_of_fame.csv.bak",
+    "size_bytes": 383
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_runs/four_iteration_timing_pilot_iteration_4_20260812_154651/checkpoint.pkl",
+    "size_bytes": 19017
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_runs/four_iteration_timing_pilot_iteration_4_20260812_154651/hall_of_fame.csv",
+    "size_bytes": 151
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/pysr_runs/four_iteration_timing_pilot_iteration_4_20260812_154651/hall_of_fame.csv.bak",
+    "size_bytes": 151
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/repeated_case_split_manifest_199cases_superseded.csv",
+    "size_bytes": 25685
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/selected_symbolic_formulas.csv",
+    "size_bytes": 2426
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/symbolic_candidate_complexity_validation_rmse.png",
+    "size_bytes": 72894
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/symbolic_candidate_validation_metrics.csv",
+    "size_bytes": 4671
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/symbolic_case_file_inventory.csv",
+    "size_bytes": 53770
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/symbolic_case_metrics.csv",
+    "size_bytes": 314582
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/symbolic_lazy_read_plan.csv",
+    "size_bytes": 12488
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/symbolic_search_active_configuration.csv",
+    "size_bytes": 1093
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/symbolic_search_sample_audit.csv",
+    "size_bytes": 34863
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/symbolic_search_timing.csv",
+    "size_bytes": 1135
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/symbolic_selected_formula_stability.png",
+    "size_bytes": 106040
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/symbolic_split_metrics.csv",
+    "size_bytes": 4300
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/symbolic_stability_summary.csv",
+    "size_bytes": 2685
+  },
+  {
+    "source": "outputs/symbolic_regression_199_cases/symbolic_train_scaling_parameters.csv",
+    "size_bytes": 1607
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/case_15_symbolic_challenge_metrics.csv",
+    "size_bytes": 968
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/formula_evaluation_timing_lower_bound.csv",
+    "size_bytes": 812
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_equation_frontier_iteration_1.csv",
+    "size_bytes": 406
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_equation_frontier_iteration_2.csv",
+    "size_bytes": 493
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_equation_frontier_iteration_3.csv",
+    "size_bytes": 434
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_equation_frontier_iteration_4.csv",
+    "size_bytes": 413
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_prototype_iteration_1_20260720_145800/checkpoint.pkl",
+    "size_bytes": 50259
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_prototype_iteration_1_20260720_145800/hall_of_fame.csv",
+    "size_bytes": 299
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_prototype_iteration_1_20260720_145800/hall_of_fame.csv.bak",
+    "size_bytes": 299
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_prototype_iteration_2_20260720_152700/checkpoint.pkl",
+    "size_bytes": 43003
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_prototype_iteration_2_20260720_152700/hall_of_fame.csv",
+    "size_bytes": 363
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_prototype_iteration_2_20260720_152700/hall_of_fame.csv.bak",
+    "size_bytes": 363
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_prototype_iteration_3_20260720_155010/checkpoint.pkl",
+    "size_bytes": 40955
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_prototype_iteration_3_20260720_155010/hall_of_fame.csv",
+    "size_bytes": 327
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_prototype_iteration_3_20260720_155010/hall_of_fame.csv.bak",
+    "size_bytes": 327
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_prototype_iteration_4_20260720_161848/checkpoint.pkl",
+    "size_bytes": 50225
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_prototype_iteration_4_20260720_161848/hall_of_fame.csv",
+    "size_bytes": 306
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_prototype_iteration_4_20260720_161848/hall_of_fame.csv.bak",
+    "size_bytes": 306
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_timing_pilot_iteration_1_20260720_144343/checkpoint.pkl",
+    "size_bytes": 20879
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_timing_pilot_iteration_1_20260720_144343/hall_of_fame.csv",
+    "size_bytes": 353
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_timing_pilot_iteration_1_20260720_144343/hall_of_fame.csv.bak",
+    "size_bytes": 353
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_timing_pilot_iteration_2_20260720_144411/checkpoint.pkl",
+    "size_bytes": 16489
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_timing_pilot_iteration_2_20260720_144411/hall_of_fame.csv",
+    "size_bytes": 106
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_timing_pilot_iteration_2_20260720_144411/hall_of_fame.csv.bak",
+    "size_bytes": 106
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_timing_pilot_iteration_3_20260720_144420/checkpoint.pkl",
+    "size_bytes": 20456
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_timing_pilot_iteration_3_20260720_144420/hall_of_fame.csv",
+    "size_bytes": 222
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_timing_pilot_iteration_3_20260720_144420/hall_of_fame.csv.bak",
+    "size_bytes": 222
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_timing_pilot_iteration_4_20260720_144431/checkpoint.pkl",
+    "size_bytes": 18469
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_timing_pilot_iteration_4_20260720_144431/hall_of_fame.csv",
+    "size_bytes": 441
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/pysr_runs/four_iteration_timing_pilot_iteration_4_20260720_144431/hall_of_fame.csv.bak",
+    "size_bytes": 441
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/selected_symbolic_formulas.csv",
+    "size_bytes": 1943
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/symbolic_candidate_complexity_validation_rmse.png",
+    "size_bytes": 79548
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/symbolic_candidate_validation_metrics.csv",
+    "size_bytes": 5754
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/symbolic_case_file_inventory.csv",
+    "size_bytes": 2886
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/symbolic_case_metrics.csv",
+    "size_bytes": 45384
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/symbolic_framework_data_read_audit.csv",
+    "size_bytes": 2487
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/symbolic_reused_split_manifest.csv",
+    "size_bytes": 1780
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/symbolic_search_active_configuration.csv",
+    "size_bytes": 998
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/symbolic_search_timing.csv",
+    "size_bytes": 1045
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/symbolic_selected_formula_stability.png",
+    "size_bytes": 97524
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/symbolic_split_metrics.csv",
+    "size_bytes": 4246
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/symbolic_stability_summary.csv",
+    "size_bytes": 2742
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/symbolic_train_scaling_parameters.csv",
+    "size_bytes": 1612
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/symbolic_vs_hgb_macro_rmse.png",
+    "size_bytes": 63654
+  },
+  {
+    "source": "outputs/symbolic_regression_prototype_21cases/symbolic_vs_histgradientboosting.csv",
+    "size_bytes": 5999
+  },
+  {
+    "source": "scripts/__pycache__/create_case_data_selection_qc_notebook.cpython-312.pyc",
+    "size_bytes": 69452
+  },
+  {
+    "source": "scripts/__pycache__/create_four_iteration_full_case_baseline_ml_notebook.cpython-312.pyc",
+    "size_bytes": 52955
+  },
+  {
+    "source": "scripts/__pycache__/create_symbolic_regression_prototype_21cases_notebook.cpython-312.pyc",
+    "size_bytes": 66031
+  },
+  {
+    "source": "scripts/__pycache__/revise_chapter2_docx.cpython-312.pyc",
+    "size_bytes": 40841
+  },
+  {
+    "source": "scripts/create_case_data_selection_qc_notebook.py",
+    "size_bytes": 68862
+  },
+  {
+    "source": "scripts/create_case_pair_similarity_review_notebook.py",
+    "size_bytes": 27218
+  },
+  {
+    "source": "scripts/create_four_iteration_full_case_baseline_ml_notebook.py",
+    "size_bytes": 54247
+  },
+  {
+    "source": "scripts/create_model_training_time_benchmark_notebook.py",
+    "size_bytes": 12004
+  },
+  {
+    "source": "scripts/create_multi_case_sensitivity_notebook.py",
+    "size_bytes": 46039
+  },
+  {
+    "source": "scripts/create_single_case_sensitivity_notebook.py",
+    "size_bytes": 28237
+  },
+  {
+    "source": "scripts/create_symbolic_regression_prototype_21cases_notebook.py",
+    "size_bytes": 65052
+  },
+  {
+    "source": "scripts/revise_chapter2_docx.py",
+    "size_bytes": 38021
+  },
+  {
+    "source": "scripts/revise_chapter2_minimal_docx.py",
+    "size_bytes": 48051
+  }
+]

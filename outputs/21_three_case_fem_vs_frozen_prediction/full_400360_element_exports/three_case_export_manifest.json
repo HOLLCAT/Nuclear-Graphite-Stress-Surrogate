@@ -1,0 +1,150 @@
+{
+  "all_elements_exported": true,
+  "case_exports": [
+    {
+      "case_id": "case_80",
+      "case_number": 80,
+      "category": "best",
+      "files": [
+        {
+          "file": "case_80_best_FEM_field.csv.gz",
+          "sha256": "6918462a2ef982761dc35e95782091cb88e60a3c5732b27919fc333344c7c2b5",
+          "size_bytes": 11768501
+        },
+        {
+          "file": "case_80_best_frozen_primary_prediction_field.csv.gz",
+          "sha256": "42a1366fe87d39fe7aeed731daa0202af4d71c425849ec9c80b96773c3ca70f4",
+          "size_bytes": 12107911
+        },
+        {
+          "file": "case_80_best_FEM_vs_prediction_full.csv.gz",
+          "sha256": "8770879a441e5e95a1eca44aed1dcf459707802425138b34dba914b57c2a4d2e",
+          "size_bytes": 30866710
+        },
+        {
+          "file": "case_80_best_primary_metrics.csv",
+          "sha256": "62bb7c8b2576fd7a957e841c0d57d51139c43d647e60c8ca7764d7ab466d4813",
+          "size_bytes": 1292
+        },
+        {
+          "file": "case_80_best_metric_reproduction_audit.csv",
+          "sha256": "64df51b3ff50bc4caca3023c786e5b1e13a89c375260f84cf86cc345f99b31ee",
+          "size_bytes": 2142
+        },
+        {
+          "file": "case_80_best_source_read_audit.csv",
+          "sha256": "02557387297692e1570c670b580d26b884fd1d0c8d46a32f04c1d5e9aa79716e",
+          "size_bytes": 327
+        }
+      ],
+      "maximum_metric_reproduction_difference": 8.326672684688674e-17,
+      "source_case_file": "/net/scratch/j96317yn/NotebookCT3/FE_Results_Cases_All/FE_Results_Case_80.txt",
+      "source_case_sha256": "6ba6e42d5ba1d10dd72240d004a259639e550aa8e5e6de69219764d3eaf4bd8e"
+    },
+    {
+      "case_id": "case_178",
+      "case_number": 178,
+      "category": "median",
+      "files": [
+        {
+          "file": "case_178_median_FEM_field.csv.gz",
+          "sha256": "ae5afc5f9efe5960bfb2cc42779f7ce906b076f0eae5040324271bedecd7e583",
+          "size_bytes": 11945018
+        },
+        {
+          "file": "case_178_median_frozen_primary_prediction_field.csv.gz",
+          "sha256": "43e5faf26f07ab03681ec5a331db2062bf9295231a1350fac4bc7d3315f83ceb",
+          "size_bytes": 12439022
+        },
+        {
+          "file": "case_178_median_FEM_vs_prediction_full.csv.gz",
+          "sha256": "0c58a547c0dfab282f07b9d1b5356cce176958412a309099c50add41855323ae",
+          "size_bytes": 31239030
+        },
+        {
+          "file": "case_178_median_primary_metrics.csv",
+          "sha256": "cc808cf687d08c88dccebb145a9b0f6ed463e1d6fb224c1edff75c5356481e92",
+          "size_bytes": 1310
+        },
+        {
+          "file": "case_178_median_metric_reproduction_audit.csv",
+          "sha256": "55e1062cd7523d60e485122a04493d5cdb2be191648b108f412913de2b38e259",
+          "size_bytes": 2281
+        },
+        {
+          "file": "case_178_median_source_read_audit.csv",
+          "sha256": "36ca7e71d2debc75c83af38fd8ae40c7c48e9f0ace5fc83c9a35c9275ef747d7",
+          "size_bytes": 330
+        }
+      ],
+      "maximum_metric_reproduction_difference": 3.552713678800501e-15,
+      "source_case_file": "/net/scratch/j96317yn/NotebookCT3/FE_Results_Cases_All/FE_Results_Case_178.txt",
+      "source_case_sha256": "1b84ca7968b45eac2225eb759854acff1ed0b8e13330afdee05e83ed3a395bad"
+    },
+    {
+      "case_id": "case_31",
+      "case_number": 31,
+      "category": "worst",
+      "files": [
+        {
+          "file": "case_31_worst_FEM_field.csv.gz",
+          "sha256": "41b2ca26a6665195ed0fdfcb66a09c8486e90bab28b1647fedca322ec68876c1",
+          "size_bytes": 12104824
+        },
+        {
+          "file": "case_31_worst_frozen_primary_prediction_field.csv.gz",
+          "sha256": "5872da359812f444deb52325a01208cb8583c5d66bae1640b709f4c7fe1b1f6a",
+          "size_bytes": 12347481
+        },
+        {
+          "file": "case_31_worst_FEM_vs_prediction_full.csv.gz",
+          "sha256": "fc3c6c243371bfebbadb747092a33faca298ca0d67324935aacba23ce3184664",
+          "size_bytes": 30844439
+        },
+        {
+          "file": "case_31_worst_primary_metrics.csv",
+          "sha256": "1ee2dc672904509fef9d21fec7021af3e1d8eccaf928ea53e1ffc8db90e74897",
+          "size_bytes": 1268
+        },
+        {
+          "file": "case_31_worst_metric_reproduction_audit.csv",
+          "sha256": "65e029f909dd063f3a9960c517d4f3ecf083697554ac4bfc738d205761b64575",
+          "size_bytes": 2152
+        },
+        {
+          "file": "case_31_worst_source_read_audit.csv",
+          "sha256": "d5159de525333dc9e3704eb4458cae568d5391fd41a4a25fb7dda8b07440b378",
+          "size_bytes": 327
+        }
+      ],
+      "maximum_metric_reproduction_difference": 4.440892098500626e-16,
+      "source_case_file": "/net/scratch/j96317yn/NotebookCT3/FE_Results_Cases_All/FE_Results_Case_31.txt",
+      "source_case_sha256": "dd39cbd27f0ae18ba141f9bc1da39dff06fcc8eb7d9f5a293422565a2277196d"
+    }
+  ],
+  "constant_refitting_performed": false,
+  "coordinates": "exported post-deformation X, Y, Z",
+  "element_sampling_used": false,
+  "elements_per_case": 400360,
+  "final_evaluation_signature_sha256": "5139fe57e964f6d522e388431cd9821fb629a84bee9ff7ec085fdc7e0639f1a4",
+  "formal_model": "mean_calibrated_consensus",
+  "formula_selection_performed": false,
+  "gain_selection_performed": false,
+  "model_promotion_performed": false,
+  "model_role": "predeclared_primary",
+  "purpose": "best, median, and worst final-test spatial comparison for thesis and professor review",
+  "selected_cases": {
+    "best": "case_80",
+    "median": "case_178",
+    "worst": "case_31"
+  },
+  "selection_rule": "best, median, and worst per-case RMSE under the frozen primary model",
+  "selection_source": "formal final_spatial_case_selection.csv",
+  "summary_file": {
+    "file": "three_case_primary_metrics_summary.csv",
+    "sha256": "97a1b1f3b52a3b0effe4a8c9e425f936c3280f37140c055b642f8b6c98177029",
+    "size_bytes": 2658
+  },
+  "total_elements_exported": 1201080,
+  "training_performed": false
+}

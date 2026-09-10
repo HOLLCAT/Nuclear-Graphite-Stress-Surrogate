@@ -1,0 +1,10 @@
+{
+  "iteration": 3,
+  "output_subdir": "iteration_3",
+  "gain_min": 0.0,
+  "gain_max": 1.2,
+  "gain_step": 0.05,
+  "max_selectable_gain": 1.0,
+  "bootstrap_resamples": 20000,
+  "random_seed": 42
+}

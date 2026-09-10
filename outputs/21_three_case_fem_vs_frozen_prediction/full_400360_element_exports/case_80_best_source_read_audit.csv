@@ -1,0 +1,2 @@
+case_id,case_number,source_file,n_elements_read,element_id_unique,element_id_min,element_id_max,element_id_monotonic,coordinate_source,rho_xy_crosscheck_max_abs,theta_xy_crosscheck_max_abs_rad,model_missing_count,model_infinite_count
+case_80,80,FE_Results_Case_80.txt,400360,400360,0,400359,True,derived_from_exported_xy,,,0,0

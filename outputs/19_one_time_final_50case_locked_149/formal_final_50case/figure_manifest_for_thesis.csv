@@ -1,0 +1,10 @@
+figure,purpose,data_basis,suggested_thesis_section
+01_final_model_metric_dashboard.png,Primary/secondary final metric dashboard with preregistered project thresholds,all final elements,Results overview
+02_final_case_rmse_r2_rankings.png,Case-level stability and difficult-case ranking,all final elements,Generalisation stability
+03_final_quantile_calibration.png,"P95, P99 and maximum-stress calibration",all final elements,High-stress accuracy
+04_final_tail_hotspot_case_metrics.png,Per-case P99 error and hotspot overlap,all final elements,Tail and hotspot analysis
+05_final_residual_diagnostics.png,Global prediction and residual density,fixed uniform plot sample only,Residual diagnostics
+06_development_to_final_comparison.png,Development-to-final generalisation shift,all development/final metrics,Generalisation discussion
+07_best_case_spatial_stress_and_residual.png,Spatial FEM/prediction/residual comparison for the best primary-RMSE case,fixed uniform plot sample; case metrics use all elements,Spatial case study
+07_median_case_spatial_stress_and_residual.png,Spatial FEM/prediction/residual comparison for the median primary-RMSE case,fixed uniform plot sample; case metrics use all elements,Spatial case study
+07_worst_case_spatial_stress_and_residual.png,Spatial FEM/prediction/residual comparison for the worst primary-RMSE case,fixed uniform plot sample; case metrics use all elements,Spatial case study

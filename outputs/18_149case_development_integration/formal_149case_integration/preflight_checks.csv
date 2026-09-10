@@ -1,0 +1,7 @@
+check,value,expected,pass
+development_cases,149,149,True
+sealed_final_cases,50,50,True
+frozen_rotations,4,4,True
+constant_tail_rotations,1,1,True
+iteration_4_tail_is_constant,True,True,True
+final_test_element_files_read,0,0,True

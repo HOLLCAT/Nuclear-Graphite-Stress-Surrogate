@@ -1,0 +1,6 @@
+segment,attempt,resume_from_checkpoint,return_code,termination_reason,stalled,wall_timed_out,elapsed_seconds,checkpoint_exists_after,worker_frontier_exists,finished_at
+1,1,False,0,process_exit,False,False,600.4653809070587,True,True,2026-08-20T03:58:52+0100
+2,1,True,0,process_exit,False,False,540.1428935527802,True,True,2026-08-20T04:07:52+0100
+3,1,True,0,process_exit,False,False,660.1056432723999,True,True,2026-08-20T04:18:52+0100
+4,1,True,0,process_exit,False,False,600.1794049739838,True,True,2026-08-20T04:28:53+0100
+5,1,True,0,process_exit,False,False,600.1705234050751,True,True,2026-08-20T04:38:53+0100

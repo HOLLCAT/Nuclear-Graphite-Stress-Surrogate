@@ -1,0 +1,10 @@
+Complexity,Loss,Equation
+1,0.4026943,"z_max_scaled"
+3,0.36215353,"z_max_scaled * 0.7986354"
+5,0.20671618,"(z_max_scaled + temperature_p95_scaled) * 0.5365342"
+7,0.17048174,"z_max_scaled + ((temperature_p95_scaled - z_std_scaled) * 0.39010635)"
+9,0.11797821,"z_max_scaled + ((temperature_p95_scaled - (weight_loss_rate_mean_scaled + rho_std_scaled)) * 0.30950573)"
+11,0.1179782,"z_max_scaled + ((temperature_p95_scaled + (4.426908e-5 - (rho_std_scaled + weight_loss_rate_mean_scaled))) * 0.30950516)"
+13,0.08989143,"(((weight_loss_rate_mean_scaled - temperature_mean_scaled) * -0.27162313) + (z_max_scaled / 0.585649)) - rho_mean_scaled"
+15,0.076333374,"(z_max_scaled / 0.4641828) + ((((weight_loss_rate_mean_scaled - temperature_mean_scaled) * -0.1827885) - rho_mean_scaled) * 1.4608303)"
+17,0.06966773,"((((rho_mean_scaled - (z_mean_scaled / 0.8391813)) / -0.17414333) - theta_sin_std_scaled) - weight_loss_rate_mean_scaled) * 0.39461526"

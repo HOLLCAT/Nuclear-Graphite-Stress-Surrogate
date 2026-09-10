@@ -1,0 +1,20 @@
+{
+  "all_elements_exported": true,
+  "cases_exported": 3,
+  "completed_at_utc": "2026-08-29T12:50:00.276639+00:00",
+  "elapsed_seconds": 97.0746503751725,
+  "elements_per_case": 400360,
+  "final_evaluation_signature_sha256": "5139fe57e964f6d522e388431cd9821fb629a84bee9ff7ec085fdc7e0639f1a4",
+  "maximum_metric_reproduction_difference": 3.552713678800501e-15,
+  "model": "mean_calibrated_consensus",
+  "model_selection_performed": false,
+  "output_directory": "/net/scratch/j96317yn/NotebookCT3/outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports",
+  "selected_cases": {
+    "best": "case_80",
+    "median": "case_178",
+    "worst": "case_31"
+  },
+  "status": "complete",
+  "total_elements_exported": 1201080,
+  "training_performed": false
+}

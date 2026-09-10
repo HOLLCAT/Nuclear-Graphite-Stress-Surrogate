@@ -1,0 +1,40 @@
+{
+  "status": "complete",
+  "diagnostic_only": true,
+  "iteration": 2,
+  "random_seed": 42,
+  "rows_per_training_case": 5000,
+  "training_sample_rows": 595000,
+  "full_case_evaluation": true,
+  "final_test_read": false,
+  "decomposition": "stress = case_mean + (case_p95 - case_mean) * normalised_shape",
+  "selected_case_context_design": "physical_plus_geometry_context",
+  "selected_case_model": "RidgeCV",
+  "sample_assembly_seconds": 48.56982108298689,
+  "total_seconds": 246.57915845816024,
+  "output_directory": "/Users/novwin/Documents/University/University of Manchester/\u6bd5\u8bbe\u9879\u76ee/Nuclear graphite/NotebookCT3/outputs/05_hierarchical_feasibility_v5/iteration_2_pilot",
+  "decision_records": [
+    {
+      "split": "internal_test",
+      "oracle_macro_rmse_ratio_to_direct": 0.8674815248960704,
+      "deployable_macro_rmse_ratio_to_direct": 0.8816901309997748,
+      "oracle_p95_error_ratio_to_direct": 0.3450302623756301,
+      "deployable_p95_error_ratio_to_direct": 0.5644039728513077,
+      "oracle_p99_error_ratio_to_direct": 0.5676926441079609,
+      "deployable_p99_error_ratio_to_direct": 0.6544872181436963,
+      "oracle_shape_supported": true,
+      "deployable_hierarchy_supported": true
+    },
+    {
+      "split": "validation",
+      "oracle_macro_rmse_ratio_to_direct": 0.7876869827437454,
+      "deployable_macro_rmse_ratio_to_direct": 0.8188272830003646,
+      "oracle_p95_error_ratio_to_direct": 0.30311259095037324,
+      "deployable_p95_error_ratio_to_direct": 0.7048724128097891,
+      "oracle_p99_error_ratio_to_direct": 0.2547875427780438,
+      "deployable_p99_error_ratio_to_direct": 0.3545620404420062,
+      "oracle_shape_supported": true,
+      "deployable_hierarchy_supported": true
+    }
+  ]
+}

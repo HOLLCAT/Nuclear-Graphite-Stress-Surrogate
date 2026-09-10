@@ -1,0 +1,4 @@
+category,case_id,primary_rmse,figure,plot_rows
+best,case_80,0.9218358449728312,07_best_case_spatial_stress_and_residual.png,5000
+median,case_178,1.8449286875871276,07_median_case_spatial_stress_and_residual.png,5000
+worst,case_31,4.210844161518255,07_worst_case_spatial_stress_and_residual.png,5000

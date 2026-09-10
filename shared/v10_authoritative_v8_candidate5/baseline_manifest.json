@@ -1,0 +1,22 @@
+{
+  "baseline_id": "v8_iteration1_local_candidate5",
+  "purpose": "Authoritative frozen V8 baseline for the V10 signed staged residual pilot",
+  "selected_shape_candidate": 5,
+  "validation_macro_rmse": 2.3473270754421445,
+  "validation_macro_r2": 0.18037258580564688,
+  "validation_mean_p95_relative_error": 0.1285918954922692,
+  "validation_mean_p99_relative_error": 0.21480086272996382,
+  "final_test_cases_read": 0,
+  "source": "NotebookCT3/outputs/08_recoverable_16000_single_formula/iteration_1",
+  "files_sha256": {
+    "case_log_scale_scaling.csv": "84d3833edb8e6928212524cc0018e795e382977dd2aece357a4b7bfef1a6e19b",
+    "case_mean_scaling.csv": "a903959dba57a356f7ccc912fb53c5ab1c95239cdfcd6a9ed7c1f715521ebf64",
+    "round_complete.json": "2748a84e5f0903d3f3b31d8c8f300c7e1fdcbe5053ecf726822e92f9a22eef17",
+    "selected_case_log_scale_formula.csv": "c031e909dfd7db9c4dc090a39e46e4bb90c5edfc044e4651cb797ebbf48cbe3f",
+    "selected_case_mean_formula.csv": "067bbb98688fec66f8f0780073d3e3fe21e4d4ed9e0e11e2ff7ea290b47a26f1",
+    "selected_composite_formula.txt": "98572e36344e0562312df14458539127946a9c5d7c209551865809b09fe0e917",
+    "selected_formula_split_metrics.csv": "100bbdaff1692270d7b2898c541cfb9eeae60a2f8c5db0fc94248fe9d901f67c",
+    "selected_shape_formula.csv": "42ba93fd8b62f6d564d1d04868752da0994748a5d49367e758df0d88f567ede9",
+    "training_cache/shape_scaling.csv": "3e2f99f7dce3debd40ec9f8343ea6dde8245eaad2fbf1eb546e9676391fddee8"
+  }
+}

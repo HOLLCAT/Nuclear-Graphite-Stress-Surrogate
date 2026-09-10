@@ -1,0 +1,10 @@
+check,value,expected,pass
+training_cases,119,119,True
+validation_cases,15,15,True
+internal_test_cases,15,15,True
+sealed_final_cases,50,50,True
+parent_v11_complete,complete,complete,True
+parent_final_cases_read,0,0,True
+selected_candidate_match,0,0,True
+gain_grid_values,25,25,True
+gain_one_selectable,True,True,True

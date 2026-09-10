@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "iteration": 1,
+  "prototype_only": true,
+  "formula_shape_components": 1,
+  "train_cases": 119,
+  "validation_cases": 15,
+  "internal_test_cases": 15,
+  "final_test_cases_read": 0,
+  "training_rows": 595000,
+  "planned_population_iterations": 16000,
+  "completed_segments": 20,
+  "selected_shape_candidate": 5,
+  "selection_pool_status": "prototype_engineering_gates_diagnostic_only",
+  "elapsed_seconds": 26406.850400924683,
+  "output_directory": "/Users/novwin/Documents/University/University of Manchester/\u6bd5\u8bbe\u9879\u76ee/Nuclear graphite/NotebookCT3/outputs/08_recoverable_16000_single_formula/iteration_1"
+}

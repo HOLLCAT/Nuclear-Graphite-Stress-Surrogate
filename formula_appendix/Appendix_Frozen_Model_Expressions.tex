@@ -1,0 +1,274 @@
+% Insert after the existing feature-registry appendix. Do not repeat \appendix.
+% Required package: amsmath. The unnumbered internal headings do not extend the ToC.
+\clearpage
+\section{Frozen Model Expressions and Numerical Parameters}
+\label{app:frozen_model_expressions}
+
+This appendix gives the expressions retained in the two frozen model roles. The expressions were taken from the frozen model exports. Input and target scaling are already included in their coefficients. They are therefore evaluated using the original exported input values and the derived variables defined below. No coefficients were refitted for this presentation.
+
+The primary model is
+\begin{equation}
+\begin{aligned}
+\widehat{\sigma}^{\mathrm{primary}}_{c,e}
+&=\widehat{\mu}_{c}+\Delta\widehat{\mu}_{c}\\
+&\quad+\exp(\widehat{\lambda}_{c})
+\left[g_{\mathrm{base},c,e}+\frac14\sum_{r=1}^{4}
+\left(r^{(r)}_{\mathrm{geo},c,e}+r^{(r)}_{\mathrm{phys},c,e}\right)\right].
+\end{aligned}
+\label{eq:appendix_frozen_primary}
+\end{equation}
+
+The final case-mean correction was fitted by RidgeCV. Its selected regularisation parameter was $\alpha=100$. This correction is not a PySR expression. The other components in Equation~\ref{eq:appendix_frozen_primary} are the frozen symbolic-regression expressions.
+
+The secondary research-only model is
+\begin{equation}
+\widehat{\sigma}^{\mathrm{secondary}}_{c,e}
+=\widehat{\sigma}^{\mathrm{primary}}_{c,e}
++\frac{\exp(\widehat{\lambda}_{c})}{3}
+\sum_{r=1}^{3}\left(h^{(r)}_{c,e}-\overline{h}^{(r)}_c\right),
+\qquad
+\overline{h}^{(r)}_c=\frac1{n_c}\sum_{e=1}^{n_c}h^{(r)}_{c,e}.
+\label{eq:appendix_frozen_secondary}
+\end{equation}
+
+The fitted all-development gain was 1.0. Rotations 1, 2 and 3 contributed to the tail consensus. The fourth local expression was the constant 0.3011451373613095. Its centred correction was zero and it was excluded. The secondary correction is not part of the primary model.
+
+Case and element subscripts are omitted from the component expressions below to keep them readable. Bars denote complete-case means. A subscript 95 denotes the case-level 95th percentile. The quantities $s_W$ and $s_{\sin\theta}$ are case-level standard deviations, not the predicted stress scale. The symbols $\rho$, $z$ and $\cos\theta$ denote element-level spatial inputs.
+
+For $q\in\{\rho,z,\theta\}$, the case-relative proxies are
+\begin{equation}
+u_q=\operatorname{clip}_{[0,1]}
+\left(\frac{q-q_{\min}}{\max(q_{\max}-q_{\min},10^{-8})}\right),
+\qquad d_q=\min(u_q,1-u_q),\qquad p_q=2u_q-1.
+\end{equation}
+The remaining abbreviations are
+\begin{equation}
+k_{\rho z}=p_\rho p_z,
+\qquad b=d_\rho d_z d_\theta,
+\qquad z^{*}=\frac{z-\overline z}{\max(s_z,10^{-8})}.
+\end{equation}
+All ranges and summaries in these definitions come from the complete predictor fields. The quantities $d_q$ are range-based boundary proxies. They are not verified distances to named physical surfaces.
+
+The exported numerical coefficients are retained below. They are tied to the FE export units and the stated feature definitions. The stress mean, final mean correction and predicted scale have stress units. The shape and residual terms are dimensionless. Changing input units without transforming the coefficients would change the predictions. The formulas remain empirical approximations to the reference FE model, not graphite constitutive laws.
+
+\begingroup
+\small
+\allowdisplaybreaks[1]
+
+\subsection*{Common case-mean expression}
+The auxiliary terms below apply only to this expression.
+\begin{align*}
+a_{1} &= \left|{4.60760803334225 F_{95} - 20.3572633494299}\right| \\
+\widehat{\mu} &= - 0.0116301024532845 \overline{T} \\
+&\quad + 0.0470427355318997 T_{95} \\
+&\quad - 3.16087946558646 \overline{W} \\
+&\quad + 0.103449215368151 z_{\max} \\
+&\quad - 0.870195660324862 a_{1} \\
+&\quad - 100.195330145459
+\end{align*}
+% Frozen source: common_mean
+
+\subsection*{Common logarithmic stress scale}
+\begin{align*}
+\widehat{\lambda} &= - 1.47091131932291 \overline{\rho} \\
+&\quad - 1011.41670822700 s_{\sin\theta} \\
+&\quad - 1.16907705568610 \overline{W} \\
+&\quad + 0.904578545888617 \overline{z} \\
+&\quad + 9.23869712445276
+\end{align*}
+% Frozen source: common_log_scale
+
+\subsection*{Common spatial-shape expression}
+The auxiliary terms below apply only to this expression.
+\begin{align*}
+a_{1} &= 0.556735750000000 \left(0.0509611749551904 \rho - 9.32241465638866\right) \left(0.0509611749551904 \rho - 8.66867535638866\right) \\
+a_{2} &= 31.9731949759449 \left(\cos\theta - 0.922666019258146\right)^{2} \\
+a_{3} &= \left|{0.0509611749551904 \rho - 8.59575422638866}\right| \\
+a_{4} &= 1.10317833861391 \left(a_{1} - a_{2}\right) \left(a_{3} - 2.42016840000000\right) \\
+g_{\mathrm{base}} &= a_{4} \\
+&\quad + 0.285739561816426
+\end{align*}
+% Frozen source: common_shape
+
+\subsection*{Rotation 1: geometry residual}
+The auxiliary terms below apply only to this expression.
+\begin{align*}
+a_{1} &= - 7.28799975835273 d_\rho \\
+&\quad + 0.0517386902634747 \rho \\
+&\quad - 6.047025771972898 \\
+a_{2} &= 0.17657582192765694 \left(6.35594672825620 d_z - 1.50570424883607\right) a_{1} \\
+a_{3} &= \left(6.35594672825620 d_z - 0.043846887113135693\right)^{2} \\
+a_{4} &= e^{- 9.5925971595468041 a_{3}} \\
+r_{\mathrm{geo}}^{(1)} &= 0.0005298607274781943 z \\
+&\quad + a_{2} \\
+&\quad - 0.24332347927944745 \\
+&\quad + 0.793705512144892 a_{4}
+\end{align*}
+% Frozen source: geo_1
+
+\subsection*{Rotation 1: physical residual}
+The auxiliary terms below apply only to this expression.
+\begin{align*}
+a_{1} &= 3.752650699651312 d_\theta \\
+&\quad + 7.28799975835273 d_\rho \\
+&\quad - 3.560078810528026 \\
+&\quad + 0.2777422381074965 \\
+a_{2} &= - 7.28799975835273 d_\rho \\
+&\quad + 2.40848321928096 p_\rho \\
+&\quad + 2.08439162588874 \\
+a_{3} &= - 0.44608657163711589 \overline{F} \\
+&\quad - 1.291571739959816 d_\theta \\
+&\quad + 0.66354475675260838 u_\theta \\
+&\quad + 0.14984744098602391 \left|{a_{2}}\right| \\
+&\quad - 0.07467188916362873 \\
+&\quad + 1.6933224087437673 \\
+r_{\mathrm{phys}}^{(1)} &= 0.687707530043104 a_{1} a_{3} \\
+&\quad + 0.0275995197448158
+\end{align*}
+% Frozen source: phys_1
+
+\subsection*{Rotation 2: geometry residual}
+The auxiliary terms below apply only to this expression.
+\begin{align*}
+a_{1} &= \left(4.12918244017469 k_{\rho z} - 0.0672749794120767\right)^{2} \\
+a_{2} &= \left(3.27700476145386 u_z - 1.74794266617586\right)^{2} \\
+a_{3} &= 43.6667583874302 b \\
+&\quad + 2.41221284098931 p_\rho \\
+&\quad - 1.33262514125946 \\
+a_{4} &= - 0.25957527828470824 a_{2} a_{3} \\
+r_{\mathrm{geo}}^{(2)} &= 0.013448561903935085 \rho \\
+&\quad + 0.47728387820325316 u_z \\
+&\quad - 0.14564637922329544 a_{1} \\
+&\quad + a_{4} \\
+&\quad - 2.5544146883819192
+\end{align*}
+% Frozen source: geo_2
+
+\subsection*{Rotation 2: physical residual}
+The auxiliary terms below apply only to this expression.
+\begin{align*}
+a_{1} &= \left(15.6006536140747 \cos\theta - 14.4099430342809\right)^{2} \\
+a_{2} &= - 3.21657514159445 d_z \\
+&\quad + 7.28302970000392 d_\rho \\
+&\quad + 0.74873754155936657 a_{1} \\
+&\quad - 1.64538465194802 \\
+a_{3} &= \left(7.28302970000392 d_\rho - 1.692628259533093\right)^{2} \\
+a_{4} &= - 0.30554813835799807 a_{2} e^{- a_{3}} \\
+r_{\mathrm{phys}}^{(2)} &= a_{4} \\
+&\quad + 0.0182360501390777
+\end{align*}
+% Frozen source: phys_2
+
+\subsection*{Rotation 3: geometry residual}
+The auxiliary terms below apply only to this expression.
+\begin{align*}
+a_{1} &= \left(6.34896758686985 d_z - 1.50273900081816\right) \left(4.979166764659604 d_\rho - 0.7555397874783048\right) \\
+a_{2} &= - 7.28718952316989 d_\rho \\
+&\quad + 4.82379391683032 u_\rho \\
+&\quad + a_{1} \\
+&\quad - 0.332388516946320 \\
+a_{3} &= 0.2037571042198979 \left(6.34896758686985 d_z - 1.50273900081816\right) a_{2} \\
+a_{4} &= \tanh{\left(0.953329938170801 z^{*} - 0.107660433093972 \right)} \\
+r_{\mathrm{geo}}^{(3)} &= a_{3} \\
+&\quad + 0.2037571042198979 a_{4} \\
+&\quad - 0.05430264797518295
+\end{align*}
+% Frozen source: geo_3
+
+\subsection*{Rotation 3: physical residual}
+The auxiliary terms below apply only to this expression.
+\begin{align*}
+a_{1} &= - 0.1031611420170622 \left(2.88495936431966 \overline{F} - 10.3023995474472\right) \left(7.28718952316989 d_\rho - 2.40757030907997\right) \\
+r_{\mathrm{phys}}^{(3)} &= a_{1} \\
+&\quad + 0.0171984021271988
+\end{align*}
+% Frozen source: phys_3
+
+\subsection*{Rotation 4: geometry residual}
+The auxiliary terms below apply only to this expression.
+\begin{align*}
+a_{1} &= \left(6.35717263336409 d_z - 1.50609073609435\right) \left(7.24597631064690 d_\rho - 2.38325249598573\right) \\
+a_{2} &= - 7.0761696316530864 d_z \\
+&\quad + 7.24597631064690 d_\rho \\
+&\quad - 0.069780171113859076 \rho \\
+&\quad - a_{1} \\
+&\quad + 12.075351442964397 \\
+a_{3} &= 0.1622288885733871 \left(6.35717263336409 d_z - 1.50609073609435\right) a_{2} \\
+a_{4} &= 7.94873136269381 d_\theta \\
+&\quad + 7.24597631064690 d_\rho \\
+&\quad - 2.21701884243319 p_\theta \\
+&\quad - 4.509683458131166 \\
+a_{5} &= - 0.1622288885733871 \left|{a_{4}}\right| \\
+r_{\mathrm{geo}}^{(4)} &= 0.26613534581272986 p_z \\
+&\quad - a_{3} \\
+&\quad + a_{5} \\
+&\quad + 0.13991710730167015
+\end{align*}
+% Frozen source: geo_4
+
+\subsection*{Rotation 4: physical residual}
+The auxiliary terms below apply only to this expression.
+\begin{align*}
+a_{1} &= \left(43.8269768280090 b - 1.00232009854836\right) \left(2.40096813285283 p_\rho + 0.381717477146586\right) \\
+a_{2} &= 2.63391439710955 \overline{F} \\
+&\quad + a_{1} \\
+&\quad - 9.50597278012606 \\
+a_{3} &= - 0.10412130908674733 \left(7.24597631064690 d_\rho - 2.38325249598573\right) a_{2} \\
+r_{\mathrm{phys}}^{(4)} &= a_{3} \\
+&\quad + 0.0296437391158275
+\end{align*}
+% Frozen source: phys_4
+
+\subsection*{Final case-mean correction}
+\begin{align*}
+\Delta\widehat{\mu} &= 0.2268228967706677 \\
+&\quad - 0.05934540474157227 \overline{F} \\
+&\quad - 0.06916670716381103 F_{95} \\
+&\quad - 0.0001424365280890297 \overline{T} \\
+&\quad - 0.001154704691824341 T_{95} \\
+&\quad + 0.1042784929421962 \overline{W} \\
+&\quad + 5.748350348925075 s_W
+\end{align*}
+% Frozen source: final_mean_correction
+
+\subsection*{Active local expression: rotation 1}
+The auxiliary terms below apply only to this expression.
+\begin{align*}
+a_{1} &= \left(0.3382200152451777 - 2.08887119255503 p_\theta\right)^{2} \\
+a_{2} &= e^{- 92.749309109240237 a_{1}} \\
+a_{3} &= \left|{7.38407920683658 d_\rho - 2.57458268534255}\right| \\
+a_{4} &= 7.38407920683658 d_\rho \\
+&\quad + a_{3} \\
+&\quad - 2.57458268534255 \\
+a_{5} &= 1.2093601333202474 \left(-0.16122678679851166 + a_{2}\right) \left(7.68957066477673 d_\theta - 2.27807624632193\right) a_{4} \\
+h^{(1)} &= a_{5} \\
+&\quad + 0.19743823997123105
+\end{align*}
+% Frozen source: tail_1
+
+\subsection*{Active local expression: rotation 2}
+The auxiliary terms below apply only to this expression.
+\begin{align*}
+a_{1} &= \frac{1}{3.416326193660334 - 7.38936236032781 d_\rho} \\
+a_{2} &= \tanh{\left(0.5353280385268686 - 0.1308541133824969 a_{1} \right)} \\
+h^{(2)} &= - 0.7395130863147979 d_\theta \\
+&\quad - 0.5659502749777386 a_{2} \\
+&\quad + 0.7048825072967699
+\end{align*}
+% Frozen source: tail_2
+
+\subsection*{Active local expression: rotation 3}
+The auxiliary terms below apply only to this expression.
+\begin{align*}
+a_{1} &= \tanh{\left(17.18609187709957 d_\rho - 6.015348714070041 \right)} \\
+a_{2} &= \left(2.09089288702877 p_\theta + 0.137695505370236\right) a_{1} \\
+a_{3} &= - 7.71320426068593 d_\theta \\
+&\quad - a_{2} \\
+&\quad + 1.40911851509649 \\
+a_{4} &= - 0.14658512288138305 \left(2.09089288702877 p_\theta + 0.137695505370236\right) a_{3} \\
+h^{(3)} &= a_{4} \\
+&\quad + 0.25775031369935591
+\end{align*}
+% Frozen source: tail_3
+
+\endgroup

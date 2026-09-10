@@ -1,0 +1,20 @@
+{
+  "completed_segments": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "contiguous_completed_segments": 10,
+  "total_segments": 10,
+  "planned_population_iterations_completed": 8000,
+  "target_population_iterations": 8000,
+  "planned_progress_fraction": 1.0,
+  "updated_at": "2026-08-19T15:21:31+0100"
+}

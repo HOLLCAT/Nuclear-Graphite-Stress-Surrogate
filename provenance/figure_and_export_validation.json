@@ -1,0 +1,7 @@
+{
+  "audit_kind": "delivery_provenance_check_not_new_research",
+  "png_generator_matches": 65,
+  "original_export_hashes_checked": 18,
+  "export_source_case_hashes_checked": 3,
+  "status": "passed"
+}

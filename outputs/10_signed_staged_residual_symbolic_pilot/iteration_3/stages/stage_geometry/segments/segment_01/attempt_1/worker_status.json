@@ -1,0 +1,10 @@
+{
+  "status": "complete",
+  "stage": "geometry",
+  "segment": 1,
+  "attempt": 1,
+  "mode": "fresh_search",
+  "n_candidates": 12,
+  "elapsed_seconds": 531.4421761035919,
+  "checkpoint": "/net/scratch/j96317yn/NotebookCT3/outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/search_state/pysr_runs/v10_i3_geometry_signed_residual_pilot/checkpoint.pkl"
+}

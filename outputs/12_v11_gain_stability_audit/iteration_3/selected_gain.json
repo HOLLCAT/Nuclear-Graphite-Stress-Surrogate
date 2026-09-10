@@ -1,0 +1,9 @@
+{
+  "selected_gain": 0.95,
+  "selection_pool_status": "finite_positive_r2_and_improves_v10",
+  "promotion_status": "diagnostic_only_does_not_pass_all_v11_pilot_gates",
+  "all_v11_promotion_gates_pass": false,
+  "validation_only_selection": true,
+  "gains_above_one_selectable": false,
+  "final_test_cases_read": 0
+}

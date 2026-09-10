@@ -1,0 +1,9 @@
+{
+  "segment": 5,
+  "attempt": 1,
+  "pid": 66023,
+  "elapsed_seconds": 900.2654981613159,
+  "inactive_seconds": 0.0,
+  "checkpoint_exists": true,
+  "updated_at": "2026-08-18T09:57:12+0100"
+}

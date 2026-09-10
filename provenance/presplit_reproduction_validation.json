@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "group_rows": 199,
+  "split_rows": 796,
+  "groups_and_four_splits_reproduced": true,
+  "output_location": "temporary_directory_removed",
+  "training_run": false,
+  "final_predictions_run": false
+}

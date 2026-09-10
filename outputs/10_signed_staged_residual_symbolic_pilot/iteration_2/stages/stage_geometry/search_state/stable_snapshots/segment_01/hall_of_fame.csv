@@ -1,0 +1,12 @@
+Complexity,Loss,Equation
+1,0.3929278708034456,"-0.03328685072547967"
+3,0.3783262496399456,"z_scaled * 0.2059887812252211"
+5,0.3606438641767387,"nearest_axial_boundary_fraction_proxy_scaled * (rho_fraction_proxy_scaled * 0.30090494568675885)"
+9,0.3550183554496029,"((signed_radial_position_proxy_scaled * (z_fraction_proxy_scaled * z_fraction_proxy_scaled)) - rho_scaled) * -0.3768810863675766"
+11,0.34057786053085737,"((((signed_axial_position_proxy_scaled * signed_radial_position_proxy_scaled) + -0.5582742221868676) * z_fraction_proxy_scaled) - rho_scaled) * -0.3623725286015456"
+13,0.3389731735207243,"(((((signed_radial_position_proxy_scaled * signed_axial_position_proxy_scaled) + -0.5066430082576178) * z_fraction_proxy_scaled) - rho_scaled) * -0.37602289568469754) + -0.06283588015202782"
+14,0.3328033111672822,"(((z_fraction_proxy_scaled * signed_radial_position_proxy_scaled) * (signed_axial_position_proxy_scaled - (radial_axial_signed_interaction_proxy_scaled * -0.28651797907580906))) - rho_scaled) * -0.39775569276426065"
+18,0.32019308639268124,"(((((signed_radial_position_proxy_scaled * signed_axial_position_proxy_scaled) + -0.47370319128071425) - ((radial_axial_signed_interaction_proxy_scaled * signed_radial_position_proxy_scaled) * -0.2882991674285564)) * z_fraction_proxy_scaled) - rho_scaled) * -0.38440123766729145"
+20,0.31977866723614934,"((((((signed_radial_position_proxy_scaled * signed_axial_position_proxy_scaled) + -0.46246098184311374) - ((signed_radial_position_proxy_scaled * -0.29417992677262095) * radial_axial_signed_interaction_proxy_scaled)) * z_fraction_proxy_scaled) - rho_scaled) - 0.08589194634026796) * -0.3951547298412636"
+25,0.31903868309497113,"(((((signed_radial_position_proxy_scaled * signed_axial_position_proxy_scaled) + -0.5143833253726047) - (((signed_radial_position_proxy_scaled * signed_axial_position_proxy_scaled) * -0.20311554373268667) * (signed_radial_position_proxy_scaled - ((theta_cos_scaled * nearest_angular_boundary_fraction_proxy_scaled) - 1.0175564916656508)))) * z_fraction_proxy_scaled) - rho_scaled) * -0.35867080294624626"
+27,0.31864109565995796,"((((((signed_radial_position_proxy_scaled * z_fraction_proxy_scaled) + -0.38123163852309777) - ((signed_radial_position_proxy_scaled * (signed_axial_position_proxy_scaled * -0.26683738821038444)) * (signed_radial_position_proxy_scaled - (theta_cos_scaled * -0.33306156544447124)))) * z_fraction_proxy_scaled) - (rho_scaled * 0.8258978375659292)) * -0.4457676544332302) + 0.03537641931094357"

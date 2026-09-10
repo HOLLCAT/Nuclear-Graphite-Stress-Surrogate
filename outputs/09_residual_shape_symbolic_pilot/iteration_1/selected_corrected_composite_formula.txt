@@ -1,0 +1,28 @@
+CT3 V9 residual-corrected symbolic stress formula
+=================================================
+
+Case mean:
+mu = -0.0116301024532845*temperature_mean + 0.0470427355318997*temperature_p95 - 3.16087946558646*weight_loss_rate_mean + 0.103449215368151*z_max - 0.870195660324862*Abs(4.60760803334225*fluence_rate_p95 - 20.3572633494299) - 100.195330145459
+
+Positive case scale:
+scale = exp(-1.47091131932291*rho_mean - 1011.416708227*theta_sin_std - 1.1690770556861*weight_loss_rate_mean + 0.904578545888617*z_mean + 9.23869712445276)
+
+Fixed V8 global shape:
+global_shape = 1.10317833861391*(0.55673575*(0.0509611749551904*rho - 9.32241465638866)*(0.0509611749551904*rho - 8.66867535638866) - 31.9731949759449*(theta_cos - 0.922666019258146)**2)*(Abs(0.0509611749551904*rho - 8.59575422638866) - 2.4201684) + 0.285739561816426
+
+V9 residual shape:
+residual_shape = -0.812977255834564*(z_within_case_z - 0.157641102303633)**2*((6.21020430729467*nearest_axial_boundary_fraction_proxy - 1.42454761725745)*exp(-0.659730203929873*(fluence_rate_within_case_z - 0.917420913602118)**2) + 0.6135336) + 0.453514790367153
+
+Corrected shape:
+shape = (1.10317833861391*(0.55673575*(0.0509611749551904*rho - 9.32241465638866)*(0.0509611749551904*rho - 8.66867535638866) - 31.9731949759449*(theta_cos - 0.922666019258146)**2)*(Abs(0.0509611749551904*rho - 8.59575422638866) - 2.4201684) + 0.285739561816426) + (-0.812977255834564*(z_within_case_z - 0.157641102303633)**2*((6.21020430729467*nearest_axial_boundary_fraction_proxy - 1.42454761725745)*exp(-0.659730203929873*(fluence_rate_within_case_z - 0.917420913602118)**2) + 0.6135336) + 0.453514790367153)
+
+Deployable stress expression:
+sigma = (-0.0116301024532845*temperature_mean + 0.0470427355318997*temperature_p95 - 3.16087946558646*weight_loss_rate_mean + 0.103449215368151*z_max - 0.870195660324862*Abs(4.60760803334225*fluence_rate_p95 - 20.3572633494299) - 100.195330145459) + exp(-1.47091131932291*rho_mean - 1011.416708227*theta_sin_std - 1.1690770556861*weight_loss_rate_mean + 0.904578545888617*z_mean + 9.23869712445276) * ((1.10317833861391*(0.55673575*(0.0509611749551904*rho - 9.32241465638866)*(0.0509611749551904*rho - 8.66867535638866) - 31.9731949759449*(theta_cos - 0.922666019258146)**2)*(Abs(0.0509611749551904*rho - 8.59575422638866) - 2.4201684) + 0.285739561816426) + (-0.812977255834564*(z_within_case_z - 0.157641102303633)**2*((6.21020430729467*nearest_axial_boundary_fraction_proxy - 1.42454761725745)*exp(-0.659730203929873*(fluence_rate_within_case_z - 0.917420913602118)**2) + 0.6135336) + 0.453514790367153))
+
+Boundary proxy definitions:
+rho_fraction_proxy = (rho - rho_min) / (rho_max - rho_min)
+z_fraction_proxy = (z - z_min) / (z_max - z_min)
+nearest_radial_boundary_fraction_proxy = min(rho_fraction_proxy, 1 - rho_fraction_proxy)
+nearest_axial_boundary_fraction_proxy = min(z_fraction_proxy, 1 - z_fraction_proxy)
+
+These are case-relative geometric proxies, not confirmed physical distances to named FEM surfaces. Final-test cases were not read.

@@ -1,0 +1,2 @@
+feature_set,features_json,selection_source,engineering_selection_score,random_seed,final_test_used_for_selection,position_only_is_diagnostic_not_eligible
+full_periodic_coordinates,"[""fluence_rate"", ""temperature"", ""weight_loss_rate"", ""rho"", ""theta_sin"", ""theta_cos"", ""z""]",four_round_validation_only_histgradientboosting_ablation,0.34500000000000003,42,False,True

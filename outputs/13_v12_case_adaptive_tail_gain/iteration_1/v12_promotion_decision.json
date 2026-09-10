@@ -1,0 +1,15 @@
+{
+  "promotion_status": "retain_v11_global_gain_0_90",
+  "all_gates_pass": false,
+  "failed_gates": [
+    "all_case_macro_rmse_improves",
+    "all_case_p99_underprediction"
+  ],
+  "all_149_macro_rmse_improvement_fraction": 0.004539650426155745,
+  "legacy_30_macro_rmse_improvement_fraction": 0.004523580790702478,
+  "weighted_oof_oracle_loss_ratio": 0.9906314620139219,
+  "oof_gain_min": 0.28988520401438733,
+  "oof_gain_max": 1.0860535910152702,
+  "oof_gain_saturation_fraction": 0.0,
+  "final_test_cases_read": 0
+}

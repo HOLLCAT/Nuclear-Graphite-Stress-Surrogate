@@ -1,0 +1,11 @@
+{
+  "status": "started_or_resuming_exact_signature",
+  "final_evaluation_signature_sha256": "5139fe57e964f6d522e388431cd9821fb629a84bee9ff7ec085fdc7e0639f1a4",
+  "primary_model": "mean_calibrated_consensus",
+  "secondary_model": "full_consensus_tail",
+  "primary_role": "predeclared_primary",
+  "secondary_role": "predeclared_secondary_research_only",
+  "slurm_job_id": "19011902",
+  "training_or_selection_performed": false,
+  "final_results_may_change_model": false
+}

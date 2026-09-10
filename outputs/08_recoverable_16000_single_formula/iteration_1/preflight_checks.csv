@@ -1,0 +1,9 @@
+check,value,expected,pass
+training_cases,119,119,True
+validation_cases,15,15,True
+internal_test_cases,15,15,True
+sealed_final_cases,50,50,True
+shape_features,27,27,True
+worker_script_exists,True,True,True
+target_population_iterations,16000,16000,True
+segments,20,20,True

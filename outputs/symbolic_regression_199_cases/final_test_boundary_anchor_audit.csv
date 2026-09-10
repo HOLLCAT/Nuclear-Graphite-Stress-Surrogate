@@ -1,0 +1,15 @@
+metric,boundary,case_id,case_number,value,required_split,included_in_frozen_final_test
+fluence_rate_mean,minimum,case_23,23,3.075800532081127,final_test,True
+fluence_rate_mean,maximum,case_174,174,5.0937675761814365,final_test,True
+temperature_mean,minimum,case_80,80,351.41064556083523,final_test,True
+temperature_mean,maximum,case_31,31,446.71809085479055,final_test,True
+weight_loss_rate_mean,minimum,case_22,22,0.2730300072534719,final_test,True
+weight_loss_rate_mean,maximum,case_167,167,0.6391212553701666,final_test,True
+stress_p95,minimum,case_23,23,2.32110575,final_test,True
+stress_p95,maximum,case_41,41,11.034744149999996,final_test,True
+stress_p99,minimum,case_23,23,3.6403850699999993,final_test,True
+stress_p99,maximum,case_174,174,23.167241859999923,final_test,True
+stress_max,minimum,case_23,23,8.488296,final_test,True
+stress_max,maximum,case_113,113,37.491329,final_test,True
+negative_stress_fraction,minimum,case_26,26,0.0449595364172245,final_test,True
+negative_stress_fraction,maximum,case_174,174,0.4094190228794085,final_test,True

@@ -1,0 +1,17 @@
+{
+  "selected_gain": 1.0,
+  "unconstrained_gain": 1.7122974014379115,
+  "gain_was_clipped": true,
+  "weighted_numerator": 47247440.88618566,
+  "weighted_denominator": 27593010.914172594,
+  "active_iterations": [
+    1,
+    2,
+    3
+  ],
+  "method": "closed_form_complete_element_weighted_least_squares_clipped_to_0_1",
+  "weighting": "within_each_case_P90_2x_P95_4x_P99_8x_then_mean_one",
+  "all_elements_used": true,
+  "development_cases": 149,
+  "final_test_cases_read": 0
+}

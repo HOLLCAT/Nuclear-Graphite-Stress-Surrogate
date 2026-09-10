@@ -1,0 +1,12 @@
+check,value,expected,pass
+training_cases,119,119,True
+validation_cases,15,15,True
+internal_test_cases,15,15,True
+sealed_final_cases,50,50,True
+all_v10_features,40,40,True
+stage_a_features,28,28,True
+stage_b_features,29,29,True
+worker_script_exists,True,True,True
+frozen_baseline_hashes,True,True,True
+population_iterations_per_stage,4000,4000,True
+recoverable_segments_per_stage,5,5,True

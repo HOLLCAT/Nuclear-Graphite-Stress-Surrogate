@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "iteration": 4,
+  "execution_mode": "fresh_rotation_specific_training_and_audit",
+  "method": "v10_signed_staged_plus_v11_tail_plus_validation_gain",
+  "selected_gain": 0.85,
+  "v10_population_iterations": 8000,
+  "v11_population_iterations": 4000,
+  "train_cases": 119,
+  "validation_cases": 15,
+  "internal_test_cases": 15,
+  "final_test_cases_read": 0,
+  "elapsed_seconds": 11612.391597509384,
+  "v10_output_directory": "/net/scratch/j96317yn/NotebookCT3/outputs/10_signed_staged_residual_symbolic_pilot/iteration_4",
+  "v11_output_directory": "/net/scratch/j96317yn/NotebookCT3/outputs/11_tail_aware_localised_symbolic/iteration_4",
+  "gain_output_directory": "/net/scratch/j96317yn/NotebookCT3/outputs/12_v11_gain_stability_audit/iteration_4"
+}

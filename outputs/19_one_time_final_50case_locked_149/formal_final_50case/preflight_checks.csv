@@ -1,0 +1,19 @@
+check,value,expected,pass
+case_files,199,199,True
+development_cases,149,149,True
+final_cases,50,50,True
+final_manifest_matches,True,True,True
+integration_complete,complete,complete,True
+integration_final_values_unread,0,0,True
+locked_primary,mean_calibrated_consensus,mean_calibrated_consensus,True
+locked_manifest_primary,mean_calibrated_consensus,mean_calibrated_consensus,True
+locked_manifest_final_values_unread,0,0,True
+technical_release_ready,ready_for_human_review_before_one_time_final_test,ready_for_human_review_before_one_time_final_test,True
+human_protocol_approved,True,True,True
+protocol_primary,mean_calibrated_consensus,mean_calibrated_consensus,True
+protocol_secondary,full_consensus_tail,full_consensus_tail,True
+protocol_forbids_reselection,False,False,True
+protocol_locks_complete_evaluation_config,"{'output_subdir': 'formal_final_50case', 'bootstrap_resamples': 10000, 'plot_sample_rows_per_case': 5000, 'random_seed': 42, 'primary_macro_rmse_max': 2.0, 'primary_macro_r2_min': 0.45, 'primary_worst_case_rmse_max': 3.5, 'primary_p95_relative_error_max': 0.1, 'primary_p99_relative_error_max': 0.25, 'primary_p99_underprediction_max': 0.25, 'primary_top1_hotspot_overlap_min': 0.45, 'primary_top1_recall_in_predicted_top5_min': 0.8, 'primary_prediction_abs_max_ratio_max': 1.5}","{'output_subdir': 'formal_final_50case', 'bootstrap_resamples': 10000, 'plot_sample_rows_per_case': 5000, 'random_seed': 42, 'primary_macro_rmse_max': 2.0, 'primary_macro_r2_min': 0.45, 'primary_worst_case_rmse_max': 3.5, 'primary_p95_relative_error_max': 0.1, 'primary_p99_relative_error_max': 0.25, 'primary_p99_underprediction_max': 0.25, 'primary_top1_hotspot_overlap_min': 0.45, 'primary_top1_recall_in_predicted_top5_min': 0.8, 'primary_prediction_abs_max_ratio_max': 1.5}",True
+protocol_requires_all_final_elements,True,True,True
+protocol_limits_sampling_to_figures,['publication_figures_only'],['publication_figures_only'],True
+active_tail_rotations,"[1, 2, 3]","[1, 2, 3]",True

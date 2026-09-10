@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "iterations": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "completed_rotations": 4,
+  "selected_gains": [
+    0.9,
+    0.75,
+    0.95,
+    0.85
+  ],
+  "final_test_cases_read": 0,
+  "interpretation": "development_rotation_stability_not_external_validation",
+  "summary_directory": "/net/scratch/j96317yn/NotebookCT3/outputs/17_v11_four_rotation_formal/four_rotation_summary"
+}

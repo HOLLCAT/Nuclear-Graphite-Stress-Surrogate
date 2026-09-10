@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "iteration": 2,
+  "prototype_only": true,
+  "method": "frozen_v8_plus_signed_geometry_then_physical_residuals",
+  "baseline_id": "v8_iteration1_local_candidate5",
+  "train_cases": 119,
+  "validation_cases": 15,
+  "internal_test_cases": 15,
+  "final_test_cases_read": 0,
+  "training_rows": 595000,
+  "planned_population_iterations": 8000,
+  "geometry_completed_segments": 5,
+  "physical_completed_segments": 5,
+  "selected_geometry_candidate": 5,
+  "selected_physical_candidate": 2,
+  "pilot_promotion_status": "diagnostic_only_does_not_pass_all_v10_pilot_gates",
+  "elapsed_seconds": 5833.912016868591,
+  "output_directory": "/net/scratch/j96317yn/NotebookCT3/outputs/10_signed_staged_residual_symbolic_pilot/iteration_2"
+}

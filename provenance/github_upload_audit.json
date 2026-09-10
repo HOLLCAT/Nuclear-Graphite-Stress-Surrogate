@@ -1,0 +1,1772 @@
+{
+  "audit_kind": "publication_readiness_not_new_research",
+  "status": "publication_decisions_required",
+  "missing_inventory_files": [],
+  "symlinks": [],
+  "file_count_excluding_audit_and_ignored_runtime_files": 2500,
+  "total_bytes_excluding_this_audit": 8701600208,
+  "bytes_by_folder": {
+    ".gitattributes": 753,
+    ".gitignore": 259,
+    "FE_Results_Cases_All": 6749401935,
+    "README.md": 10046,
+    "cluster": 46565,
+    "docs": 24350,
+    "formula_appendix": 32118,
+    "logs": 33888,
+    "notebooks": 302328,
+    "outputs": 1942915907,
+    "provenance": 4596883,
+    "reports": 3298801,
+    "requirements.txt": 161,
+    "scripts": 194092,
+    "shared": 47931,
+    "src": 694191
+  },
+  "text_files_scanned_including_decompressed_text": 2224,
+  "decoded_bytes_scanned": 7719314255,
+  "unscanned_binary_files": 276,
+  "text_scan_errors": [],
+  "active_chinese_files": [],
+  "all_chinese_files_including_archives": [
+    "outputs/00_qc_sensitivity_ablation/case_file_inventory.csv",
+    "outputs/01_baseline_199cases/baseline_run_contract.csv",
+    "outputs/05_hierarchical_feasibility_v5/iteration_1_pilot/run_summary.json",
+    "outputs/05_hierarchical_feasibility_v5/iteration_2_pilot/run_summary.json",
+    "outputs/05_hierarchical_feasibility_v5/iteration_3_pilot/run_summary.json",
+    "outputs/05_hierarchical_feasibility_v5/iteration_4_pilot/run_summary.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/round_complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/run_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_01/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_02/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_03/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_04/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_05/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_06/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_06/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_06/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_06/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_07/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_07/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_07/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_07/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_08/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_08/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_08/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_08/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_09/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_09/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_09/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_09/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_10/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_10/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_10/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_10/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_11/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_11/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_11/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_11/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_12/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_12/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_12/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_12/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_13/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_13/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_13/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_13/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_14/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_14/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_14/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_14/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_15/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_15/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_15/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_15/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_16/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_16/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_16/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_16/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_17/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_17/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_17/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_17/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_18/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_18/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_18/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_18/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_19/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_19/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_19/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_19/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_20/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_20/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_20/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_20/complete.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/pilot_complete.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/run_status.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/v10_input_hash_audit.csv",
+    "outputs/12_v11_gain_stability_audit/iteration_1/frozen_v11_hash_audit.csv",
+    "outputs/15_v13_structural_tail_residual/iteration_1/frozen_input_hash_audit.csv",
+    "outputs/17_v11_four_rotation_formal/iteration_1/pipeline_complete.json",
+    "outputs/17_v11_four_rotation_formal/iteration_1/registered_artifact_hashes.csv",
+    "outputs/19_one_time_final_50case_locked_149/formal_final_50case/frozen_artifact_hash_audit.csv",
+    "outputs/multi_case_sensitivity_199_cases/case_file_inventory.csv",
+    "provenance/extracted_original_cells/presplit_preparation.ipynb",
+    "provenance/not_copied_inventory.json",
+    "provenance/original_code/notebooks/00_Data_QC_Sensitivity_and_Feature_Ablation.ipynb",
+    "provenance/original_code/notebooks/01_Four_Iteration_199Case_Baseline.ipynb",
+    "provenance/original_code/notebooks/02A_Hierarchical_Feasibility_Iteration_1.ipynb",
+    "provenance/original_code/notebooks/02A_Hierarchical_Feasibility_Iteration_3.ipynb",
+    "provenance/original_code/notebooks/02A_Hierarchical_Feasibility_Iteration_4.ipynb",
+    "provenance/original_code/notebooks/02A_Hierarchical_Stress_Decomposition_Feasibility.ipynb",
+    "provenance/original_code/notebooks/08_Recoverable_16000_Single_Formula_Symbolic_Regression/01_Recoverable_16000_Single_Formula_Iteration_1.ipynb",
+    "provenance/original_code/notebooks/09_Residual_Shape_Symbolic_Regression_Pilot/01_Residual_Shape_Symbolic_Regression_Pilot.ipynb",
+    "provenance/original_code/notebooks/13_V12_Case_Adaptive_Tail_Gain/CSF3_RUNBOOK_CN.md",
+    "provenance/original_code/notebooks/Multi-Case_FEM_Parametric_and_Position_Sensitivity_Stability_Analysis_199Cases.ipynb",
+    "shared/v10_authoritative_v8_candidate5/round_complete.json"
+  ],
+  "historical_or_literal_private_path_files": [
+    "docs/RUN_AND_PATHS.md",
+    "logs/csf3/slurm-ct3-v10-pilot-18821085.err",
+    "logs/csf3/slurm-ct3-v10-pilot-18821085.out",
+    "logs/csf3/slurm-ct3-v11-gain-18852802.err",
+    "logs/csf3/slurm-ct3-v11-gain-18852802.out",
+    "logs/csf3/slurm-ct3-v11-i1-18839742.err",
+    "logs/csf3/slurm-ct3-v11-i1-18839742.out",
+    "notebooks/13_V12_Case_Adaptive_Tail_Gain/CSF3_RUNBOOK.md",
+    "outputs/00_qc_sensitivity_ablation/case_file_inventory.csv",
+    "outputs/01_baseline_199cases/baseline_run_contract.csv",
+    "outputs/05_hierarchical_feasibility_v5/iteration_1_pilot/run_summary.json",
+    "outputs/05_hierarchical_feasibility_v5/iteration_2_pilot/run_summary.json",
+    "outputs/05_hierarchical_feasibility_v5/iteration_3_pilot/run_summary.json",
+    "outputs/05_hierarchical_feasibility_v5/iteration_4_pilot/run_summary.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/round_complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/run_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_01/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_02/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_03/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_04/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_05/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_06/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_06/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_06/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_06/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_07/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_07/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_07/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_07/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_08/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_08/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_08/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_08/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_09/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_09/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_09/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_09/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_10/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_10/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_10/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_10/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_11/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_11/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_11/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_11/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_12/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_12/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_12/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_12/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_13/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_13/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_13/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_13/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_14/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_14/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_14/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_14/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_15/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_15/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_15/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_15/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_16/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_16/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_16/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_16/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_17/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_17/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_17/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_17/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_18/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_18/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_18/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_18/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_19/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_19/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_19/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_19/complete.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_20/attempt_1/worker_status.json",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_20/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_20/attempt_1/worker_stdout.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_20/complete.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/pilot_complete.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/run_status.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/executed_notebooks/v10_signed_staged_pilot_executed_job_18821085.ipynb",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/pilot_complete.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/run_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/pilot_complete.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/run_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/pilot_complete.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/run_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/pilot_complete.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/run_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/pilot_complete.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/run_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/v10_input_hash_audit.csv",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/pilot_complete.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/run_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/v10_input_hash_audit.csv",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/pilot_complete.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/run_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/v10_input_hash_audit.csv",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/pilot_complete.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/run_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_status.json",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_stdout.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/v10_input_hash_audit.csv",
+    "outputs/12_v11_gain_stability_audit/iteration_1/audit_complete.json",
+    "outputs/12_v11_gain_stability_audit/iteration_1/executed_notebooks/v11_gain_audit_executed_job_18852802.ipynb",
+    "outputs/12_v11_gain_stability_audit/iteration_1/frozen_v11_hash_audit.csv",
+    "outputs/12_v11_gain_stability_audit/iteration_1/run_status.json",
+    "outputs/12_v11_gain_stability_audit/iteration_2/audit_complete.json",
+    "outputs/12_v11_gain_stability_audit/iteration_2/frozen_v11_hash_audit.csv",
+    "outputs/12_v11_gain_stability_audit/iteration_2/run_status.json",
+    "outputs/12_v11_gain_stability_audit/iteration_3/audit_complete.json",
+    "outputs/12_v11_gain_stability_audit/iteration_3/frozen_v11_hash_audit.csv",
+    "outputs/12_v11_gain_stability_audit/iteration_3/run_status.json",
+    "outputs/12_v11_gain_stability_audit/iteration_4/audit_complete.json",
+    "outputs/12_v11_gain_stability_audit/iteration_4/frozen_v11_hash_audit.csv",
+    "outputs/12_v11_gain_stability_audit/iteration_4/run_status.json",
+    "outputs/13_v12_case_adaptive_tail_gain/iteration_1/executed_notebooks/v12_case_adaptive_gain_executed_job_18853158.ipynb",
+    "outputs/13_v12_case_adaptive_tail_gain/iteration_1/frozen_input_hash_audit.csv",
+    "outputs/13_v12_case_adaptive_tail_gain/iteration_1/run_status.json",
+    "outputs/13_v12_case_adaptive_tail_gain/iteration_1/v12_complete.json",
+    "outputs/15_v13_structural_tail_residual/iteration_1/executed_notebooks/v13_structural_residual_executed_job_18863732.ipynb",
+    "outputs/15_v13_structural_tail_residual/iteration_1/frozen_input_hash_audit.csv",
+    "outputs/15_v13_structural_tail_residual/iteration_1/run_status.json",
+    "outputs/15_v13_structural_tail_residual/iteration_1/v13_complete.json",
+    "outputs/16_v13_residual_gain_audit/iteration_1/executed_notebooks/v13_residual_gain_audit_executed_job_18879593.ipynb",
+    "outputs/16_v13_residual_gain_audit/iteration_1/frozen_input_hash_audit.csv",
+    "outputs/16_v13_residual_gain_audit/iteration_1/gain_audit_complete.json",
+    "outputs/16_v13_residual_gain_audit/iteration_1/run_status.json",
+    "outputs/17_v11_four_rotation_formal/four_rotation_summary/aggregation_complete.json",
+    "outputs/17_v11_four_rotation_formal/four_rotation_summary/executed_notebooks/four_rotation_aggregate_executed.ipynb",
+    "outputs/17_v11_four_rotation_formal/four_rotation_summary/rotation_completion_summary.csv",
+    "outputs/17_v11_four_rotation_formal/iteration_1/pipeline_complete.json",
+    "outputs/17_v11_four_rotation_formal/iteration_1/registered_artifact_hashes.csv",
+    "outputs/17_v11_four_rotation_formal/iteration_2/executed_notebooks/formal_v11_iteration_2_job_18895946.ipynb",
+    "outputs/17_v11_four_rotation_formal/iteration_2/pipeline_complete.json",
+    "outputs/17_v11_four_rotation_formal/iteration_2/run_status.json",
+    "outputs/17_v11_four_rotation_formal/iteration_3/executed_notebooks/formal_v11_iteration_3_job_18929862.ipynb",
+    "outputs/17_v11_four_rotation_formal/iteration_3/pipeline_complete.json",
+    "outputs/17_v11_four_rotation_formal/iteration_3/run_status.json",
+    "outputs/17_v11_four_rotation_formal/iteration_4/executed_notebooks/formal_v11_iteration_4_job_18959288.ipynb",
+    "outputs/17_v11_four_rotation_formal/iteration_4/pipeline_complete.json",
+    "outputs/17_v11_four_rotation_formal/iteration_4/run_status.json",
+    "outputs/18_149case_development_integration/formal_149case_integration/development_integration_complete.json",
+    "outputs/18_149case_development_integration/formal_149case_integration/executed_notebooks/development_integration_149_job_18984590.ipynb",
+    "outputs/18_149case_development_integration/formal_149case_integration/frozen_input_hash_audit.csv",
+    "outputs/18_149case_development_integration/formal_149case_integration/run_status.json",
+    "outputs/19_one_time_final_50case_locked_149/formal_final_50case/executed_notebooks/locked_149_final_executed_job_19011902.ipynb",
+    "outputs/19_one_time_final_50case_locked_149/formal_final_50case/final_evaluation_complete.json",
+    "outputs/19_one_time_final_50case_locked_149/formal_final_50case/final_test_opening_authorisation.json",
+    "outputs/19_one_time_final_50case_locked_149/formal_final_50case/frozen_artifact_hash_audit.csv",
+    "outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/three_case_export_complete.json",
+    "outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/three_case_export_manifest.json",
+    "outputs/multi_case_sensitivity_199_cases/case_file_inventory.csv",
+    "provenance/extracted_original_cells/presplit_preparation.ipynb",
+    "provenance/original_code/cluster/run_149case_development_integration.slurm",
+    "provenance/original_code/cluster/run_formal_v11_iteration2.slurm",
+    "provenance/original_code/cluster/run_formal_v11_iteration3.slurm",
+    "provenance/original_code/cluster/run_formal_v11_iteration4.slurm",
+    "provenance/original_code/cluster/run_locked_149_final_test.slurm",
+    "provenance/original_code/cluster/run_recoverable_16000_iteration1.slurm",
+    "provenance/original_code/cluster/run_residual_shape_pilot.slurm",
+    "provenance/original_code/cluster/run_signed_staged_residual_pilot.slurm",
+    "provenance/original_code/cluster/run_three_spatial_case_export.slurm",
+    "provenance/original_code/cluster/run_v11_gain_stability_audit.slurm",
+    "provenance/original_code/cluster/run_v11_iteration1_pilot.slurm",
+    "provenance/original_code/cluster/run_v12_case_adaptive_tail_gain.slurm",
+    "provenance/original_code/cluster/run_v13_residual_gain_audit.slurm",
+    "provenance/original_code/cluster/run_v13_structural_tail_residual.slurm",
+    "provenance/original_code/formula_appendix/build_formula_appendix.py",
+    "provenance/original_code/notebooks/00_Data_QC_Sensitivity_and_Feature_Ablation.ipynb",
+    "provenance/original_code/notebooks/01_Four_Iteration_199Case_Baseline.ipynb",
+    "provenance/original_code/notebooks/02A_Hierarchical_Feasibility_Iteration_1.ipynb",
+    "provenance/original_code/notebooks/02A_Hierarchical_Feasibility_Iteration_3.ipynb",
+    "provenance/original_code/notebooks/02A_Hierarchical_Feasibility_Iteration_4.ipynb",
+    "provenance/original_code/notebooks/02A_Hierarchical_Stress_Decomposition_Feasibility.ipynb",
+    "provenance/original_code/notebooks/08_Recoverable_16000_Single_Formula_Symbolic_Regression/01_Recoverable_16000_Single_Formula_Iteration_1.ipynb",
+    "provenance/original_code/notebooks/09_Residual_Shape_Symbolic_Regression_Pilot/01_Residual_Shape_Symbolic_Regression_Pilot.ipynb",
+    "provenance/original_code/notebooks/13_V12_Case_Adaptive_Tail_Gain/CSF3_RUNBOOK_CN.md",
+    "provenance/original_code/notebooks/Multi-Case_FEM_Parametric_and_Position_Sensitivity_Stability_Analysis_199Cases.ipynb",
+    "scripts/audit_publication.py",
+    "scripts/validate_delivery.py",
+    "shared/v10_authoritative_v8_candidate5/round_complete.json"
+  ],
+  "potential_credential_pattern_matches": [],
+  "credential_scan_limit": "Pattern screening of UTF-8 text and decoded JSON, not a comprehensive secret or binary audit; matching values are not recorded.",
+  "files_over_browser_25_MiB": [
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_0.txt",
+      "bytes": 33922402
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_1.txt",
+      "bytes": 33925265
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_10.txt",
+      "bytes": 33923729
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_100.txt",
+      "bytes": 33922967
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_101.txt",
+      "bytes": 33925936
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_102.txt",
+      "bytes": 33916404
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_103.txt",
+      "bytes": 33918171
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_104.txt",
+      "bytes": 33919178
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_105.txt",
+      "bytes": 33907969
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_106.txt",
+      "bytes": 33902689
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_107.txt",
+      "bytes": 33920883
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_108.txt",
+      "bytes": 33922650
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_109.txt",
+      "bytes": 33916779
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_11.txt",
+      "bytes": 33932437
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_110.txt",
+      "bytes": 33907468
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_111.txt",
+      "bytes": 33911614
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_112.txt",
+      "bytes": 33913979
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_113.txt",
+      "bytes": 33925545
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_114.txt",
+      "bytes": 33906778
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_115.txt",
+      "bytes": 33925813
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_116.txt",
+      "bytes": 33920552
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_117.txt",
+      "bytes": 33914854
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_118.txt",
+      "bytes": 33923190
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_119.txt",
+      "bytes": 33911987
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_12.txt",
+      "bytes": 33923465
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_120.txt",
+      "bytes": 33925062
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_121.txt",
+      "bytes": 33911642
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_122.txt",
+      "bytes": 33904846
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_123.txt",
+      "bytes": 33908099
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_124.txt",
+      "bytes": 33911808
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_125.txt",
+      "bytes": 33909823
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_126.txt",
+      "bytes": 33910877
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_127.txt",
+      "bytes": 33911241
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_128.txt",
+      "bytes": 33904781
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_129.txt",
+      "bytes": 33911200
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_13.txt",
+      "bytes": 33916759
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_130.txt",
+      "bytes": 33908944
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_131.txt",
+      "bytes": 33907612
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_132.txt",
+      "bytes": 33907474
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_133.txt",
+      "bytes": 33911080
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_134.txt",
+      "bytes": 33910072
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_135.txt",
+      "bytes": 33899992
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_136.txt",
+      "bytes": 33904503
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_137.txt",
+      "bytes": 33904708
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_138.txt",
+      "bytes": 33909112
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_139.txt",
+      "bytes": 33911644
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_14.txt",
+      "bytes": 33917485
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_140.txt",
+      "bytes": 33910164
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_141.txt",
+      "bytes": 33907399
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_142.txt",
+      "bytes": 33909472
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_143.txt",
+      "bytes": 33910814
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_144.txt",
+      "bytes": 33918819
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_145.txt",
+      "bytes": 33906832
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_146.txt",
+      "bytes": 33911015
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_147.txt",
+      "bytes": 33911810
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_148.txt",
+      "bytes": 33907145
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_149.txt",
+      "bytes": 33907545
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_15.txt",
+      "bytes": 33902274
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_150.txt",
+      "bytes": 33907728
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_151.txt",
+      "bytes": 33906071
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_152.txt",
+      "bytes": 33921206
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_153.txt",
+      "bytes": 33909673
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_154.txt",
+      "bytes": 33905550
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_155.txt",
+      "bytes": 33908072
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_156.txt",
+      "bytes": 33911438
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_157.txt",
+      "bytes": 33910414
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_158.txt",
+      "bytes": 33916223
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_159.txt",
+      "bytes": 33908859
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_16.txt",
+      "bytes": 33921381
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_160.txt",
+      "bytes": 33913374
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_161.txt",
+      "bytes": 33931058
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_162.txt",
+      "bytes": 33904609
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_163.txt",
+      "bytes": 33914971
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_164.txt",
+      "bytes": 33908680
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_165.txt",
+      "bytes": 33918157
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_166.txt",
+      "bytes": 33911005
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_167.txt",
+      "bytes": 33905370
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_168.txt",
+      "bytes": 33911632
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_169.txt",
+      "bytes": 33909887
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_17.txt",
+      "bytes": 33914609
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_170.txt",
+      "bytes": 33905459
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_171.txt",
+      "bytes": 33916889
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_172.txt",
+      "bytes": 33918809
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_173.txt",
+      "bytes": 33976751
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_174.txt",
+      "bytes": 34066935
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_175.txt",
+      "bytes": 33911699
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_176.txt",
+      "bytes": 33909276
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_177.txt",
+      "bytes": 34020422
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_178.txt",
+      "bytes": 33914639
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_179.txt",
+      "bytes": 33913820
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_18.txt",
+      "bytes": 33922250
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_180.txt",
+      "bytes": 33908485
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_181.txt",
+      "bytes": 33911756
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_182.txt",
+      "bytes": 33911404
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_183.txt",
+      "bytes": 33913705
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_184.txt",
+      "bytes": 33910285
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_185.txt",
+      "bytes": 33909468
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_186.txt",
+      "bytes": 33909222
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_187.txt",
+      "bytes": 33910972
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_188.txt",
+      "bytes": 33912369
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_189.txt",
+      "bytes": 33910630
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_19.txt",
+      "bytes": 33925272
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_190.txt",
+      "bytes": 33911848
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_191.txt",
+      "bytes": 33911339
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_192.txt",
+      "bytes": 33910992
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_193.txt",
+      "bytes": 33909637
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_194.txt",
+      "bytes": 33910481
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_195.txt",
+      "bytes": 33912464
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_196.txt",
+      "bytes": 33912169
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_197.txt",
+      "bytes": 33909537
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_198.txt",
+      "bytes": 33909825
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_199.txt",
+      "bytes": 33913195
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_2.txt",
+      "bytes": 33917999
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_20.txt",
+      "bytes": 33923994
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_200.txt",
+      "bytes": 33908817
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_21.txt",
+      "bytes": 33909726
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_22.txt",
+      "bytes": 33918672
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_23.txt",
+      "bytes": 33898964
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_24.txt",
+      "bytes": 33915948
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_26.txt",
+      "bytes": 33896259
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_27.txt",
+      "bytes": 33911581
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_28.txt",
+      "bytes": 33920801
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_29.txt",
+      "bytes": 33898971
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_3.txt",
+      "bytes": 33924766
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_31.txt",
+      "bytes": 33921540
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_32.txt",
+      "bytes": 33922855
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_33.txt",
+      "bytes": 33902609
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_34.txt",
+      "bytes": 33912459
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_35.txt",
+      "bytes": 33905743
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_36.txt",
+      "bytes": 33938746
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_37.txt",
+      "bytes": 33898802
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_38.txt",
+      "bytes": 33960723
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_39.txt",
+      "bytes": 33908878
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_4.txt",
+      "bytes": 33919726
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_40.txt",
+      "bytes": 33915924
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_41.txt",
+      "bytes": 33937530
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_42.txt",
+      "bytes": 33916689
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_43.txt",
+      "bytes": 33917031
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_44.txt",
+      "bytes": 33917545
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_45.txt",
+      "bytes": 33930061
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_46.txt",
+      "bytes": 33919550
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_47.txt",
+      "bytes": 33915578
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_48.txt",
+      "bytes": 33927678
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_49.txt",
+      "bytes": 33924717
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_5.txt",
+      "bytes": 33920383
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_50.txt",
+      "bytes": 33918033
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_51.txt",
+      "bytes": 33903599
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_52.txt",
+      "bytes": 33919711
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_53.txt",
+      "bytes": 33937878
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_54.txt",
+      "bytes": 33917913
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_55.txt",
+      "bytes": 33926802
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_56.txt",
+      "bytes": 33914943
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_57.txt",
+      "bytes": 33920461
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_58.txt",
+      "bytes": 33904886
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_59.txt",
+      "bytes": 33918134
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_6.txt",
+      "bytes": 33924502
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_60.txt",
+      "bytes": 33922875
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_61.txt",
+      "bytes": 33919973
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_62.txt",
+      "bytes": 33903148
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_63.txt",
+      "bytes": 33913103
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_64.txt",
+      "bytes": 33907851
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_65.txt",
+      "bytes": 33909203
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_66.txt",
+      "bytes": 33919435
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_67.txt",
+      "bytes": 33919403
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_68.txt",
+      "bytes": 33919812
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_69.txt",
+      "bytes": 33920312
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_7.txt",
+      "bytes": 33925562
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_70.txt",
+      "bytes": 33909315
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_71.txt",
+      "bytes": 33910434
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_72.txt",
+      "bytes": 33903830
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_73.txt",
+      "bytes": 33919317
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_74.txt",
+      "bytes": 33916049
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_75.txt",
+      "bytes": 33921045
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_76.txt",
+      "bytes": 33906132
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_77.txt",
+      "bytes": 33908822
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_78.txt",
+      "bytes": 33905267
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_79.txt",
+      "bytes": 33922952
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_8.txt",
+      "bytes": 33924386
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_80.txt",
+      "bytes": 33900721
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_81.txt",
+      "bytes": 33926100
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_82.txt",
+      "bytes": 33920066
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_83.txt",
+      "bytes": 33924872
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_84.txt",
+      "bytes": 33923377
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_85.txt",
+      "bytes": 33922156
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_86.txt",
+      "bytes": 33909238
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_87.txt",
+      "bytes": 33929442
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_88.txt",
+      "bytes": 33926849
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_89.txt",
+      "bytes": 33918696
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_9.txt",
+      "bytes": 33924996
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_90.txt",
+      "bytes": 33913038
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_91.txt",
+      "bytes": 33933798
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_92.txt",
+      "bytes": 33914322
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_93.txt",
+      "bytes": 33917595
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_94.txt",
+      "bytes": 33909266
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_95.txt",
+      "bytes": 33930246
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_96.txt",
+      "bytes": 33909554
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_97.txt",
+      "bytes": 33921897
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_98.txt",
+      "bytes": 33929936
+    },
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_99.txt",
+      "bytes": 33902689
+    },
+    {
+      "file": "outputs/08_recoverable_16000_single_formula/iteration_1/training_cache/shape_features.npy",
+      "bytes": 64260128
+    },
+    {
+      "file": "outputs/09_residual_shape_symbolic_pilot/iteration_1/training_cache/residual_features.npy",
+      "bytes": 73780128
+    },
+    {
+      "file": "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/training_cache/all_v10_features.npy",
+      "bytes": 95200128
+    },
+    {
+      "file": "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/training_cache/stage_a_features.npy",
+      "bytes": 66640128
+    },
+    {
+      "file": "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/training_cache/stage_b_features.npy",
+      "bytes": 69020128
+    },
+    {
+      "file": "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/training_cache/all_v10_features.npy",
+      "bytes": 95200128
+    },
+    {
+      "file": "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/training_cache/stage_a_features.npy",
+      "bytes": 66640128
+    },
+    {
+      "file": "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/training_cache/stage_b_features.npy",
+      "bytes": 69020128
+    },
+    {
+      "file": "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/training_cache/all_v10_features.npy",
+      "bytes": 95200128
+    },
+    {
+      "file": "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/training_cache/stage_a_features.npy",
+      "bytes": 66640128
+    },
+    {
+      "file": "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/training_cache/stage_b_features.npy",
+      "bytes": 69020128
+    },
+    {
+      "file": "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/training_cache/all_v10_features.npy",
+      "bytes": 95200128
+    },
+    {
+      "file": "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/training_cache/stage_a_features.npy",
+      "bytes": 66640128
+    },
+    {
+      "file": "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/training_cache/stage_b_features.npy",
+      "bytes": 69020128
+    },
+    {
+      "file": "outputs/11_tail_aware_localised_symbolic/iteration_1/training_cache/v11_tail_features.npy",
+      "bytes": 95200128
+    },
+    {
+      "file": "outputs/11_tail_aware_localised_symbolic/iteration_2/training_cache/v11_tail_features.npy",
+      "bytes": 95200128
+    },
+    {
+      "file": "outputs/11_tail_aware_localised_symbolic/iteration_3/training_cache/v11_tail_features.npy",
+      "bytes": 95200128
+    },
+    {
+      "file": "outputs/11_tail_aware_localised_symbolic/iteration_4/training_cache/v11_tail_features.npy",
+      "bytes": 95200128
+    },
+    {
+      "file": "outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/case_178_median_FEM_vs_prediction_full.csv.gz",
+      "bytes": 31239030
+    },
+    {
+      "file": "outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/case_31_worst_FEM_vs_prediction_full.csv.gz",
+      "bytes": 30844439
+    },
+    {
+      "file": "outputs/21_three_case_fem_vs_frozen_prediction/full_400360_element_exports/case_80_best_FEM_vs_prediction_full.csv.gz",
+      "bytes": 30866710
+    }
+  ],
+  "files_over_git_100_MiB": [],
+  "files_with_CRLF": [
+    "FE_Results_Cases_All/FE_Results_Case_0.txt",
+    "FE_Results_Cases_All/FE_Results_Case_1.txt",
+    "FE_Results_Cases_All/FE_Results_Case_10.txt",
+    "FE_Results_Cases_All/FE_Results_Case_100.txt",
+    "FE_Results_Cases_All/FE_Results_Case_101.txt",
+    "FE_Results_Cases_All/FE_Results_Case_102.txt",
+    "FE_Results_Cases_All/FE_Results_Case_103.txt",
+    "FE_Results_Cases_All/FE_Results_Case_104.txt",
+    "FE_Results_Cases_All/FE_Results_Case_105.txt",
+    "FE_Results_Cases_All/FE_Results_Case_106.txt",
+    "FE_Results_Cases_All/FE_Results_Case_107.txt",
+    "FE_Results_Cases_All/FE_Results_Case_108.txt",
+    "FE_Results_Cases_All/FE_Results_Case_109.txt",
+    "FE_Results_Cases_All/FE_Results_Case_11.txt",
+    "FE_Results_Cases_All/FE_Results_Case_110.txt",
+    "FE_Results_Cases_All/FE_Results_Case_111.txt",
+    "FE_Results_Cases_All/FE_Results_Case_112.txt",
+    "FE_Results_Cases_All/FE_Results_Case_113.txt",
+    "FE_Results_Cases_All/FE_Results_Case_114.txt",
+    "FE_Results_Cases_All/FE_Results_Case_115.txt",
+    "FE_Results_Cases_All/FE_Results_Case_116.txt",
+    "FE_Results_Cases_All/FE_Results_Case_117.txt",
+    "FE_Results_Cases_All/FE_Results_Case_118.txt",
+    "FE_Results_Cases_All/FE_Results_Case_119.txt",
+    "FE_Results_Cases_All/FE_Results_Case_12.txt",
+    "FE_Results_Cases_All/FE_Results_Case_120.txt",
+    "FE_Results_Cases_All/FE_Results_Case_121.txt",
+    "FE_Results_Cases_All/FE_Results_Case_122.txt",
+    "FE_Results_Cases_All/FE_Results_Case_123.txt",
+    "FE_Results_Cases_All/FE_Results_Case_124.txt",
+    "FE_Results_Cases_All/FE_Results_Case_125.txt",
+    "FE_Results_Cases_All/FE_Results_Case_126.txt",
+    "FE_Results_Cases_All/FE_Results_Case_127.txt",
+    "FE_Results_Cases_All/FE_Results_Case_128.txt",
+    "FE_Results_Cases_All/FE_Results_Case_129.txt",
+    "FE_Results_Cases_All/FE_Results_Case_13.txt",
+    "FE_Results_Cases_All/FE_Results_Case_130.txt",
+    "FE_Results_Cases_All/FE_Results_Case_131.txt",
+    "FE_Results_Cases_All/FE_Results_Case_132.txt",
+    "FE_Results_Cases_All/FE_Results_Case_133.txt",
+    "FE_Results_Cases_All/FE_Results_Case_134.txt",
+    "FE_Results_Cases_All/FE_Results_Case_135.txt",
+    "FE_Results_Cases_All/FE_Results_Case_136.txt",
+    "FE_Results_Cases_All/FE_Results_Case_137.txt",
+    "FE_Results_Cases_All/FE_Results_Case_138.txt",
+    "FE_Results_Cases_All/FE_Results_Case_139.txt",
+    "FE_Results_Cases_All/FE_Results_Case_14.txt",
+    "FE_Results_Cases_All/FE_Results_Case_140.txt",
+    "FE_Results_Cases_All/FE_Results_Case_141.txt",
+    "FE_Results_Cases_All/FE_Results_Case_142.txt",
+    "FE_Results_Cases_All/FE_Results_Case_143.txt",
+    "FE_Results_Cases_All/FE_Results_Case_144.txt",
+    "FE_Results_Cases_All/FE_Results_Case_145.txt",
+    "FE_Results_Cases_All/FE_Results_Case_146.txt",
+    "FE_Results_Cases_All/FE_Results_Case_147.txt",
+    "FE_Results_Cases_All/FE_Results_Case_148.txt",
+    "FE_Results_Cases_All/FE_Results_Case_149.txt",
+    "FE_Results_Cases_All/FE_Results_Case_15.txt",
+    "FE_Results_Cases_All/FE_Results_Case_150.txt",
+    "FE_Results_Cases_All/FE_Results_Case_151.txt",
+    "FE_Results_Cases_All/FE_Results_Case_152.txt",
+    "FE_Results_Cases_All/FE_Results_Case_153.txt",
+    "FE_Results_Cases_All/FE_Results_Case_154.txt",
+    "FE_Results_Cases_All/FE_Results_Case_155.txt",
+    "FE_Results_Cases_All/FE_Results_Case_156.txt",
+    "FE_Results_Cases_All/FE_Results_Case_157.txt",
+    "FE_Results_Cases_All/FE_Results_Case_158.txt",
+    "FE_Results_Cases_All/FE_Results_Case_159.txt",
+    "FE_Results_Cases_All/FE_Results_Case_16.txt",
+    "FE_Results_Cases_All/FE_Results_Case_160.txt",
+    "FE_Results_Cases_All/FE_Results_Case_161.txt",
+    "FE_Results_Cases_All/FE_Results_Case_162.txt",
+    "FE_Results_Cases_All/FE_Results_Case_163.txt",
+    "FE_Results_Cases_All/FE_Results_Case_164.txt",
+    "FE_Results_Cases_All/FE_Results_Case_165.txt",
+    "FE_Results_Cases_All/FE_Results_Case_166.txt",
+    "FE_Results_Cases_All/FE_Results_Case_167.txt",
+    "FE_Results_Cases_All/FE_Results_Case_168.txt",
+    "FE_Results_Cases_All/FE_Results_Case_169.txt",
+    "FE_Results_Cases_All/FE_Results_Case_17.txt",
+    "FE_Results_Cases_All/FE_Results_Case_170.txt",
+    "FE_Results_Cases_All/FE_Results_Case_171.txt",
+    "FE_Results_Cases_All/FE_Results_Case_172.txt",
+    "FE_Results_Cases_All/FE_Results_Case_173.txt",
+    "FE_Results_Cases_All/FE_Results_Case_174.txt",
+    "FE_Results_Cases_All/FE_Results_Case_175.txt",
+    "FE_Results_Cases_All/FE_Results_Case_176.txt",
+    "FE_Results_Cases_All/FE_Results_Case_177.txt",
+    "FE_Results_Cases_All/FE_Results_Case_178.txt",
+    "FE_Results_Cases_All/FE_Results_Case_179.txt",
+    "FE_Results_Cases_All/FE_Results_Case_18.txt",
+    "FE_Results_Cases_All/FE_Results_Case_180.txt",
+    "FE_Results_Cases_All/FE_Results_Case_181.txt",
+    "FE_Results_Cases_All/FE_Results_Case_182.txt",
+    "FE_Results_Cases_All/FE_Results_Case_183.txt",
+    "FE_Results_Cases_All/FE_Results_Case_184.txt",
+    "FE_Results_Cases_All/FE_Results_Case_185.txt",
+    "FE_Results_Cases_All/FE_Results_Case_186.txt",
+    "FE_Results_Cases_All/FE_Results_Case_187.txt",
+    "FE_Results_Cases_All/FE_Results_Case_188.txt",
+    "FE_Results_Cases_All/FE_Results_Case_189.txt",
+    "FE_Results_Cases_All/FE_Results_Case_19.txt",
+    "FE_Results_Cases_All/FE_Results_Case_190.txt",
+    "FE_Results_Cases_All/FE_Results_Case_191.txt",
+    "FE_Results_Cases_All/FE_Results_Case_192.txt",
+    "FE_Results_Cases_All/FE_Results_Case_193.txt",
+    "FE_Results_Cases_All/FE_Results_Case_194.txt",
+    "FE_Results_Cases_All/FE_Results_Case_195.txt",
+    "FE_Results_Cases_All/FE_Results_Case_196.txt",
+    "FE_Results_Cases_All/FE_Results_Case_197.txt",
+    "FE_Results_Cases_All/FE_Results_Case_198.txt",
+    "FE_Results_Cases_All/FE_Results_Case_199.txt",
+    "FE_Results_Cases_All/FE_Results_Case_2.txt",
+    "FE_Results_Cases_All/FE_Results_Case_20.txt",
+    "FE_Results_Cases_All/FE_Results_Case_200.txt",
+    "FE_Results_Cases_All/FE_Results_Case_21.txt",
+    "FE_Results_Cases_All/FE_Results_Case_22.txt",
+    "FE_Results_Cases_All/FE_Results_Case_23.txt",
+    "FE_Results_Cases_All/FE_Results_Case_24.txt",
+    "FE_Results_Cases_All/FE_Results_Case_26.txt",
+    "FE_Results_Cases_All/FE_Results_Case_27.txt",
+    "FE_Results_Cases_All/FE_Results_Case_28.txt",
+    "FE_Results_Cases_All/FE_Results_Case_29.txt",
+    "FE_Results_Cases_All/FE_Results_Case_3.txt",
+    "FE_Results_Cases_All/FE_Results_Case_31.txt",
+    "FE_Results_Cases_All/FE_Results_Case_32.txt",
+    "FE_Results_Cases_All/FE_Results_Case_33.txt",
+    "FE_Results_Cases_All/FE_Results_Case_34.txt",
+    "FE_Results_Cases_All/FE_Results_Case_35.txt",
+    "FE_Results_Cases_All/FE_Results_Case_36.txt",
+    "FE_Results_Cases_All/FE_Results_Case_37.txt",
+    "FE_Results_Cases_All/FE_Results_Case_38.txt",
+    "FE_Results_Cases_All/FE_Results_Case_39.txt",
+    "FE_Results_Cases_All/FE_Results_Case_4.txt",
+    "FE_Results_Cases_All/FE_Results_Case_40.txt",
+    "FE_Results_Cases_All/FE_Results_Case_41.txt",
+    "FE_Results_Cases_All/FE_Results_Case_42.txt",
+    "FE_Results_Cases_All/FE_Results_Case_43.txt",
+    "FE_Results_Cases_All/FE_Results_Case_44.txt",
+    "FE_Results_Cases_All/FE_Results_Case_45.txt",
+    "FE_Results_Cases_All/FE_Results_Case_46.txt",
+    "FE_Results_Cases_All/FE_Results_Case_47.txt",
+    "FE_Results_Cases_All/FE_Results_Case_48.txt",
+    "FE_Results_Cases_All/FE_Results_Case_49.txt",
+    "FE_Results_Cases_All/FE_Results_Case_5.txt",
+    "FE_Results_Cases_All/FE_Results_Case_50.txt",
+    "FE_Results_Cases_All/FE_Results_Case_51.txt",
+    "FE_Results_Cases_All/FE_Results_Case_52.txt",
+    "FE_Results_Cases_All/FE_Results_Case_53.txt",
+    "FE_Results_Cases_All/FE_Results_Case_54.txt",
+    "FE_Results_Cases_All/FE_Results_Case_55.txt",
+    "FE_Results_Cases_All/FE_Results_Case_56.txt",
+    "FE_Results_Cases_All/FE_Results_Case_57.txt",
+    "FE_Results_Cases_All/FE_Results_Case_58.txt",
+    "FE_Results_Cases_All/FE_Results_Case_59.txt",
+    "FE_Results_Cases_All/FE_Results_Case_6.txt",
+    "FE_Results_Cases_All/FE_Results_Case_60.txt",
+    "FE_Results_Cases_All/FE_Results_Case_61.txt",
+    "FE_Results_Cases_All/FE_Results_Case_62.txt",
+    "FE_Results_Cases_All/FE_Results_Case_63.txt",
+    "FE_Results_Cases_All/FE_Results_Case_64.txt",
+    "FE_Results_Cases_All/FE_Results_Case_65.txt",
+    "FE_Results_Cases_All/FE_Results_Case_66.txt",
+    "FE_Results_Cases_All/FE_Results_Case_67.txt",
+    "FE_Results_Cases_All/FE_Results_Case_68.txt",
+    "FE_Results_Cases_All/FE_Results_Case_69.txt",
+    "FE_Results_Cases_All/FE_Results_Case_7.txt",
+    "FE_Results_Cases_All/FE_Results_Case_70.txt",
+    "FE_Results_Cases_All/FE_Results_Case_71.txt",
+    "FE_Results_Cases_All/FE_Results_Case_72.txt",
+    "FE_Results_Cases_All/FE_Results_Case_73.txt",
+    "FE_Results_Cases_All/FE_Results_Case_74.txt",
+    "FE_Results_Cases_All/FE_Results_Case_75.txt",
+    "FE_Results_Cases_All/FE_Results_Case_76.txt",
+    "FE_Results_Cases_All/FE_Results_Case_77.txt",
+    "FE_Results_Cases_All/FE_Results_Case_78.txt",
+    "FE_Results_Cases_All/FE_Results_Case_79.txt",
+    "FE_Results_Cases_All/FE_Results_Case_8.txt",
+    "FE_Results_Cases_All/FE_Results_Case_80.txt",
+    "FE_Results_Cases_All/FE_Results_Case_81.txt",
+    "FE_Results_Cases_All/FE_Results_Case_82.txt",
+    "FE_Results_Cases_All/FE_Results_Case_83.txt",
+    "FE_Results_Cases_All/FE_Results_Case_84.txt",
+    "FE_Results_Cases_All/FE_Results_Case_85.txt",
+    "FE_Results_Cases_All/FE_Results_Case_86.txt",
+    "FE_Results_Cases_All/FE_Results_Case_87.txt",
+    "FE_Results_Cases_All/FE_Results_Case_88.txt",
+    "FE_Results_Cases_All/FE_Results_Case_89.txt",
+    "FE_Results_Cases_All/FE_Results_Case_9.txt",
+    "FE_Results_Cases_All/FE_Results_Case_90.txt",
+    "FE_Results_Cases_All/FE_Results_Case_91.txt",
+    "FE_Results_Cases_All/FE_Results_Case_92.txt",
+    "FE_Results_Cases_All/FE_Results_Case_93.txt",
+    "FE_Results_Cases_All/FE_Results_Case_94.txt",
+    "FE_Results_Cases_All/FE_Results_Case_95.txt",
+    "FE_Results_Cases_All/FE_Results_Case_96.txt",
+    "FE_Results_Cases_All/FE_Results_Case_97.txt",
+    "FE_Results_Cases_All/FE_Results_Case_98.txt",
+    "FE_Results_Cases_All/FE_Results_Case_99.txt",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_06/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_07/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_08/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_09/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_10/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_11/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_12/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_13/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_14/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_15/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_16/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_17/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_18/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_19/attempt_1/worker_stderr.log",
+    "outputs/08_recoverable_16000_single_formula/iteration_1/segments/segment_20/attempt_1/worker_stderr.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/09_residual_shape_symbolic_pilot/iteration_1/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_geometry/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_1/stages/stage_physical/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_geometry/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_2/stages/stage_physical/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_geometry/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_3/stages/stage_physical/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_geometry/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/10_signed_staged_residual_symbolic_pilot/iteration_4/stages/stage_physical/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_1/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_2/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_3/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_01/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_02/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_03/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_04/attempt_1/worker_stderr.log",
+    "outputs/11_tail_aware_localised_symbolic/iteration_4/stages/stage_tail_localised/segments/segment_05/attempt_1/worker_stderr.log",
+    "provenance/delivery_file_inventory.csv",
+    "provenance/figure_source_map.csv",
+    "provenance/source_file_manifest.csv"
+  ],
+  "git_byte_preservation_checks": [
+    {
+      "file": "FE_Results_Cases_All/FE_Results_Case_0.txt",
+      "unchanged_by_autocrlf_mode": {
+        "false": true,
+        "true": true,
+        "input": true
+      },
+      "scope": "newline_conversion_only_lfs_filters_disabled"
+    },
+    {
+      "file": "provenance/source_file_manifest.csv",
+      "unchanged_by_autocrlf_mode": {
+        "false": true,
+        "true": true,
+        "input": true
+      },
+      "scope": "newline_conversion_only_lfs_filters_disabled"
+    },
+    {
+      "file": "outputs/19_one_time_final_50case_locked_149/formal_final_50case/frozen_artifact_hash_audit.csv",
+      "unchanged_by_autocrlf_mode": {
+        "false": true,
+        "true": true,
+        "input": true
+      },
+      "scope": "newline_conversion_only_lfs_filters_disabled"
+    },
+    {
+      "file": "provenance/original_code/notebooks/Multi-Case_FEM_Parametric_and_Position_Sensitivity_Stability_Analysis_199Cases.ipynb",
+      "unchanged_by_autocrlf_mode": {
+        "false": true,
+        "true": true,
+        "input": true
+      },
+      "scope": "newline_conversion_only_lfs_filters_disabled"
+    }
+  ],
+  "git_lfs_available_on_this_machine": false,
+  "git_lfs_configured_in_attributes": true,
+  "git_lfs_upload_or_download_tested": false,
+  "licence_files": [],
+  "publication_permission_context": "Owner confirmed permission for this complete private upload; public release and downstream licensing are not authorised by that confirmation.",
+  "requires_owner_confirmation": [
+    "Authenticated check of target private visibility and write access",
+    "Available Git LFS storage and bandwidth",
+    "Separate permissions before any public release or reuse licence"
+  ],
+  "new_training_or_final_evaluation": false
+}

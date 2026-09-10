@@ -1,0 +1,17 @@
+{
+  "problem": "A single V11 gain improved average validation behaviour but could not resolve opposite case-level tail errors.",
+  "v12_hypothesis": "A bounded gain predicted from predictor-only case context can adapt correction strength without changing the frozen V11 spatial formula.",
+  "validation": "Five outer similarity-group folds with four-fold grouped inner model selection; all 149 non-final cases receive one gain-layer OOF prediction.",
+  "methodological_limit": "The V11 base formula was developed on the legacy 119 training cases, so these are gain-layer OOF estimates, not full-pipeline OOF estimates.",
+  "p95_p99_role": "P95/P99 are response-distribution evaluation metrics and oracle-objective diagnostics, not input clipping limits or confidence intervals.",
+  "oracle_role": "Stress-derived oracle gains are training targets and a non-deployable upper bound; deployment gain uses predictor summaries only.",
+  "safe_fallback": "If any formal V12 gate fails, the selected deployment artifact retains the frozen V11 global gain 0.90.",
+  "final_test_policy": "The 50 locked final-case element files are inventoried but not read.",
+  "references": [
+    "Huber, P. J. (1964), Robust Estimation of a Location Parameter.",
+    "Jacobs et al. (1991), Adaptive Mixtures of Local Experts.",
+    "Hastie and Tibshirani (1993), Varying-Coefficient Models.",
+    "Cawley and Talbot (2010), On Over-fitting in Model Selection and Subsequent Selection Bias.",
+    "scikit-learn GroupKFold, HuberRegressor and Ridge documentation."
+  ]
+}

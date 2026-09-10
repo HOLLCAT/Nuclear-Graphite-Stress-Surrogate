@@ -1,0 +1,10 @@
+{
+  "stage": "geometry",
+  "segment": 4,
+  "attempt": 1,
+  "pid": 2382684,
+  "elapsed_seconds": 540.1884729862213,
+  "inactive_seconds": 0.0,
+  "checkpoint_exists": true,
+  "updated_at": "2026-08-20T02:51:49+0100"
+}

@@ -1,0 +1,2 @@
+feature_set,features_json,manifest_path,random_seed,tail_weights_json,final_test_evaluated
+full_periodic_coordinates,"[""fluence_rate"", ""temperature"", ""weight_loss_rate"", ""rho"", ""theta_sin"", ""theta_cos"", ""z""]",/Users/novwin/Documents/University/University of Manchester/毕设项目/Nuclear graphite/NotebookCT3/shared/frozen_case_split_manifest_199cases.csv,42,"[[0.9, 2.0], [0.95, 4.0], [0.99, 8.0]]",False

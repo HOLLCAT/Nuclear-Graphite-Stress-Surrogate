@@ -1,0 +1,9 @@
+{
+  "stage": "case_log_scale",
+  "status": "search_complete",
+  "updated_at": "2026-08-17T06:11:20+0100",
+  "elapsed_seconds": 79.82205080986023,
+  "run_id": "hierarchical_i1_case_log_scale_20260817_061000",
+  "timeout_seconds": 2700,
+  "n_candidates": 9
+}
