@@ -200,7 +200,7 @@ FE_Results_Cases_All/FE_Results_Case_96.txt,33909554,original_fem_data
 FE_Results_Cases_All/FE_Results_Case_97.txt,33921897,original_fem_data
 FE_Results_Cases_All/FE_Results_Case_98.txt,33929936,original_fem_data
 FE_Results_Cases_All/FE_Results_Case_99.txt,33902689,original_fem_data
-README.md,10046,delivery_documentation_or_audit
+README.md,9668,delivery_documentation_or_audit
 cluster/run_149case_development_integration.slurm,2189,cluster_execution_entry
 cluster/run_formal_v11_iteration2.slurm,1980,cluster_execution_entry
 cluster/run_formal_v11_iteration3.slurm,1980,cluster_execution_entry

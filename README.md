@@ -45,15 +45,15 @@ Non-deployed gain and residual studies are retained where they document model-se
 
 External papers, meeting notes, thesis prose, AI illustrations, manual presentation documents, untraceable secondary conversions, duplicate archives and incomplete obsolete training outputs are not treated as research evidence in this directory.
 
-## English Edition and Provenance
+## Reproducibility
 
-The runnable code, notebook explanations, README and handover guides are in English. Raw data, result tables, formulas, saved scientific outputs and historical logs are preserved unchanged. Those archival records may still contain Chinese text or Chinese directory names from the original machine.
+The runnable code and documentation are provided in English. The original FEM datasets, result tables and frozen model expressions have been retained for comparison with the results reported in the thesis.
 
-The copied experimental results retain their original bytes, including historical absolute paths. Runtime path adaptation applies to the executable edition, not to frozen evidence. Versions of adapted source files are stored in `provenance/original_code/`. Three archival notebooks later received Markdown translations and are no longer byte-identical originals. The [annotation review](provenance/notebook_annotation_edits.json) records their original and current hashes and verifies unchanged code, saved outputs, metadata and cell order. Their directory names are retained for compatibility, not as a claim that translated prose is original.
+File paths and execution settings have been adapted for use outside the original working directory. The [execution guide](docs/RUN_AND_PATHS.md) documents these changes and the validation procedures. Preparing this repository did not involve retraining the models or retuning the formulas, scientific calculations or model settings.
 
-The executable edition is not byte-identical to every original source file. Changes include portable root discovery, Slurm path defaults, read-only validation, protection against rewriting an existing rotation registration, extraction of reused helpers and English explanations. These are documented in the path guide. The formal prediction formulas, scientific calculations, model settings and frozen datasets have not been retuned.
+The [provenance records](provenance/) document source-file versions and integrity checks. They distinguish archived sources from copies with translated explanations; the [annotation review](provenance/notebook_annotation_edits.json) verifies that those translations preserved notebook code, saved outputs, metadata and cell order. Historical records may still include the original machine paths or Chinese annotations.
 
-This README, `docs/` and the delivery audit utilities are curation material, not new experimental results. `formula_appendix/` converts frozen expressions into thesis typesetting and includes numerical transcription checks; its introductory template is explanatory prose.
+The guides and validation reports explain how to inspect and use the archived research material. The [formula appendix](formula_appendix/) provides typeset versions of the frozen expressions, with numerical checks against the saved formulas. These supporting documents do not represent additional model training or experiments.
 
 ## Environment
 
@@ -75,7 +75,7 @@ A first PySR import may initialise Julia. Inspecting archived results or validat
 - A historical `run_status.json` may be stale. Use `final_evaluation_complete.json` together with the complete case metrics as completion evidence.
 - The final test has already been opened and completed. Do not delete completion markers or submit it again as an untouched test set.
 - This curation checks paths, imports, hashes and a complete development-case prediction. It does not rerun all training, long PySR searches or remote Slurm jobs.
-- Confirm FEM data-release permission with the data owner before publishing. This is a local archive, not a GitHub upload. Plan separate storage for raw data and large caches before committing the package.
+- The complete archive is held in a private GitHub repository, with large data and model artifacts stored through Git LFS. Public release of the FEM data requires separate confirmation from the data owner.
 
 ## Before Uploading to GitHub
 
